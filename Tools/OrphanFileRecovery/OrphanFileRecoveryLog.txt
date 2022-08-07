@@ -1,0 +1,4 @@
+30/06/2010  10:06:50  iSave_study_data: Database error: [Microsoft][ODBC Microsoft Access Driver] Data type mismatch in criteria expression.
+30/06/2010  10:06:54  iSave_study_data: Database error: Unknown database error.
+30/06/2010  10:09:29  iSave_study_data: Database error: [Microsoft][ODBC Microsoft Access Driver] Data type mismatch in criteria expression.
+30/06/2010  10:09:31  iSave_study_data: Database error: Unknown database error.

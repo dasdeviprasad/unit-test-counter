@@ -1,0 +1,8 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by EGGSAS.rc
+//
+#define HIDC_BASELINE_HELP              0x8092046f    // IDD_BASELINE
+#define HIDC_BCKUPREST_HELP             0x80a60473    // IDD_BCKUP_REST
+#define HIDC_CONFIGRPT_HELP             0x80a20472    // IDD_CUSTOM_REPORT
+#define HIDC_EQUIP_TEST_HELP            0x808e046e    // IDD_EQUIP_TEST
+#define HIDC_POSTWATER_HELP             0x80940471    // IDD_POST_WATER_TEST

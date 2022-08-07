@@ -1,0 +1,54 @@
+:BASE 3cpm eggsas.hlp
+1 Contents=Contents@3cpm eggsas.hlp
+1 Introduction and Overview=IntroductionandOverview@3cpm eggsas.hlp
+1 Equipment Setup=EquipmentSetup@3cpm eggsas.hlp
+1 Preparation for Recording
+2 Before Starting=General@3cpm eggsas.hlp
+2 Initializing Equipment=InitializingEquipment@3cpm eggsas.hlp
+2 Preparing the Patient=PreparingthePatient@3cpm eggsas.hlp
+1 Program Operation
+2 Program Overview=ProgramOverview@3cpm eggsas.hlp
+2 Starting the program=Startingtheprogram@3cpm eggsas.hlp
+1 Recording a Study
+2 Recording a Study=RecordingaStudy@3cpm eggsas.hlp
+2 Selecting a Patient=SelectingaPatient@3cpm eggsas.hlp
+2 Entering Patient Demographics=EnteringPatientDemographics@3cpm eggsas.hlp
+2 Pre-study Information=Pre-studyInformation@3cpm eggsas.hlp
+2 Equipment Test=EquipmentTest@3cpm eggsas.hlp
+2 Baseline Recording=BaselineRecording@3cpm eggsas.hlp
+2 Water Load=WaterLoad@3cpm eggsas.hlp
+2 Postwater Recording=PostwaterRecording@3cpm eggsas.hlp
+2 Study Completed
+3 Study Completed=StudyCompleted@3cpm eggsas.hlp
+3 Analyzing Baseline Period
+4 Analyzing Baseline Period=AnalyzingBaselinePeriod@3cpm eggsas.hlp
+4 Manually selecting minutes to analyze=Manuallyselectingminutesto@3cpm eggsas.hlp
+2 Analyzing Post-water Periods=AnalyzingPost-waterPeriods@3cpm eggsas.hlp
+3 Diagnosis=Diagnosis@3cpm eggsas.hlp
+3 Recommendations=Recommendations@3cpm eggsas.hlp
+3 Respiration Rate=RespirationRate@3cpm eggsas.hlp
+1 Selecting an Existing Study
+2 Selecting an Existing Study=SelectinganExistingStudy@3cpm eggsas.hlp
+2 Re-analyzing the Study=Re-analyzingtheStudy@3cpm eggsas.hlp
+2 Changing the Diagnosis=ChangingtheDiagnosis@3cpm eggsas.hlp
+2 Changing the Recommendation=ChangingtheRecommendation@3cpm eggsas.hlp
+2 Changing the Pre-study Information=ChangingthePre-studyInforma@3cpm eggsas.hlp
+2 Amount of Water Ingested=AmountofWaterIngested@3cpm eggsas.hlp
+1 RSA=RSA@3cpm eggsas.hlp
+1 Reports
+2 Reports=Reports@3cpm eggsas.hlp
+2 Configuring Reports=ConfiguringReports@3cpm eggsas.hlp
+2 Facility Information=FacilityInformation@3cpm eggsas.hlp
+2 View/Printing=ViewPrinting@3cpm eggsas.hlp
+1 Patient Information
+2 Patient Information=PatientInformation@3cpm eggsas.hlp
+2 Demographics=Demographics@3cpm eggsas.hlp
+2 Medications=Medications@3cpm eggsas.hlp
+2 Diagnostic History=DiagnosticHistory@3cpm eggsas.hlp
+1 Navigating the Baseline and Post-water Periods=NavigatingtheBaselineandPo@3cpm eggsas.hlp
+1 Backing Up and Restoring Data
+2 Backing Up and Restoring Data=BackingUpandRestoringData@3cpm eggsas.hlp
+2 Backup=Backup@3cpm eggsas.hlp
+2 Restore=Restore@3cpm eggsas.hlp
+1 Closing the Program
+2 Closing the Program=ClosingtheProgram@3cpm eggsas.hlp

@@ -1,0 +1,48 @@
+06/02/2019  15:17:52  command line m_strFileName: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  15:17:52  DB from the command line: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  15:17:52  *** Updating database ***
+06/02/2019  15:17:52  Updating DB from the command line: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  15:17:52  DiagnosisDesc table created.
+06/02/2019  15:17:52  ICDCode table created.
+06/02/2019  15:17:52  Recommendations table created.
+06/02/2019  15:17:52  StudyData table updated.
+06/02/2019  15:17:52  Diagnosis key phrases and descriptions were added.
+06/02/2019  15:17:52  ICD codes were added.
+06/02/2019  15:17:52  Version updated
+06/02/2019  15:17:52  PATIENT and PATIENTINFO tables updated.
+06/02/2019  15:17:52  Version updated
+06/02/2019  15:17:52  StudyData and WhatIf tables updated.
+06/02/2019  15:17:52  Version updated
+06/02/2019  15:17:52  *** Finished updating database ***
+06/02/2019  15:51:28  command line m_strFileName: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  15:51:28  DB from the command line: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  15:51:28  *** Updating database ***
+06/02/2019  15:51:28  Updating DB from the command line: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  15:51:28  DiagnosisDesc table created.
+06/02/2019  15:51:28  ICDCode table created.
+06/02/2019  15:51:28  Recommendations table created.
+06/02/2019  15:51:28  StudyData table updated.
+06/02/2019  15:51:28  Diagnosis key phrases and descriptions were added.
+06/02/2019  15:51:28  ICD codes were added.
+06/02/2019  15:51:28  Version updated
+06/02/2019  15:51:28  PATIENT and PATIENTINFO tables updated.
+06/02/2019  15:51:28  Version updated
+06/02/2019  15:51:28  StudyData and WhatIf tables updated.
+06/02/2019  15:51:28  Version updated
+06/02/2019  15:51:28  *** Finished updating database ***
+06/02/2019  16:15:16  command line m_strFileName: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  16:15:16  DB from the command line: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  16:15:16  *** Updating database ***
+06/02/2019  16:15:16  Updating DB from the command line: C:\Contracts\3CPM\Research Version\Import databases\Copy of ver 2.03\3CPM EGGSAS EXP 2.03.mdb
+06/02/2019  16:15:16  DiagnosisDesc table created.
+06/02/2019  16:15:16  ICDCode table created.
+06/02/2019  16:15:16  Recommendations table created.
+06/02/2019  16:15:16  StudyData table updated.
+06/02/2019  16:15:16  Diagnosis key phrases and descriptions were added.
+06/02/2019  16:15:16  ICD codes were added.
+06/02/2019  16:15:16  Version updated
+06/02/2019  16:15:16  PATIENT and PATIENTINFO tables updated.
+06/02/2019  16:15:16  Version updated
+06/02/2019  16:15:16  StudyData and WhatIf tables updated.
+06/02/2019  16:15:16  Version updated
+06/02/2019  16:15:16  *** Finished updating database ***

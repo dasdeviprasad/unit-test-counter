@@ -1,0 +1,443 @@
+28/02/2005  15:49:35  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+28/02/2005  16:04:18  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+28/02/2005  16:05:10  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'MiddleInitial' already exists in table 'Patient'.
+28/02/2005  16:05:14  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+28/02/2005  16:06:36  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'MiddleInitial' already exists in table 'Patient'.
+28/02/2005  16:07:47  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'MiddleInitial' already exists in table 'Patient'.
+28/02/2005  16:21:00  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+28/02/2005  16:22:19  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+01/03/2005  09:37:26  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'MiddleInitial' already exists in table 'Patient'.
+01/03/2005  09:37:52  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'DelayedGastricEmptying' already exists in table 'StudyData'.
+01/03/2005  09:44:47  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'MiddleInitial' already exists in table 'Patient'.
+01/03/2005  09:44:47  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'DelayedGastricEmptying' already exists in table 'StudyData'.
+01/03/2005  09:57:54  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'MiddleInitial' already exists in table 'Patient'.
+01/03/2005  09:57:54  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'DelayedGastricEmptying' already exists in table 'StudyData'.
+01/03/2005  10:01:00  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot find table or constraint.
+01/03/2005  10:01:02  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'DelayedGastricEmptying' already exists in table 'StudyData'.
+01/03/2005  10:04:09  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot find table or constraint.
+01/03/2005  10:04:11  Database error: [Microsoft][ODBC Microsoft Access Driver] Field 'DelayedGastricEmptying' already exists in table 'StudyData'.
+01/03/2005  10:11:00  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot find table or constraint.
+01/03/2005  10:11:57  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot find table or constraint.
+01/03/2005  10:12:34  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot find table or constraint.
+01/03/2005  10:27:00  *** Updating database ***
+01/03/2005  10:27:00  *** Finished updating database ***
+01/03/2005  10:32:32  *** Updating database ***
+01/03/2005  10:32:32  *** Finished updating database ***
+01/03/2005  10:33:48  *** Updating database ***
+01/03/2005  10:33:48  Patient table updated
+01/03/2005  10:33:48  StudyData table updated
+01/03/2005  10:33:48  Version updated
+01/03/2005  10:33:48  *** Finished updating database ***
+01/03/2005  10:34:11  Database is up to date.
+03/06/2007  11:21:34  *** Updating database ***
+03/06/2007  11:22:50  *** Updating database ***
+03/06/2007  11:23:03  StudyData table updated
+03/06/2007  11:23:05  Version updated
+03/06/2007  11:23:09  *** Finished updating database ***
+03/06/2007  11:28:13  Database is up to date.
+03/06/2007  11:29:10  *** Updating database ***
+03/06/2007  11:29:12  StudyData table updated
+03/06/2007  11:29:12  Version updated
+03/06/2007  11:29:12  *** Finished updating database ***
+09/07/2007  09:57:26  Database is up to date.
+09/07/2007  09:57:36  Database is up to date.
+09/07/2007  14:38:40  *** Updating database ***
+09/07/2007  14:39:26  StudyData table updated
+09/07/2007  14:39:28  Version updated
+09/07/2007  14:39:30  *** Finished updating database ***
+06/08/2007  11:10:22  *** Updating database ***
+06/08/2007  11:10:22  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  11:10:25  Database update failed, original database restored
+06/08/2007  11:10:25  *** Finished updating database ***
+06/08/2007  11:14:29  *** Updating database ***
+06/08/2007  11:15:09  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:17:35  *** Updating database ***
+06/08/2007  11:17:50  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:18:05  Database update failed, original database restored
+06/08/2007  11:18:05  *** Finished updating database ***
+06/08/2007  11:18:45  *** Updating database ***
+06/08/2007  11:19:12  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:19:13  Database update failed, original database restored
+06/08/2007  11:19:13  *** Finished updating database ***
+06/08/2007  11:19:29  *** Updating database ***
+06/08/2007  11:19:36  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:19:38  Database update failed, original database restored
+06/08/2007  11:19:38  *** Finished updating database ***
+06/08/2007  11:22:56  *** Updating database ***
+06/08/2007  11:23:06  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:23:08  Database update failed, original database restored
+06/08/2007  11:23:08  *** Finished updating database ***
+06/08/2007  11:23:48  *** Updating database ***
+06/08/2007  11:23:51  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:23:55  Database update failed, original database restored
+06/08/2007  11:23:55  *** Finished updating database ***
+06/08/2007  11:23:59  *** Updating database ***
+06/08/2007  11:24:17  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:24:19  Database update failed, original database restored
+06/08/2007  11:24:19  *** Finished updating database ***
+06/08/2007  11:24:57  *** Updating database ***
+06/08/2007  11:25:03  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:25:04  Database update failed, original database restored
+06/08/2007  11:25:04  *** Finished updating database ***
+06/08/2007  11:25:21  *** Updating database ***
+06/08/2007  11:25:32  StudyData table updated
+06/08/2007  11:25:33  Version updated
+06/08/2007  11:25:33  *** Finished updating database ***
+06/08/2007  11:27:12  *** Updating database ***
+06/08/2007  11:27:27  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+06/08/2007  11:27:33  Database update failed, original database restored
+06/08/2007  11:27:33  *** Finished updating database ***
+06/08/2007  11:33:54  *** Updating database ***
+06/08/2007  11:34:09  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  11:34:30  Database update failed, original database restored
+06/08/2007  11:34:30  *** Finished updating database ***
+06/08/2007  11:34:44  *** Updating database ***
+06/08/2007  11:34:50  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  11:34:55  Database update failed, original database restored
+06/08/2007  11:34:55  *** Finished updating database ***
+06/08/2007  11:35:44  *** Updating database ***
+06/08/2007  11:35:48  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  11:35:51  Database update failed, original database restored
+06/08/2007  11:35:51  *** Finished updating database ***
+06/08/2007  11:37:16  *** Updating database ***
+06/08/2007  11:37:19  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  11:37:27  Database update failed, original database restored
+06/08/2007  11:37:27  *** Finished updating database ***
+06/08/2007  11:41:33  *** Updating database ***
+06/08/2007  11:41:37  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  11:41:41  Database update failed, original database restored
+06/08/2007  11:41:41  *** Finished updating database ***
+06/08/2007  13:38:19  *** Updating database ***
+06/08/2007  13:38:27  StudyData table updated
+06/08/2007  13:38:27  Version updated
+06/08/2007  13:38:27  *** Finished updating database ***
+06/08/2007  13:39:25  *** Updating database ***
+06/08/2007  13:39:32  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:39:34  Database update failed, original database restored
+06/08/2007  13:39:34  *** Finished updating database ***
+06/08/2007  13:42:15  *** Updating database ***
+06/08/2007  13:42:21  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  13:42:23  Database update failed, original database restored
+06/08/2007  13:42:23  *** Finished updating database ***
+06/08/2007  13:42:36  *** Updating database ***
+06/08/2007  13:42:42  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  13:42:44  Database update failed, original database restored
+06/08/2007  13:42:44  *** Finished updating database ***
+06/08/2007  13:44:59  *** Updating database ***
+06/08/2007  13:45:03  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  13:45:05  Database update failed, original database restored
+06/08/2007  13:45:05  *** Finished updating database ***
+06/08/2007  13:45:15  *** Updating database ***
+06/08/2007  13:45:20  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  13:45:26  Database update failed, original database restored
+06/08/2007  13:45:26  *** Finished updating database ***
+06/08/2007  13:48:25  *** Updating database ***
+06/08/2007  13:48:26  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:48:30  Database update failed, original database restored
+06/08/2007  13:48:30  *** Finished updating database ***
+06/08/2007  13:48:34  *** Updating database ***
+06/08/2007  13:48:36  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:49:27  *** Updating database ***
+06/08/2007  13:49:30  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:49:35  Database update failed, original database restored
+06/08/2007  13:49:35  *** Finished updating database ***
+06/08/2007  13:49:47  *** Updating database ***
+06/08/2007  13:49:51  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  13:50:16  Database update failed, original database restored
+06/08/2007  13:50:17  *** Finished updating database ***
+06/08/2007  13:50:35  *** Updating database ***
+06/08/2007  13:50:40  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:50:45  Database update failed, original database restored
+06/08/2007  13:50:45  *** Finished updating database ***
+06/08/2007  13:51:10  *** Updating database ***
+06/08/2007  13:51:13  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:51:20  Database update failed, original database restored
+06/08/2007  13:51:20  *** Finished updating database ***
+06/08/2007  13:53:22  *** Updating database ***
+06/08/2007  13:53:25  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:53:29  Database update failed, original database restored
+06/08/2007  13:53:29  *** Finished updating database ***
+06/08/2007  13:53:42  *** Updating database ***
+06/08/2007  13:53:46  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:53:53  Database update failed, original database restored
+06/08/2007  13:53:53  *** Finished updating database ***
+06/08/2007  13:55:44  *** Updating database ***
+06/08/2007  13:55:49  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:55:50  Database update failed, original database restored
+06/08/2007  13:55:50  *** Finished updating database ***
+06/08/2007  13:56:09  *** Updating database ***
+06/08/2007  13:56:12  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  13:56:15  Database update failed, original database restored
+06/08/2007  13:56:15  *** Finished updating database ***
+06/08/2007  13:56:52  *** Updating database ***
+06/08/2007  13:56:57  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  13:56:59  Database update failed, original database restored
+06/08/2007  13:56:59  *** Finished updating database ***
+06/08/2007  13:57:15  *** Updating database ***
+06/08/2007  13:57:22  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  13:57:24  Database update failed, original database restored
+06/08/2007  13:57:24  *** Finished updating database ***
+06/08/2007  14:02:13  *** Updating database ***
+06/08/2007  14:02:16  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  14:02:21  Database update failed, original database restored
+06/08/2007  14:02:21  *** Finished updating database ***
+06/08/2007  14:03:13  *** Updating database ***
+06/08/2007  14:03:16  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  14:03:21  Database update failed, original database restored
+06/08/2007  14:03:21  *** Finished updating database ***
+06/08/2007  14:04:14  *** Updating database ***
+06/08/2007  14:04:18  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+06/08/2007  14:04:23  Database update failed, original database restored
+06/08/2007  14:04:23  *** Finished updating database ***
+06/08/2007  14:05:42  *** Updating database ***
+06/08/2007  14:05:46  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  14:06:24  *** Updating database ***
+06/08/2007  14:06:29  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  14:10:13  *** Updating database ***
+06/08/2007  14:10:17  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  14:10:19  Database update failed, original database restored
+06/08/2007  14:10:19  *** Finished updating database ***
+06/08/2007  14:35:48  *** Updating database ***
+06/08/2007  14:35:54  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+06/08/2007  14:36:03  Database update failed, original database restored
+06/08/2007  14:36:03  *** Finished updating database ***
+06/08/2007  14:36:43  *** Updating database ***
+06/08/2007  14:36:48  StudyData table updated
+06/08/2007  14:36:49  Version updated
+06/08/2007  14:36:49  *** Finished updating database ***
+07/02/2008  14:40:55  *** Updating database ***
+07/02/2008  14:40:55  Events table added
+07/02/2008  14:40:55  Version updated
+07/02/2008  14:40:55  WhatIf table added
+07/02/2008  14:40:55  Study table updated
+07/02/2008  14:40:55  Version updated
+07/02/2008  14:40:55  *** Finished updating database ***
+07/02/2008  14:43:23  *** Updating database ***
+07/02/2008  14:43:23  WhatIf table added
+07/02/2008  14:43:23  Study table updated
+07/02/2008  14:43:23  Version updated
+07/02/2008  14:43:23  *** Finished updating database ***
+29/08/2008  14:27:30  *** Updating database ***
+29/08/2008  14:27:32  Database update failed, original database restored
+29/08/2008  14:27:32  *** Finished updating database ***
+29/08/2008  14:28:15  *** Updating database ***
+29/08/2008  14:29:27  Database update failed, original database restored
+29/08/2008  14:29:27  *** Finished updating database ***
+29/08/2008  14:32:25  *** Updating database ***
+29/08/2008  14:34:29  Database update failed, original database restored
+29/08/2008  14:34:29  *** Finished updating database ***
+29/08/2008  14:42:18  *** Updating database ***
+29/08/2008  14:42:42  Database error: ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллd
+29/08/2008  14:47:01  Database update failed, original database restored
+29/08/2008  14:47:01  *** Finished updating database ***
+29/08/2008  14:47:06  *** Updating database ***
+29/08/2008  14:48:38  Database error: ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллd
+29/08/2008  14:50:38  Database update failed, original database restored
+29/08/2008  14:50:38  *** Finished updating database ***
+29/08/2008  14:54:37  *** Updating database ***
+29/08/2008  14:55:20  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+29/08/2008  14:55:23  Database update failed, original database restored
+29/08/2008  14:55:23  *** Finished updating database ***
+29/08/2008  14:56:58  *** Updating database ***
+29/08/2008  14:58:03  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot delete a field that is part of an index or is needed by the system.
+29/08/2008  14:58:06  Database update failed, original database restored
+29/08/2008  14:58:06  *** Finished updating database ***
+29/08/2008  15:25:45  *** Updating database ***
+29/08/2008  15:26:15  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in DROP TABLE or DROP INDEX.
+29/08/2008  15:26:18  Database update failed, original database restored
+29/08/2008  15:26:18  *** Finished updating database ***
+29/08/2008  15:27:30  *** Updating database ***
+29/08/2008  15:27:46  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+29/08/2008  15:27:48  Database update failed, original database restored
+29/08/2008  15:27:48  *** Finished updating database ***
+29/08/2008  15:30:23  *** Updating database ***
+29/08/2008  15:30:30  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in DROP TABLE or DROP INDEX.
+29/08/2008  15:30:34  Database update failed, original database restored
+29/08/2008  15:30:34  *** Finished updating database ***
+29/08/2008  15:36:44  *** Updating database ***
+29/08/2008  15:37:09  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+29/08/2008  15:37:13  Database update failed, original database restored
+29/08/2008  15:37:13  *** Finished updating database ***
+29/08/2008  15:41:19  *** Updating database ***
+29/08/2008  15:41:25  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+29/08/2008  15:41:27  Database update failed, original database restored
+29/08/2008  15:41:27  *** Finished updating database ***
+29/08/2008  15:42:01  *** Updating database ***
+29/08/2008  15:42:07  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in ALTER TABLE statement.
+29/08/2008  15:42:09  Database update failed, original database restored
+29/08/2008  15:42:09  *** Finished updating database ***
+29/08/2008  16:02:34  *** Updating database ***
+29/08/2008  16:02:43  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in DROP TABLE or DROP INDEX.
+29/08/2008  16:02:48  Database update failed, original database restored
+29/08/2008  16:02:48  *** Finished updating database ***
+29/08/2008  16:03:03  *** Updating database ***
+29/08/2008  16:03:08  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in DROP TABLE or DROP INDEX.
+29/08/2008  16:03:10  Database update failed, original database restored
+29/08/2008  16:03:10  *** Finished updating database ***
+29/08/2008  16:04:04  *** Updating database ***
+29/08/2008  16:04:10  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in DROP TABLE or DROP INDEX.
+29/08/2008  16:04:12  Database update failed, original database restored
+29/08/2008  16:04:12  *** Finished updating database ***
+29/08/2008  16:05:36  *** Updating database ***
+29/08/2008  16:05:41  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in DROP TABLE or DROP INDEX.
+29/08/2008  16:05:44  Database update failed, original database restored
+29/08/2008  16:05:44  *** Finished updating database ***
+29/08/2008  16:12:02  *** Updating database ***
+29/08/2008  16:12:15  PATIENT and PATIENTINFO tables updated.
+29/08/2008  16:12:15  Version updated
+29/08/2008  16:12:15  *** Finished updating database ***
+29/08/2008  16:23:01  *** Updating database ***
+29/08/2008  16:24:54  PATIENT and PATIENTINFO tables updated.
+29/08/2008  16:24:54  Version updated
+29/08/2008  16:24:54  *** Finished updating database ***
+03/09/2012  16:54:30  *** Updating database ***
+03/09/2012  16:54:30  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+03/09/2012  16:54:33  Database update failed, original database restored
+03/09/2012  16:54:33  *** Finished updating database ***
+03/09/2012  16:54:50  *** Updating database ***
+03/09/2012  16:55:25  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in field definition.
+03/09/2012  16:55:31  Database update failed, original database restored
+03/09/2012  16:55:31  *** Finished updating database ***
+03/09/2012  16:56:10  *** Updating database ***
+03/09/2012  16:56:15  All new tables created, StudyData table updated.
+03/09/2012  16:56:15  Version updated
+03/09/2012  16:56:15  *** Finished updating database ***
+03/09/2012  17:03:05  *** Updating database ***
+03/09/2012  17:03:05  DiagnosisDesc table created.
+03/09/2012  17:03:05  ICDCode table created.
+03/09/2012  17:03:05  Recommendations table created.
+03/09/2012  17:03:05  StudyData table updated.
+03/09/2012  17:03:05  Version updated
+03/09/2012  17:03:05  *** Finished updating database ***
+13/09/2012  07:56:49  *** Updating database ***
+13/09/2012  07:56:49  DiagnosisDesc table created.
+13/09/2012  07:56:49  ICDCode table created.
+13/09/2012  07:56:49  Recommendations table created.
+13/09/2012  07:56:49  StudyData table updated.
+13/09/2012  07:56:49  Version updated
+13/09/2012  07:56:49  *** Finished updating database ***
+13/09/2012  08:06:57  *** Updating database ***
+13/09/2012  08:06:57  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+13/09/2012  08:06:59  Database update failed, original database restored
+13/09/2012  08:06:59  *** Finished updating database ***
+13/09/2012  08:07:25  *** Updating database ***
+13/09/2012  08:07:25  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+13/09/2012  08:07:26  Database update failed, original database restored
+13/09/2012  08:07:26  *** Finished updating database ***
+13/09/2012  08:08:22  *** Updating database ***
+13/09/2012  08:08:22  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+13/09/2012  08:08:23  Database update failed, original database restored
+13/09/2012  08:08:23  *** Finished updating database ***
+13/09/2012  08:08:58  *** Updating database ***
+13/09/2012  08:08:58  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error in CREATE TABLE statement.
+13/09/2012  08:08:59  Database update failed, original database restored
+13/09/2012  08:08:59  *** Finished updating database ***
+13/09/2012  08:14:37  *** Updating database ***
+13/09/2012  08:14:46  DiagnosisDesc table created.
+13/09/2012  08:14:46  ICDCode table created.
+13/09/2012  08:14:46  Recommendations table created.
+13/09/2012  08:14:46  StudyData table updated.
+13/09/2012  08:14:46  Version updated
+13/09/2012  08:14:46  *** Finished updating database ***
+13/09/2012  08:16:38  *** Updating database ***
+13/09/2012  08:17:10  DiagnosisDesc table created.
+13/09/2012  08:17:10  ICDCode table created.
+13/09/2012  08:17:10  Recommendations table created.
+13/09/2012  08:17:10  StudyData table updated.
+13/09/2012  08:17:10  Version updated
+13/09/2012  08:17:10  *** Finished updating database ***
+13/09/2012  08:18:29  *** Updating database ***
+13/09/2012  08:18:39  DiagnosisDesc table created.
+13/09/2012  08:18:39  ICDCode table created.
+13/09/2012  08:18:39  Recommendations table created.
+13/09/2012  08:18:39  StudyData table updated.
+13/09/2012  08:18:39  Version updated
+13/09/2012  08:18:39  *** Finished updating database ***
+13/09/2012  08:51:45  *** Updating database ***
+13/09/2012  08:51:46  DiagnosisDesc table created.
+13/09/2012  08:51:46  ICDCode table created.
+13/09/2012  08:51:46  Recommendations table created.
+13/09/2012  08:51:46  StudyData table updated.
+13/09/2012  08:51:46  Diagnosis key phrases and descriptions were added.
+13/09/2012  08:51:46  ICD codes were added.
+13/09/2012  08:51:46  Version updated
+13/09/2012  08:51:46  *** Finished updating database ***
+13/09/2012  09:34:37  *** Updating database ***
+13/09/2012  09:34:37  DiagnosisDesc table created.
+13/09/2012  09:34:37  ICDCode table created.
+13/09/2012  09:34:37  Recommendations table created.
+13/09/2012  09:34:37  StudyData table updated.
+13/09/2012  09:34:37  Diagnosis key phrases and descriptions were added.
+13/09/2012  09:34:37  ICD codes were added.
+13/09/2012  09:34:37  Version updated
+13/09/2012  09:34:37  *** Finished updating database ***
+13/09/2012  13:01:06  *** Updating database ***
+13/09/2012  13:01:06  DiagnosisDesc table created.
+13/09/2012  13:01:06  ICDCode table created.
+13/09/2012  13:01:06  Recommendations table created.
+13/09/2012  13:01:06  StudyData table updated.
+13/09/2012  13:01:06  Diagnosis key phrases and descriptions were added.
+13/09/2012  13:01:06  ICD codes were added.
+13/09/2012  13:01:06  Version updated
+13/09/2012  13:01:06  *** Finished updating database ***
+27/02/2013  16:20:49  *** Updating database ***
+27/02/2013  16:20:49  PATIENT and PATIENTINFO tables updated.
+27/02/2013  16:20:49  Version updated
+27/02/2013  16:20:49  *** Finished updating database ***
+27/02/2013  16:22:52  *** Updating database ***
+27/02/2013  16:22:52  PATIENT and PATIENTINFO tables updated.
+27/02/2013  16:22:52  Version updated
+27/02/2013  16:22:52  *** Finished updating database ***
+16/03/2013  16:53:24  *** Updating database ***
+16/03/2013  16:53:24  StudyData and WhatIf tables updated.
+16/03/2013  16:53:24  Version updated
+16/03/2013  16:53:24  *** Finished updating database ***
+02/12/2015  08:51:21  Database is up to date.
+24/07/2016  15:20:43  Database is up to date.
+22/01/2019  14:56:32  *** Updating database ***
+22/01/2019  14:56:32  Error backing up database: The filename, directory name, or volume label syntax is incorrect.
+
+22/01/2019  14:56:49  DiagnosisDesc table created.
+22/01/2019  14:56:49  ICDCode table created.
+22/01/2019  14:56:49  Recommendations table created.
+22/01/2019  14:56:49  StudyData table updated.
+22/01/2019  14:56:49  Diagnosis key phrases and descriptions were added.
+22/01/2019  14:56:49  ICD codes were added.
+22/01/2019  14:56:49  Version updated
+22/01/2019  14:56:49  PATIENT and PATIENTINFO tables updated.
+22/01/2019  14:56:49  Version updated
+22/01/2019  14:56:49  StudyData and WhatIf tables updated.
+22/01/2019  14:56:49  Version updated
+22/01/2019  14:56:49  *** Finished updating database ***
+22/01/2019  14:59:23  *** Updating database ***
+22/01/2019  14:59:23  Error backing up database: The filename, directory name, or volume label syntax is incorrect.
+
+22/01/2019  14:59:29  *** Finished updating database ***
+22/01/2019  15:00:40  *** Updating database ***
+22/01/2019  15:02:19  *** Updating database ***
+22/01/2019  15:09:16  *** Updating database ***
+22/01/2019  15:10:35  DiagnosisDesc table created.
+22/01/2019  15:10:36  ICDCode table created.
+22/01/2019  15:10:36  Recommendations table created.
+22/01/2019  15:10:36  StudyData table updated.
+22/01/2019  15:10:37  Diagnosis key phrases and descriptions were added.
+22/01/2019  15:10:37  ICD codes were added.
+22/01/2019  15:10:52  Version updated
+22/01/2019  15:10:57  PATIENT and PATIENTINFO tables updated.
+22/01/2019  15:10:59  Version updated
+22/01/2019  15:11:02  StudyData and WhatIf tables updated.
+22/01/2019  15:11:03  Version updated
+22/01/2019  15:11:07  *** Finished updating database ***
+22/01/2019  15:15:36  *** Updating database ***
+22/01/2019  15:15:36  DiagnosisDesc table created.
+22/01/2019  15:15:36  ICDCode table created.
+22/01/2019  15:15:36  Recommendations table created.
+22/01/2019  15:15:36  StudyData table updated.
+22/01/2019  15:15:36  Diagnosis key phrases and descriptions were added.
+22/01/2019  15:15:36  ICD codes were added.
+22/01/2019  15:15:36  Version updated
+22/01/2019  15:15:36  PATIENT and PATIENTINFO tables updated.
+22/01/2019  15:15:36  Version updated
+22/01/2019  15:15:36  StudyData and WhatIf tables updated.
+22/01/2019  15:15:36  Version updated
+22/01/2019  15:15:36  *** Finished updating database ***

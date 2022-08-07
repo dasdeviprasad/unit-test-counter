@@ -1,0 +1,6 @@
+05/11/2008  18:00:33  Failed copying empty database to target directory.
+The system cannot find the file specified.
+
+08/06/2016  13:20:30  Failed copying "\3CPM EGGSAS EMPTY.mdb" to target directory, "C:\3CPM\export\3CPM EGGSAS EXP.mdb".
+The system cannot find the file specified.
+

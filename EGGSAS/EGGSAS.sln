@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EGGSAS", "EGGSAS.vcproj", "{C8CE4F39-546A-4E4E-8848-6FCBCC8DDAFC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C8CE4F39-546A-4E4E-8848-6FCBCC8DDAFC}.Debug.ActiveCfg = Debug|Win32
+		{C8CE4F39-546A-4E4E-8848-6FCBCC8DDAFC}.Debug.Build.0 = Debug|Win32
+		{C8CE4F39-546A-4E4E-8848-6FCBCC8DDAFC}.Release.ActiveCfg = Release|Win32
+		{C8CE4F39-546A-4E4E-8848-6FCBCC8DDAFC}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

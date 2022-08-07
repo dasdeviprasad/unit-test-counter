@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\EGGSAS.Document = EGGSAS Document
+HKEY_CLASSES_ROOT\EGGSAS.Document\CLSID = {A2CB1B37-6578-41D8-B259-54D4050D5CE0}
+
+HKEY_CLASSES_ROOT\CLSID\{A2CB1B37-6578-41D8-B259-54D4050D5CE0} = EGGSAS Document
+HKEY_CLASSES_ROOT\CLSID\{A2CB1B37-6578-41D8-B259-54D4050D5CE0}\ProgId = EGGSAS.Document
+HKEY_CLASSES_ROOT\CLSID\{A2CB1B37-6578-41D8-B259-54D4050D5CE0}\LocalServer32 = EGGSAS.EXE

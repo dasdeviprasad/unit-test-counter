@@ -1,0 +1,35 @@
+24/10/2020  13:37:43  Failed copying "c:\3CPM\xx 10-02-2017.egg" to target directory, "C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\xx 10-02-2017.egg".
+The system cannot find the file specified.
+
+24/10/2020  14:29:31  Database error: [Microsoft][ODBC Microsoft Access Driver]Invalid cursor state 
+24/10/2020  14:34:09  Database error: [Microsoft][ODBC Microsoft Access Driver]Invalid cursor state 
+24/10/2020  15:31:20  Database error: Unknown database error.
+24/10/2020  16:17:33  Database error: [Microsoft][ODBC Microsoft Access Driver]Invalid descriptor index 
+24/10/2020  16:17:37  Database error: [Microsoft][ODBC Microsoft Access Driver]Invalid descriptor index 
+24/10/2020  16:17:39  Database error: [Microsoft][ODBC Microsoft Access Driver]Invalid descriptor index 
+24/10/2020  16:17:40  Database error: [Microsoft][ODBC Microsoft Access Driver]Invalid descriptor index 
+30/10/2020  12:02:07  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:02:14  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer testc:\3CPM\'.
+30/10/2020  12:02:20  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:02:22  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:05:19  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:07:56  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:29:31  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:29:35  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer testc:\3CPM\'.
+30/10/2020  12:29:46  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:36:57  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:37:00  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer testc:\3CPM\'.
+30/10/2020  12:37:02  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:37:05  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  12:47:16  Database error: [Microsoft][ODBC Microsoft Access Driver] Cannot open any more tables.
+30/10/2020  14:11:39  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer testc:\3CPM\'.
+30/10/2020  14:33:10  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\10001 a78816b6-c26f-0cb0-1.egg'.
+30/10/2020  14:34:11  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1001 fe895816-126d-0ef0-1.egg'.
+30/10/2020  14:34:31  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1234 4f425546-b26c-0120-1.egg'.
+30/10/2020  14:36:42  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DataFile=C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\12345 815650e6-e26e-0da0-1.egg'.
+30/10/2020  15:20:09  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'Description=print test version AND DateTimeSaved=2008/11/01 11:44'.
+30/10/2020  15:20:28  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'Description=view 2 AND DateTimeSaved=2008/06/12 14:41'.
+30/10/2020  15:22:31  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'Description=print test version AND DateTimeSaved='2008/11/01 11:44''.
+30/10/2020  15:22:39  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'Description=view 2 AND DateTimeSaved='2008/06/12 14:41''.
+30/10/2020  15:26:37  Database error: [Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'Description=print test version AND DateTimeSaved='2008/11/01 11:44''.
+30/10/2020  15:33:43  Database error: [Microsoft][ODBC Microsoft Access Driver] Table 'WhatIf' is exclusively locked by user 'Admin' on machine 'RTHAWLEY'.

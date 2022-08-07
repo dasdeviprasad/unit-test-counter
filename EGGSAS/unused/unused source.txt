@@ -1,0 +1,1882 @@
+int CReportView::iCreate_RSA(int iXStart, int iYStart)
+  {
+  CDC *pDC, *pDCmf, *pDCGrph;
+  CMetaFileDC *pMetaFileDC;
+  HMETAFILE hmf;
+  CGraphRSA *pGraphRsa;
+  int iYEnd, iOldMapMode;
+  int iXGrphStart, iWidth, iHeight, iHorzExt, iVertExt;
+
+//  iOldMapMode = m_pDC->SetMapMode(MM_ANISOTROPIC);
+
+  if(m_pDC->IsPrinting() == 0)
+    { // Not printing
+    iYEnd = iYStart + 400;
+    m_rsaData.rWin.right = iXStart + 400;
+    m_rsaData.rWin.left = iXStart;
+    m_rsaData.rWin.top = iYStart;
+    m_rsaData.rWin.bottom = iYEnd;
+      // Create a window to display the RSA.  With out a window, it doesn't
+      // get display or scrolled properly
+    if(m_pcwndRSA == NULL)
+      {
+      m_pcwndRSA = new CWnd();
+      m_pcwndRSA->Create(NULL, NULL, WS_VISIBLE/* | WS_CHILD*/, m_rsaData.rWin, this, IDR_MAINFRAME);
+      }
+    pDC = m_pcwndRSA->GetDC();
+    m_pcwndRSA->GetClientRect(&m_rsaData.rWin);
+
+    pGraphRsa = new CGraphRSA(pDC);
+    pGraphRsa->vSet_RSA_data(&m_rsaData);
+    pGraphRsa->vDraw_graph();
+
+    m_pcwndRSA->ReleaseDC(pDC);
+    delete pGraphRsa;
+    }
+  else
+    { // Printing
+    iXGrphStart = (m_iPaperHorizExt / 2); // + 100;
+    iYEnd = iYStart + 650;
+    m_rsaData.rWin.right = iXGrphStart + 650; //iXStart + 650;
+    m_rsaData.rWin.left = iXGrphStart; //iXStart;
+    m_rsaData.rWin.top = iYStart;
+    m_rsaData.rWin.bottom = iYEnd;
+
+    iWidth = 650; //(iXStart - SUMM_GRPH_HORIZ_SEP) / 2;
+    iHeight = 650; //(iWidth * SUMM_GRAPH_HEIGHT) / SUMM_GRPH_WIDTH;
+
+    iHorzExt = iWidth; //prRect->right - prRect->left;
+    iVertExt = iHeight; //prRect->bottom - prRect->top;
+
+    CDC dcPrint;
+    HBITMAP hBitmap;
+    BOOL bSts;
+//    CWnd *pcwndPrint;
+//    HDC hDc;
+
+//    pcwndPrint = new CWnd();
+//    pcwndPrint->Create(NULL, NULL, WS_VISIBLE/* | WS_CHILD*/, m_rsaData.rWin, this, IDR_MAINFRAME);
+
+//    pDC = pcwndPrint->GetDC();
+//    pcwndPrint->GetClientRect(&m_rsaData.rWin);
+/*****************
+//    hDc = CreateCompatibleDC(m_pDC->m_hDC);
+    dcPrint.CreateCompatibleDC(pDC);
+    iHorzExt = m_pDC->GetDeviceCaps(HORZRES);
+    iVertExt = m_pDC->GetDeviceCaps(VERTRES);
+    hBitmap = CreateCompatibleBitmap(dcPrint.m_hDC, m_rsaData.rWin.right, m_rsaData.rWin.bottom);
+
+     pDCGrph = &dcPrint; //pDC;
+*****************/
+/*****************
+    pMetaFileDC = new CMetaFileDC();
+    pMetaFileDC->Create();
+    pDCmf = pMetaFileDC;
+    pDCmf->SetAttribDC(m_pDC->m_hDC); //pDC->m_hDC);
+//    pDCmf->m_hAttribDC = pDCmf->m_hDC;
+//    pDCGrph = m_pDC;
+*****************/
+    pDCGrph = m_pDC; //pDCmf;
+//    m_pDC->SetViewportOrg(iXGrphStart, iYStart); // Set top left of where graph starts.
+//    m_pDC->SetViewportExt(iHorzExt, iVertExt); // Size of graph.
+    iOldMapMode = m_pDC->SetMapMode(MM_ANISOTROPIC);
+
+    pGraphRsa = new CGraphRSA(pDCGrph);
+    pGraphRsa->vSet_RSA_data(&m_rsaData);
+    pGraphRsa->vDraw_graph();
+
+     // Set the mapping mode for graphics.
+//    pGraphRsa = new CGraphRSA(m_pDC);
+//    pGraphRsa->vSet_RSA_data(&m_rsaData);
+//    pGraphRsa->vDraw_graph();
+//    m_pcwndRSA->Print(m_pDC, PRF_ERASEBKGND | PRF_CLIENT); // | PRF_CHECKVISIBLE | PRF_NONCLIENT | PRF_OWNED);
+//    hmf = PEgetmeta(m_pcwndRSA->m_hWnd);
+//    pcwndPrint->ReleaseDC(pDC);
+/********************
+    iOldMapMode = m_pDC->SetMapMode(MM_ANISOTROPIC);
+//    pGraphRsa->m_bIsMetaFile = true;
+    
+//    pGraphRsa->vDraw_graph(&dcPrint); //pDCmf); // vPrint_graph(pDCmf); //
+
+//    bSts = m_pDC->BitBlt(0, 0, 800, 800, &dcPrint,
+//                   m_pDC->GetDeviceCaps(HORZRES), m_pDC->GetDeviceCaps(VERTRES),
+//                   SRCCOPY);
+    m_pcwndRSA->ReleaseDC(pDC);
+    m_pcwndRSA->GetClientRect(&m_rsaData.rWin);
+    bSts = m_pDC->StretchBlt(0, 0, m_rsaData.rWin.right, m_rsaData.rWin.bottom, &dcPrint, 0, 0,
+                   m_rsaData.rWin.right, m_rsaData.rWin.bottom,
+                   SRCCOPY);
+
+//     StretchBlt( int x, int y, int nWidth, int nHeight, CDC* pSrcDC, int xSrc, int ySrc, int nSrcWidth, int nSrcHeight, DWORD dwRop );
+************************/
+
+/************
+    hmf = pMetaFileDC->Close();
+
+      // Calculate where the graphs should go.
+//    iXGrphStart = (m_iPaperHorizExt / 2); // + 100;
+
+//    iWidth = 800; //(iXStart - SUMM_GRPH_HORIZ_SEP) / 2;
+//    iHeight = 800; //(iWidth * SUMM_GRAPH_HEIGHT) / SUMM_GRPH_WIDTH;
+
+//    iHorzExt = iWidth; //prRect->right - prRect->left;
+//    iVertExt = iHeight; //prRect->bottom - prRect->top;
+//    m_pDC->SetViewportOrg(iXGrphStart, iYStart); // Set top left of where graph starts.
+//    m_pDC->SetViewportExt(iHorzExt, iVertExt); // Size of graph.
+
+    m_pDC->SetViewportOrg(0, 0); // Set top left of where graph starts.
+    m_pDC->SetViewportExt(m_pDC->GetDeviceCaps(HORZRES), m_pDC->GetDeviceCaps(VERTRES)); // Size of graph.
+    
+    
+
+    m_pDC->PlayMetaFile(hmf); // Print the metafile.
+    DeleteMetaFile(hmf);
+************************/
+    m_pDC->SetMapMode(iOldMapMode); // Put the original map mode back.
+/***************************/
+//    delete pGraphRsa;
+    delete pGraphRsa;
+    }
+
+//  m_pDC->SetMapMode(iOldMapMode); // Put the original map mode back.
+  return(iYEnd);
+  }
+
+void CEquipTest::vSetup_graph()
+  {    
+  RECT rButton, rGraph;
+  CString cstrText;
+  double dValue;
+  float fVAlue;
+
+  GetClientRect(&rGraph); // Dialog box client window rectangle
+    // Get the coodinates of the Start Test button in terms of this
+    // window and adjust the graphic rectangle fit between the bottom
+    // of the dialog box title and the top of the button.
+  GetDlgItem(IDC_START_TEST)->GetClientRect(&rButton);
+  GetDlgItem(IDC_START_TEST)->MapWindowPoints(this, &rButton);
+    // Leave 10 pixels between the bottom of the graph window and the
+    // top of the Start Test button.
+  rGraph.bottom = rButton.top - 10;
+
+     // Construct the graph object.
+  m_hPEData = PEcreate(PECONTROL_SGRAPH, WS_VISIBLE, &rGraph, m_hWnd, IDD_EQUIP_TEST);
+
+  PEnset(m_hPEData, PEP_nSUBSETS, 2); // 2 sets of data, EGG and Respiration.
+    // Set the maximum X-axis scale.  It displays quarter seconds.
+  PEnset(m_hPEData, PEP_nPOINTS, (int)((float)MAX_ET_TIME * DATA_POINTS_PER_SECOND) + 1);
+//  PEnset(m_hPEData, PEP_nPOINTS, (int)(10.0F * 4.267F) + 1); //X_MAX_SCALE);
+
+    // Set the subset line types for each set of data.
+  int nLineTypes[] = {PELT_THINSOLID, PELT_THINSOLID};
+  PEvset(m_hPEData, PEP_naSUBSETLINETYPES, nLineTypes, 2);
+/************************
+// Get limits from driver.
+    // Set Manual Y scale.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  if(m_pDoc->m_pDriver == NULL)
+    dValue = -1000.0F;
+  else
+    dValue = m_pDoc->m_pDriver->m_fMinEGG; // -1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINY, &dValue, 1);
+  if(m_pDoc->m_pDriver == NULL)
+    dValue = 1000.0F;
+  else
+    dValue = m_pDoc->m_pDriver->m_fMaxEGG; // 1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMAXY, &dValue, 1);
+***********************/
+
+    // Set Manual X scale
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLX, PEMSC_MINMAX);
+  m_dMinXScale = 0.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINX, &m_dMinXScale, 1);
+//  m_dMaxXScale = (float)(X_MAX_SCALE / 4); // Numbers are displayed every second.
+  m_dMaxXScale = (float)(X_MAX_ET_SCALE / 60 / 4); // Numbers are displayed every half minute.
+  PEvset(m_hPEData, PEP_fMANUALMAXX, &m_dMaxXScale, 1);
+
+    // Set values to be placed every second and tick marks every quarter second.
+  double dAxisCntrl = 1.0F; // Multiples of grid tick marks where values are placed.
+  PEvset(m_hPEData, PEP_fMANUALXAXISLINE, &dAxisCntrl, 1);
+  dAxisCntrl = 0.5F; //0.25F; // Where grid tick marks are placed.
+  PEvset(m_hPEData, PEP_fMANUALXAXISTICK, &dAxisCntrl, 1);
+  PEnset(m_hPEData, PEP_bMANUALXAXISTICKNLINE, TRUE);
+
+    // Set a NULL data value other than 0 so the graph display values of 0. As this
+    // may be the case if nothing is connected.
+  dValue = -20000.0F;
+  PEvset(m_hPEData, PEP_fNULLDATAVALUE, &dValue, 1);
+
+    // Clear out default data //
+  fVAlue = 0;
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 0, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 1, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 2, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 3, &fVAlue);
+
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 0, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 1, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 2, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 3, &fVAlue);
+
+    // Set background and graphs shades.
+  PEnset(m_hPEData, PEP_bBITMAPGRADIENTMODE, FALSE);
+  PEnset(m_hPEData, PEP_nQUICKSTYLE, PEQS_MEDIUM_INSET);
+
+  PEszset(m_hPEData, PEP_szMAINTITLE, ""); // Blank title.
+  PEszset(m_hPEData, PEP_szSUBTITLE, ""); // no subtitle
+
+/******************
+    // Y axis title.
+  cstrText.LoadString(IDS_RAW_WAVFRM_Y_AXIS_LBL);
+  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrText);
+*********************/
+
+    // X axis title.
+  cstrText.LoadString(IDS_MINUTES);
+  PEszset(m_hPEData, PEP_szXAXISLABEL, (char *)(const char *)cstrText);
+
+    // Disable random points to export listbox.
+  PEnset(m_hPEData, PEP_bNORANDOMPOINTSTOEXPORT, TRUE);
+  PEnset(m_hPEData, PEP_bFOCALRECT, FALSE); // No focal rect.
+  PEnset(m_hPEData, PEP_bALLOWBAR, FALSE); // Bar Graph is not available.
+  PEnset(m_hPEData, PEP_bALLOWPOPUP, FALSE); // User can not access popup menu.
+  PEnset(m_hPEData, PEP_bPREPAREIMAGES, TRUE); // Prepare images in memory.
+  PEnset(m_hPEData, PEP_bCACHEBMP, TRUE); // Store prepared image for possible re-use.
+  PEnset(m_hPEData, PEP_bFIXEDFONTS, TRUE); // Keep font size fixed.
+
+    // subset colors (EGG, Respiration)
+  DWORD dwArray[2] = {RED_RGB, BLACK_RGB};
+  PEvsetEx( m_hPEData, PEP_dwaSUBSETCOLORS, 0, 2, dwArray, 0 );
+    // Set the subset labels that appear at the top of the graph.
+  cstrText.LoadString(IDS_EGG);
+  PEvsetcell(m_hPEData, PEP_szaSUBSETLABELS, 0, (char *)(const char *)cstrText);
+  cstrText.LoadString(IDS_RESPIRATION);
+  PEvsetcell(m_hPEData, PEP_szaSUBSETLABELS, 1, (char *)(const char *)cstrText);
+
+//////////////////////////
+  float fMAPArray[2];
+  int iMASArray[2];
+  double dYMin, dYMax;
+
+  PEnset(m_hPEData, PEP_nMULTIAXISSTYLE, PEMAS_SEPARATE_AXES);
+  PEnset(m_hPEData, PEP_nMULTIAXISSEPARATORSIZE, 25);
+//    // Set line style separating the two graphs.
+//  PEnset(m_hPEData, PEP_nMULTIAXESSEPARATORS, PEMAS_MEDIUM); //PEMAS_THIN);
+
+    // Y axis title.
+  cstrText.LoadString(IDS_RAW_WAVFRM_Y_AXIS_LBL);
+  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrText);
+    // Two graphs are to be drawn in this window (EGG and respiration).
+    // Designate which graph uses the top part of the window and which
+    // uses the bottom part of the window.
+  iMASArray[0] = 1;   // EGG signal is top graph.
+  iMASArray[1] = 1;   // Respiration signal is bottom graph.
+  PEvset(m_hPEData, PEP_naMULTIAXESSUBSETS, iMASArray, 2);
+  
+    // Designate axes proportions.  The percentage of the window that
+    // each graph uses.
+    // Percentage of window top graph uses.
+  fMAPArray[0] = (float)0.6; //(float)m_pApp->m_iRawSigGphPct / (float)100;
+    // Percentage of window bottom graph uses.
+  fMAPArray[1] = (float)0.4; //(float)(100 - m_pApp->m_iRawSigGphPct) / (float)100;
+  PEvset(m_hPEData, PEP_faMULTIAXESPROPORTIONS, fMAPArray, 2);
+
+    // Y-axis label for the top graph.
+  PEnset(m_hPEData, PEP_nWORKINGAXIS, 0); // Set first y axis parameters
+//  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+    // Set the minimum and maximum Y-axis scale values for EGG.
+// Get limits from driver.
+    // Set Manual Y scale.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  if(m_pDoc->m_pDriver == NULL)
+    dYMin = -1000.0F;
+  else
+    dYMin = m_pDoc->m_pDriver->m_fMinEGG; // -1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINY, &dYMin, 1);
+  if(m_pDoc->m_pDriver == NULL)
+    dYMax = 1000.0F;
+  else
+    dYMax = m_pDoc->m_pDriver->m_fMaxEGG; // 1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMAXY, &dYMax, 1);
+
+//  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+//  dValue = (double)pgiData->fMinEGG; //m_iRawDataMin;
+//  PEvset(m_hPEData, PEP_fMANUALMINY, &dValue, 1);
+//  dValue = (double)pgiData->fMaxEGG; //m_iRawDataMax;
+//    PEvset(m_hPEData, PEP_fMANUALMAXY, &dValue, 1);
+
+    // Y-axis label for the bottom graph.
+  PEnset(m_hPEData, PEP_nWORKINGAXIS, 1); // Set second y axis parameters
+  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrText);
+//  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+    // Set the minimum and maximum Y-axis scale values for Respiration.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+//  dValue = (double)pgiData->fMinResp; //m_iRawRespMin;
+  if(m_pDoc->m_pDriver == NULL)
+    dYMin = 0.0F;
+  else
+    dYMin = m_pDoc->m_pDriver->m_fMinResp; // -1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINY, &dYMin, 1);
+//  dValue = (double)pgiData->fMaxResp; //m_iRawRespMax;
+  if(m_pDoc->m_pDriver == NULL)
+    dYMax = 2.5F;
+  else
+    dYMax = m_pDoc->m_pDriver->m_fMaxResp; // 1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMAXY, &dYMax, 1);
+
+  PEnset(m_hPEData, PEP_nWORKINGAXIS, 0); // Always reset working axis to 0.
+//////////////////////////
+
+
+  PEreinitialize(m_hPEData);
+  PEresetimage(m_hPEData, 0, 0);
+  }
+
+void CBaseline::vSetup_graph()
+  {    
+  RECT rButton, rGraph, rClock;
+  CString cstrText;
+  double dValue;
+  float fVAlue;
+
+  GetClientRect(&rGraph); // Dialog box client window rectangle
+    // Get the coodinates of the Clock field and the Start Test button 
+    // in terms of this window and adjust the graphic window fit between
+    // the bottom of the clock field and the top of the button.
+  GetDlgItem(IDC_CLOCK)->GetClientRect(&rClock);
+  GetDlgItem(IDC_CLOCK)->MapWindowPoints(this, &rButton);
+  GetDlgItem(IDC_START_BL)->GetClientRect(&rButton);
+  GetDlgItem(IDC_START_BL)->MapWindowPoints(this, &rButton);
+    // Leave 10 pixels between the bottom of the clock field and the
+    // top of the graph window.
+  rGraph.top = rClock.bottom + 5;
+    // Leave 10 pixels between the bottom of the graph window and the
+    // top of the Start Test button.
+  rGraph.bottom = rButton.top - 5;
+
+     // Construct the graph object.
+  m_hPEData = PEcreate(PECONTROL_SGRAPH, WS_VISIBLE, &rGraph, m_hWnd, IDD_EQUIP_TEST);
+
+  PEnset(m_hPEData, PEP_nSUBSETS, 2); // 2 sets of data, EGG and Respiration.
+    // Set the maximum X-axis scale.  It displays quarter seconds.
+  PEnset(m_hPEData, PEP_nPOINTS, (int)((float)MAX_BL_TIME * DATA_POINTS_PER_SECOND) + 1);
+//  PEnset(m_hPEData, PEP_nPOINTS, X_MAX_BL_SCALE);
+
+    // Set the subset line types for each set of data.
+  int nLineTypes[] = {PELT_THINSOLID, PELT_THINSOLID};
+  PEvset(m_hPEData, PEP_naSUBSETLINETYPES, nLineTypes, 2);
+
+    // Set Manual Y scale.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  dValue = m_pDoc->m_pDriver->m_fMinEGG; // -1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINY, &dValue, 1);
+  dValue = m_pDoc->m_pDriver->m_fMaxEGG; // 1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMAXY, &dValue, 1);
+
+    // Set Manual X scale
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLX, PEMSC_MINMAX);
+  m_dMinXScale = 0.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINX, &m_dMinXScale, 1);
+  m_dMaxXScale = (float)(X_MAX_BL_SCALE / 60 / 4); // Numbers are displayed every half minute.
+  PEvset(m_hPEData, PEP_fMANUALMAXX, &m_dMaxXScale, 1);
+
+    // Set values to be placed every second and tick marks every quarter second.
+  double dAxisCntrl = 1.0F; // Multiples of grid tick marks where values are placed.
+  PEvset(m_hPEData, PEP_fMANUALXAXISLINE, &dAxisCntrl, 1);
+  dAxisCntrl = 0.5F; // Where grid tick marks are placed.
+  PEvset(m_hPEData, PEP_fMANUALXAXISTICK, &dAxisCntrl, 1);
+  PEnset(m_hPEData, PEP_bMANUALXAXISTICKNLINE, TRUE);
+
+    // Set a NULL data value other than 0 so the graph display values of 0. As this
+    // may be the case if nothing is connected.
+  dValue = -20000.0F;
+  PEvset(m_hPEData, PEP_fNULLDATAVALUE, &dValue, 1);
+
+    // Clear out default data //
+  fVAlue = 0;
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 0, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 1, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 2, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 3, &fVAlue);
+
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 0, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 1, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 2, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 3, &fVAlue);
+
+    // Set background and graphs shades.
+  PEnset(m_hPEData, PEP_bBITMAPGRADIENTMODE, FALSE);
+  PEnset(m_hPEData, PEP_nQUICKSTYLE, PEQS_MEDIUM_INSET);
+
+  PEszset(m_hPEData, PEP_szMAINTITLE, ""); // Blank title.
+  PEszset(m_hPEData, PEP_szSUBTITLE, ""); // no subtitle
+
+    // Y axis title.
+  cstrText.LoadString(IDS_RAW_WAVFRM_Y_AXIS_LBL);
+  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrText);
+
+    // X axis title.
+  cstrText.LoadString(IDS_MINUTES);
+  PEszset(m_hPEData, PEP_szXAXISLABEL, (char *)(const char *)cstrText);
+
+    // Disable random points to export listbox.
+  PEnset(m_hPEData, PEP_bNORANDOMPOINTSTOEXPORT, TRUE);
+  PEnset(m_hPEData, PEP_bFOCALRECT, FALSE); // No focal rect.
+  PEnset(m_hPEData, PEP_bALLOWBAR, FALSE); // Bar Graph is not available.
+  PEnset(m_hPEData, PEP_bALLOWPOPUP, FALSE); // User can not access popup menu.
+  PEnset(m_hPEData, PEP_bPREPAREIMAGES, TRUE); // Prepare images in memory.
+  PEnset(m_hPEData, PEP_bCACHEBMP, TRUE); // Store prepared image for possible re-use.
+  PEnset(m_hPEData, PEP_bFIXEDFONTS, TRUE); // Keep font size fixed.
+
+    // subset colors (EGG, Respiration)
+  DWORD dwArray[2] = {RED_RGB, BLACK_RGB};
+  PEvsetEx( m_hPEData, PEP_dwaSUBSETCOLORS, 0, 2, dwArray, 0 );
+    // Set the subset labels that appear at the top of the graph.
+  cstrText.LoadString(IDS_EGG);
+  PEvsetcell(m_hPEData, PEP_szaSUBSETLABELS, 0, (char *)(const char *)cstrText);
+  cstrText.LoadString(IDS_RESPIRATION);
+  PEvsetcell(m_hPEData, PEP_szaSUBSETLABELS, 1, (char *)(const char *)cstrText);
+
+  PEreinitialize(m_hPEData);
+  PEresetimage(m_hPEData, 0, 0);
+  }
+
+void CPostWaterTest::vSetup_graph()
+  {    
+  RECT rButton, rGraph, rClock;
+  CString cstrText;
+  double dValue;
+  float fVAlue;
+
+  GetClientRect(&rGraph); // Dialog box client window rectangle
+    // Get the coodinates of the Clock field and the Start Test button 
+    // in terms of this window and adjust the graphic window fit between
+    // the bottom of the clock field and the top of the button.
+  GetDlgItem(IDC_CLOCK)->GetClientRect(&rClock);
+  GetDlgItem(IDC_CLOCK)->MapWindowPoints(this, &rButton);
+  GetDlgItem(IDC_START)->GetClientRect(&rButton);
+  GetDlgItem(IDC_START)->MapWindowPoints(this, &rButton);
+    // Leave 10 pixels between the bottom of the clock field and the
+    // top of the graph window.
+  rGraph.top = rClock.bottom + 5;
+    // Leave 10 pixels between the bottom of the graph window and the
+    // top of the Start Test button.
+  rGraph.bottom = rButton.top - 5;
+
+     // Construct the graph object.
+  m_hPEData = PEcreate(PECONTROL_SGRAPH, WS_VISIBLE, &rGraph, m_hWnd, IDD_EQUIP_TEST);
+
+  PEnset(m_hPEData, PEP_nSUBSETS, 2); // 2 sets of data, EGG and Respiration.
+    // Set the maximum X-axis scale.  It displays quarter seconds.
+  PEnset(m_hPEData, PEP_nPOINTS, (int)PW_TOTAL_PNTS_IN_WINDOW + 1); //PW_X_MAX_SCALE);
+
+    // Set the subset line types for each set of data.
+  int nLineTypes[] = {PELT_THINSOLID, PELT_THINSOLID};
+  PEvset(m_hPEData, PEP_naSUBSETLINETYPES, nLineTypes, 2);
+
+    // Set Manual Y scale.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  dValue = m_pDoc->m_pDriver->m_fMinEGG; // -1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINY, &dValue, 1);
+  dValue = m_pDoc->m_pDriver->m_fMaxEGG; // 1000.0F;
+  PEvset(m_hPEData, PEP_fMANUALMAXY, &dValue, 1);
+
+    // Set Manual X scale
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLX, PEMSC_MINMAX);
+  m_dMinXScale = 0.0F;
+  PEvset(m_hPEData, PEP_fMANUALMINX, &m_dMinXScale, 1);
+  m_dMaxXScale = (float)PW_X_MAX_SCALE; // / 60 / 4); // Numbers are displayed every half minute.
+  PEvset(m_hPEData, PEP_fMANUALMAXX, &m_dMaxXScale, 1);
+
+    // Set values to be placed every second and tick marks every quarter second.
+  double dAxisCntrl = 1.0F; // Multiples of grid tick marks where values are placed.
+  PEvset(m_hPEData, PEP_fMANUALXAXISLINE, &dAxisCntrl, 1);
+  dAxisCntrl = 0.5F; // Where grid tick marks are placed.
+  PEvset(m_hPEData, PEP_fMANUALXAXISTICK, &dAxisCntrl, 1);
+  PEnset(m_hPEData, PEP_bMANUALXAXISTICKNLINE, TRUE);
+
+    // Set a NULL data value other than 0 so the graph display values of 0. As this
+    // may be the case if nothing is connected.
+  dValue = -20000.0F;
+  PEvset(m_hPEData, PEP_fNULLDATAVALUE, &dValue, 1);
+
+    // Clear out default data //
+  fVAlue = 0;
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 0, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 1, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 2, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, 3, &fVAlue);
+
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 0, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 1, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 2, &fVAlue);
+  PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, 3, &fVAlue);
+
+    // Set background and graphs shades.
+  PEnset(m_hPEData, PEP_bBITMAPGRADIENTMODE, FALSE);
+  PEnset(m_hPEData, PEP_nQUICKSTYLE, PEQS_MEDIUM_INSET);
+
+  PEszset(m_hPEData, PEP_szMAINTITLE, ""); // Blank title.
+  PEszset(m_hPEData, PEP_szSUBTITLE, ""); // no subtitle
+
+    // Y axis title.
+  cstrText.LoadString(IDS_RAW_WAVFRM_Y_AXIS_LBL);
+  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrText);
+
+    // X axis title.
+  cstrText.LoadString(IDS_MINUTES);
+  PEszset(m_hPEData, PEP_szXAXISLABEL, (char *)(const char *)cstrText);
+
+    // Disable random points to export listbox.
+  PEnset(m_hPEData, PEP_bNORANDOMPOINTSTOEXPORT, TRUE);
+  PEnset(m_hPEData, PEP_bFOCALRECT, FALSE); // No focal rect.
+  PEnset(m_hPEData, PEP_bALLOWBAR, FALSE); // Bar Graph is not available.
+  PEnset(m_hPEData, PEP_bALLOWPOPUP, FALSE); // User can not access popup menu.
+  PEnset(m_hPEData, PEP_bPREPAREIMAGES, TRUE); // Prepare images in memory.
+  PEnset(m_hPEData, PEP_bCACHEBMP, TRUE); // Store prepared image for possible re-use.
+  PEnset(m_hPEData, PEP_bFIXEDFONTS, TRUE); // Keep font size fixed.
+
+    // subset colors (EGG, Respiration)
+  DWORD dwArray[2] = {RED_RGB, BLACK_RGB};
+  PEvsetEx( m_hPEData, PEP_dwaSUBSETCOLORS, 0, 2, dwArray, 0 );
+    // Set the subset labels that appear at the top of the graph.
+  cstrText.LoadString(IDS_EGG);
+  PEvsetcell(m_hPEData, PEP_szaSUBSETLABELS, 0, (char *)(const char *)cstrText);
+  cstrText.LoadString(IDS_RESPIRATION);
+  PEvsetcell(m_hPEData, PEP_szaSUBSETLABELS, 1, (char *)(const char *)cstrText);
+
+  PEreinitialize(m_hPEData);
+  PEresetimage(m_hPEData, 0, 0);
+  }
+
+/*******************************
+void CDbaccess::vSet_auto_commit(UDWORD udwCommit)
+  {
+  SQLUSMALLINT Supported;
+  SQLRETURN sqlrSts;
+
+	sqlrSts = SQLGetFunctions(s_sqlhDbc, SQL_API_SQLSETCONNECTATTR, &Supported);
+  if(SQL_SUCCEEDED(sqlrSts))
+    {
+    if(Supported)
+      sqlrSts = SQLSetConnectAttr(s_sqlhDbc, (SDWORD)SQL_ATTR_AUTOCOMMIT, (PTR)udwCommit, sizeof(UDWORD));
+    else
+      sqlrSts = SQLSetConnectOption(s_sqlhDbc, SQL_AUTOCOMMIT, udwCommit);
+    }
+
+  if(!SQL_SUCCEEDED(sqlrSts))
+    vReport_err();
+  }
+
+void CDbaccess::vStart_transaction()
+  {
+
+  vSet_auto_commit(SQL_AUTOCOMMIT_OFF);
+  }
+
+void CDbaccess::vEnd_transaction(short int iSts)
+  {
+  SQLSMALLINT iType;
+
+  if((s_sqlhStmt = sqlhGet_stmt_handle()) != NULL)
+    {
+    if(iSts == SUCCESS)
+      iType = SQL_COMMIT;
+    else
+      iType = SQL_ROLLBACK;
+    s_sqlrSts = SQLEndTran(SQL_HANDLE_DBC, s_sqlhStmt, iType);
+    if(!SQL_SUCCEEDED(s_sqlrSts))
+      vReport_err();
+    SQLFreeHandle(SQL_HANDLE_DBC, s_sqlhStmt);
+    }
+  else
+    vReport_err();
+  vSet_auto_commit(SQL_AUTOCOMMIT_ON);
+  }
+*****************************/
+
+  /**********************
+      // Create the database object.
+//  m_pcdDB = new CDaoDatabase();
+  m_pcdDB = new CDatabase();
+  if(m_pcdDB != NULL)
+    {
+    try
+      {  // connect to the database.
+//      m_pcdDB->Open("3CPM EGGSAS", FALSE, FALSE, "ODBC;");
+      m_pcdDB->OpenEx("DSN=3CPM EGGSAS", CDatabase::useCursorLib);
+      }
+    catch(CDaoException *e)
+      {
+      CString cstrErr;
+      cstrErr.LoadString(IDS_ERROR1);
+      (CEGGSASApp *)AfxGetApp()->m_pActiveWnd->MessageBox(e->m_pErrorInfo->m_strDescription,
+                                                          cstrErr, MB_OK);
+      e->Delete();
+      delete m_pcdDB;
+      m_pcdDB = NULL;
+      }
+    }
+***********************/
+//  if(m_pcdDB != NULL)
+//    {
+//    m_pcdDB->Close();
+//    delete m_pcdDB;
+//    }
+
+/********************************************************************
+iReOpen_for_write - Open an existing data file to continue writing to it.
+                         
+  inputs: Pointer to a pointer to a CFile object for the open data file.
+            The pointer to the object points to the CFile object upon exit.
+          Reference to a CString object containing the file name to open.
+          Pointer to a DATA_FILE_HEADER structure that gets file header
+            information.
+
+  return: SUCCESS if the file was opened and read.
+          FAIL if there was an error.
+********************************************************************/
+/*************
+short int CEGGSASDoc::iReOpen_for_write(CFile **ppcfFile, CString &cstrFile,
+DATA_FILE_HEADER *pdhfHdr)
+  {
+  CString cstrErrMsg, cstrErrTitle;
+  int iRet;
+
+
+  try
+    { // Open the file for writing without truncating it.
+    uiFileFlags = CFile::modeNoTruncate | CFile::modeWrite | CFile::shareDenyWrite;
+    m_pcfDataFile = new CFile(cstrFileName, uiFileFlags);
+    bRet = true;
+    }
+  catch(CFileException *pfe)
+    { // Got a file creation error.
+    cstrErr.Format(IDS_ERR_OPEN_FILE, cstrFileName, strerror(pfe->m_lOsError));
+    pfe->Delete();
+    m_pcfDataFile = NULL;
+    bRet = false;
+    }
+  if(bRet == true)
+    { // Seek to the end of the file
+    try
+      {
+      m_pcfDataFile->SeekToEnd();
+      }
+    catch(CFileException *pfe)
+      { // Got a file seek errorl
+      cstrErr.Format(IDS_ERR_SEEK_FILE, cstrFileName, strerror(pfe->m_lOsError));
+      pfe->Delete();
+      delete m_pcfDataFile;
+      m_pcfDataFile = NULL;
+      bRet = false;
+      }
+    }
+
+
+  return(iRet);
+  }
+************/
+
+void CGraphRSA::vPrint_graph(CDC *pDC)
+  {
+/*****************
+  POINT *pptArray, *pptArrayStart;
+  CPoint point, ptPrev, ptRgn[4], ptTemp;
+  CPoint cpPrevLine1, cpPrevLine2;
+  CRgn Rgn;
+  short int iIndex, iPt, iYIndex, iYBase;
+  float *pfData, *pfEpoch, fDataPos;
+
+
+  pfData = m_pRSA->pfData;
+  m_pDC->SelectObject(&m_penPostWater);
+  pptArray = m_pptArrayStart;
+  for(iYIndex = m_pRSA->iNumY - 1; iYIndex >= 0; --iYIndex)
+    {
+    pptArrayStart = pptArray;
+    if(iYIndex == m_iZeroLine1 || iYIndex == m_iZeroLine2)
+      m_pDC->SelectObject(&m_penBlackThick);  // Zero lines separating pre-water and post-water.
+    else if(iYIndex == (m_iZeroLine1 - 1))
+      m_pDC->SelectObject(&m_penPreWater);
+    iYBase = m_iYBottom - ((iYIndex + 1) * m_iGraphSeparation);
+    pptArray->x = m_iXStart;
+    pptArray->y = iYBase;
+    pfEpoch = pfData + (iYIndex * m_pRSA->iNumX);
+      // First calculate all the points and clear the regions under the points.
+      // This removes the lines from any previous graphs that this graph goes
+      // through.
+    for(iIndex = 0; iIndex < m_pRSA->iNumX; ++iIndex)
+      {
+      ptRgn[0].x = pptArray->x;
+      ptRgn[0].y = m_iYBottom;
+      ptRgn[1].x = pptArray->x;
+      ptRgn[1].y = pptArray->y;
+      ++pptArray;
+        // Calculate the point on the Y axis of where to put the point.
+      fDataPos = (*(pfEpoch + iIndex) - m_fMin) / m_fRange;
+      iPt = (short int)(fDataPos * m_fYRange);
+      
+      pptArray->x = (pptArray - 1)->x + m_iXInc;
+      pptArray->y = iYBase - iPt;
+
+      ptRgn[2].x = pptArray->x;
+      ptRgn[2].y = pptArray->y;
+      ptRgn[3].x = pptArray->x;
+      ptRgn[3].y = m_iYBottom;
+
+      Rgn.CreatePolygonRgn(ptRgn, 4, ALTERNATE);
+      m_pDC->FillRgn(&Rgn, &m_brushWhite);
+      Rgn.DeleteObject();
+      }
+      // Now draw the graph.
+    pptArray = pptArrayStart;
+//    vDev_to_log_coord(pptArray);
+    m_pDC->MoveTo(*pptArray);
+    for(iIndex = 0; iIndex < m_pRSA->iNumX; ++iIndex)
+      {
+      ++pptArray;
+//      vDev_to_log_coord(pptArray);
+      m_pDC->LineTo(*pptArray);
+      m_pDC->MoveTo(*pptArray);
+      }
+    ++pptArray;
+    }
+************/
+  }
+
+/********************************************************************
+vSet_bold_font - Create a bold font using "Arial" for a specific window.
+                 This is used to display a bold font in a button or other
+                 dialog box field.
+
+  inputs: Pointer to a window.
+          Pointer to a pointer to a CFont object which gets created
+            with a bold font.
+          Pointer to a pointer to a LOGFONT object which gets characteristics
+            for the bold font.
+          Font size. Default is 0.
+
+  return: None.
+********************************************************************/
+/*****************
+void vSet_bold_font(CWnd *pwnd, CFont *pcfFont, LOGFONT *plfLF, long lFontSize)
+  {
+  CDC *pDC;
+  TEXTMETRIC tm;
+
+  pDC = pwnd->GetDC();
+  pDC->GetTextMetrics(&tm);
+  memset(plfLF, 0, sizeof(LOGFONT));       // zero out structure
+    // Set the size of the font depending on the last input.
+  if(lFontSize != 0)
+    plfLF->lfHeight = lCalc_font_height(lFontSize, pDC); // Calculate new font size.
+  else
+    plfLF->lfHeight = tm.tmHeight; // Use the standard font size.
+  strcpy(plfLF->lfFaceName, "Arial");  // Font name is "Arial".
+  plfLF->lfWeight = FW_BOLD; // Set to bold font.
+  pcfFont->CreateFontIndirect(plfLF);
+  pwnd->ReleaseDC(pDC);
+  }
+*************************/
+
+HFONT hfSet_font(CDC *pDC, LOGFONT *plf, long lFontWeight, long lFontSize)
+  {
+  HFONT hf;
+
+  memset(plf, 0, sizeof(LOGFONT));
+  plf->lfHeight = lCalc_font_height(lFontSize, pDC);
+  plf->lfWeight = lFontWeight;
+  strcpy((LPSTR)&(plf->lfFaceName), "arial");
+  hf = CreateFontIndirect(plf); // Create the font
+  return(hf);
+  }
+
+/********************************************************************
+iCreate_sel_raw_data_graphs - Graph the raw data for the selected good
+                              minutes.  1 graph per period.
+
+  inputs: X coordinate of where to start the graph.
+          Y coordinate of where to start the graph.
+
+  return: Y coordinate of the bottom of the graph.
+********************************************************************/
+int CReportView::iCreate_sel_raw_data_graphs(int iXStart, int iYStart)
+  {
+  HWND hPEGrph;
+  RECT rGrphWin;
+  GRAPH_INFO gi;
+  unsigned short uIndex;
+  int iNumDataPts;
+  unsigned uNumAnnotations;
+  float fStartMin, *pfData, fNumMin, fActStartMin;
+
+  CString cstrTitle, cstrTickMarks, cstrTemp; //, cstrArtifact;
+  int iTypes[(MIN_PER_PERIOD * 2) + 1], iCnt, iLineStyles[2], iMASArray[2];
+  int iMinute; //, iGrphHeight; //, iLineType; //, iArtType;
+  double fXLoc[(MIN_PER_PERIOD * 2) + 1], dValue;
+  char *pszPrefix = "|h";
+  float fX, fY, fMAPArray[2];
+  DWORD dwArray[2], dwTickColor[(MIN_PER_PERIOD * 2) + 1];
+  char szTickMarks[200];
+	
+  if(m_pDC->IsPrinting() == 0)
+    { // Not printing
+    GetClientRect(&rGrphWin);
+    }
+  else
+    { // Printing
+    rGrphWin.right = m_iLineExt;
+    }
+
+  rGrphWin.top = iYStart;
+  rGrphWin.left = iXStart;
+  rGrphWin.right -= iXStart;
+  rGrphWin.bottom = rGrphWin.top + (rGrphWin.right / 4); //200;
+
+  bool bDisplayGraph;
+    // Find out if the graphs will actually be visible. This only applies
+    // if we are not printing.  If printing, the graphs will always be
+    // visible.
+  if((m_pDC->IsPrinting() == 0 && m_pDC->RectVisible(&rGrphWin) != 0)
+  || m_pDC->IsPrinting() != 0)
+    bDisplayGraph = true; // Graph visible.
+  else
+    bDisplayGraph = false; // Graph not visible.
+
+  for(uIndex = 0; uIndex < m_pDoc->m_uMaxPeriods; ++uIndex)
+    {
+    if(m_hPESelRawData[uIndex] == NULL)
+      m_hPESelRawData[uIndex] = PEcreate(PECONTROL_SGRAPH, WS_VISIBLE, &rGrphWin, m_hWnd, IDR_MAINFRAME);
+    if(bDisplayGraph == true)
+      { // Either not printing and window is visible or printing.
+      hPEGrph = m_hPESelRawData[uIndex];
+      fStartMin = m_pDoc->m_pdPatient.fGoodMinStart[uIndex];
+      fNumMin = m_pDoc->m_pdPatient.fGoodMinEnd[uIndex] - fStartMin;
+      iNumDataPts = (short int)(fNumMin * (float)DATA_POINTS_PER_MIN_1);
+        // Make the graph annotation for the start minute based on the period.
+      fActStartMin = fStartMin + (float)(uIndex * MIN_PER_PERIOD);
+
+        // Plot the points.
+      if(m_pDoc->iRead_period(uIndex, m_pDoc->m_fData) == SUCCESS)
+        {
+        gi.iNumDataPoints = iNumDataPts;
+        pfData =  m_pDoc->m_fData + 
+                     (long)(fStartMin * (float)(DATA_POINTS_PER_MIN_1 * MAX_CHANNELS));
+        gi.pfData = pfData;
+        gi.fMinOnGraph = fNumMin;
+        gi.fStartMin = fStartMin;
+        gi.fGraphStartMin = fActStartMin;
+        gi.bAddXAxisLabel = true;
+        gi.uPeriod = uIndex;
+        gi.fMinEGG = m_pDoc->m_pdPatient.fMinEGG;
+        gi.fMaxEGG = m_pDoc->m_pdPatient.fMaxEGG;
+        gi.fMinResp = m_pDoc->m_pdPatient.fMinResp;
+        gi.fMaxResp = m_pDoc->m_pdPatient.fMaxResp;
+        gi.uAttrib = MINUTES_FRACTIONS;
+        m_pDoc->vDraw_raw_data_graph(hPEGrph, &gi);
+/**************************
+          // Set the number of subsets (lines to draw).
+        PEnset(hPEGrph, PEP_nSUBSETS, 2);
+          // Set the number of data points.
+        PEnset(hPEGrph, PEP_nPOINTS, iNumDataPts);
+          // Plot the points.
+        for(iCnt = 0; iCnt < iNumDataPts; ++iCnt)
+          {
+          fX = fStartMin + ((float)iCnt / (float)DATA_POINTS_PER_MIN_1);
+            // EGG Signal
+          PEvsetcellEx(hPEGrph, PEP_faXDATA, 0, iCnt, &fX);
+          fY = *pfData;
+          ++pfData;
+            // Don't graph anything above the maximum or below the minumum.
+          if(fY < m_pDoc->m_pdPatient.fMinEGG)
+            fY = m_pDoc->m_pdPatient.fMinEGG;
+          else if(fY > m_pDoc->m_pdPatient.fMaxEGG)
+            fY = m_pDoc->m_pdPatient.fMaxEGG;
+          PEvsetcellEx(hPEGrph, PEP_faYDATA, 0, iCnt, &fY);
+           // Respiration Signal
+          PEvsetcellEx(hPEGrph, PEP_faXDATA, 1, iCnt, &fX);
+          fY = *pfData;
+          ++pfData;
+            // Don't graph anything above the maximum or below the minumum.
+          if(fY < m_pDoc->m_pdPatient.fMinResp)
+            fY = m_pDoc->m_pdPatient.fMinResp;
+          if(fY > m_pDoc->m_pdPatient.fMaxResp)
+            fY = m_pDoc->m_pdPatient.fMaxResp;
+          PEvsetcellEx(hPEGrph, PEP_faYDATA, 1, iCnt, &fY);
+          }
+        }
+
+        // Remove plotting method from pop-up menu.
+      PEnset(hPEGrph, PEP_bALLOWPLOTCUSTOMIZATION, FALSE);
+      PEszset(hPEGrph, PEP_szMAINTITLE, ""); // No graph title.
+      PEszset(hPEGrph, PEP_szSUBTITLE, ""); // no subtitle
+      cstrTitle.LoadString(IDS_MINUTES);
+      PEszset(hPEGrph, PEP_szXAXISLABEL, (char *)(const char *)cstrTitle);
+
+      PEnset(hPEGrph, PEP_nFONTSIZE, PEFS_LARGE); // Set to large font size.
+
+        // Label the X axis using minutes starting with the first minute of the 
+        // 4-minute epoch.
+        // Remove everything on the X-axis except the label.
+      PEnset(hPEGrph, PEP_nSHOWXAXIS, PESA_LABELONLY); //PESA_EMPTY);
+        // Set the minimum and maximum X-axis scale values.
+      PEnset(hPEGrph, PEP_nMANUALSCALECONTROLX, PEMSC_MINMAX);
+      dValue = (double)fStartMin;
+      PEvset(hPEGrph, PEP_fMANUALMINX, &dValue, 1);
+      dValue = (double)(fStartMin + fNumMin);
+      PEvset(hPEGrph, PEP_fMANUALMAXX, &dValue, 1);
+
+        // Now build the data used for drawing the X-axis tick marks
+        // and delineating the artifact.
+      cstrTickMarks.Empty();
+      uNumAnnotations = ((unsigned)fNumMin * 2) + 1;
+      for(iCnt = 0; iCnt < (short int)uNumAnnotations; ++iCnt)
+        {
+        if(cstrTickMarks.IsEmpty() == FALSE)
+          cstrTickMarks += "\t";
+        if((iCnt % 2) == 0)
+          { // On the minute
+          cstrTemp.Format("%s%.1f", pszPrefix, fActStartMin + (iCnt / 2));
+            // Specify type of tick mark.
+          iTypes[iCnt] = PELAT_GRIDLINE;; //iLineType;
+            // Specify where on the X-axis the tick marks go.
+          iMinute = iCnt / 2;
+          fXLoc[iCnt] = (double)(fStartMin + iMinute);
+          }
+        else
+          { // On the half minute
+          cstrTemp = pszPrefix; //.Format("%s%s", pszPrefix, cstrArtifact);
+            // Specify type of tick mark.
+          iTypes[iCnt] = PELAT_GRIDTICK; //iLineType;
+            // Specify where on the X-axis the tick marks go.
+          fXLoc[iCnt] = (double)(fStartMin + iMinute) + (double)0.5;
+          }
+        cstrTickMarks += cstrTemp;
+          // Set the color of the X-axis tick marks, BLACK_RGB.
+        dwTickColor[iCnt] = BLACK_RGB;; //dwColor;
+        }
+
+      strcpy(szTickMarks, cstrTickMarks);
+      PEvset(hPEGrph, PEP_szaVERTLINEANNOTATIONTEXT, szTickMarks, uNumAnnotations);
+      PEvset(hPEGrph, PEP_naVERTLINEANNOTATIONTYPE, iTypes, uNumAnnotations);
+      PEvset(hPEGrph, PEP_faVERTLINEANNOTATION, fXLoc, uNumAnnotations);
+      PEvset(hPEGrph, PEP_dwaVERTLINEANNOTATIONCOLOR, dwTickColor, uNumAnnotations);
+        // Set flag so the above data is used.
+      PEnset(hPEGrph, PEP_bSHOWANNOTATIONS, TRUE);
+        // Increase line annotation text size
+      PEnset(hPEGrph, PEP_nLINEANNOTATIONTEXTSIZE, 100); //150);
+        // Set a bottom margin so we have enough room to display the label.
+      PEszset(hPEGrph, PEP_szBOTTOMMARGIN, "a");
+        // Set the colors for the graphs.
+      dwArray[0] = RED_RGB; //BLACK_RGB; // Draw the main graph in red.
+      iCnt = 1;
+      dwArray[1] = LTGRAY_RGB; // Draw respiration graph in light gray.
+      iCnt = 2;
+      PEvset(hPEGrph, PEP_dwaSUBSETCOLORS, dwArray, iCnt);
+        // Don't draw any grid lines.
+      PEnset(hPEGrph, PEP_nGRIDLINECONTROL, PEGLC_NONE);
+        // Remove the subset legends.
+      iCnt = -1;
+      PEvset(hPEGrph, PEP_naSUBSETSTOLEGEND, &iCnt, 1);
+        
+      iLineStyles[0] = PELT_THINSOLID; // Line style for EGG signal.
+      iCnt = 1;
+      iLineStyles[1] = PELT_DOT;  // Line style for respiration.
+      iCnt = 2;
+      PEvset(hPEGrph, PEP_naSUBSETLINETYPES, iLineStyles, iCnt);
+
+        // Get label for Y-axis.
+      cstrTitle.LoadString(IDS_RAW_WAVFRM_Y_AXIS_LBL);
+
+        // Two graphs are to be drawn in this window (EGG and respiration).
+        // Designate which graph uses the top part of the window and which
+        // uses the bottom part of the window.
+      iMASArray[0] = 1;   // EGG signal is top graph.
+      iMASArray[1] = 1;   // Respiration signal is bottom graph.
+      PEvset(hPEGrph, PEP_naMULTIAXESSUBSETS, iMASArray, 2);
+      
+        // Designate axes proportions.  The percentage of the window that
+        // each graph uses.
+        // Percentage of window top graph uses.
+      fMAPArray[0] = (float)0.6; //(float)m_pApp->m_iRawSigGphPct / (float)100;
+        // Percentage of window bottom graph uses.
+      fMAPArray[1] = (float)0.4; //(float)(100 - m_pApp->m_iRawSigGphPct) / (float)100;
+      PEvset(hPEGrph, PEP_faMULTIAXESPROPORTIONS, fMAPArray, 2);
+
+        // Y-axis label for the top graph.
+      PEnset(hPEGrph, PEP_nWORKINGAXIS, 0); // Set first y axis parameters
+      PEszset(hPEGrph, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+        // Set the minimum and maximum Y-axis scale values for EGG.
+      PEnset(hPEGrph, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+      dValue = (double)m_pDoc->m_pdPatient.fMinEGG; //m_iRawDataMin;
+      PEvset(hPEGrph, PEP_fMANUALMINY, &dValue, 1);
+      dValue = (double)m_pDoc->m_pdPatient.fMaxEGG; //m_iRawDataMax;
+      PEvset(hPEGrph, PEP_fMANUALMAXY, &dValue, 1);
+
+        // Y-axis label for the bottom graph.
+      PEnset(hPEGrph, PEP_nWORKINGAXIS, 1); // Set second y axis parameters
+      PEszset(hPEGrph, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+        // Set the minimum and maximum Y-axis scale values for Respiration.
+      PEnset(hPEGrph, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+      dValue = (double)m_pDoc->m_pdPatient.fMinResp; //m_iRawRespMin;
+      PEvset(hPEGrph, PEP_fMANUALMINY, &dValue, 1);
+      dValue = (double)m_pDoc->m_pdPatient.fMaxResp; //m_iRawRespMax;
+      PEvset(hPEGrph, PEP_fMANUALMAXY, &dValue, 1);
+
+      PEnset(hPEGrph, PEP_nWORKINGAXIS, 0); // Always reset working axis to 0.
+        // Set line style separating the two graphs.
+      PEnset(hPEGrph, PEP_nMULTIAXESSEPARATORS, PEMAS_THIN);
+
+        // Separate the 2 graphs.
+      PEnset(hPEGrph, PEP_nMULTIAXISSTYLE, PEMAS_SEPARATE_AXES);
+      PEnset(hPEGrph, PEP_nMULTIAXISSEPARATORSIZE, 75);
+
+
+      PEnset(hPEGrph, 2944, 1); // Disable clipping
+      PEnset(hPEGrph, PEP_nALLOWZOOMING, PEAZ_HORZANDVERT);
+
+      PEreinitialize(hPEGrph);
+      PEresetimage(hPEGrph, 0, 0);
+********************/
+        if(m_pDC->IsPrinting() != 0)
+          vPrint_summ_graph(hPEGrph, &rGrphWin);
+        }
+      }
+
+    rGrphWin.top = rGrphWin.bottom + 10;
+    rGrphWin.bottom = rGrphWin.top + (rGrphWin.right / 4); //200;
+    }
+  return(rGrphWin.bottom);
+  }
+
+/********************************************************************
+vDraw_raw_data_graph - Draw the raw data graph.
+
+                       The graph window is split into 2 with the top graph for
+                       the EGG signal and the bottom graph for the
+                       respiration signal.
+
+  inputs: The window handle of the graph.
+          Pointer to a GRAPH_INFO structure that contains the information
+            needed to draw the graph.
+
+  output: The pointer to the data in the GRAPH_INFO structure is incremented
+            for each data item graphed.  This change affects the caller so if
+            the caller needs the original data pointer, it must be saved
+            outside this structure.
+
+  return: None.
+********************************************************************/
+void CReportView::vDraw_raw_data_graph(HWND hPEGrph, GRAPH_INFO *pgi)
+  {
+  CString cstrTitle, cstrTickMarks, cstrTemp; //, cstrArtifact;
+  int iTypes[(MIN_PER_PERIOD * 2) + 1], iCnt, iLineStyles[2], iMASArray[2];
+  int iMinute; //, iGrphHeight; //, iLineType; //, iArtType;
+  double fXLoc[(MIN_PER_PERIOD * 2) + 1], dValue;
+  char *pszPrefix = "|h";
+  float fX, fY, fMAPArray[2];
+  DWORD dwArray[2], dwTickColor[(MIN_PER_PERIOD * 2) + 1];
+  char szTickMarks[200];
+  unsigned uNumAnnotations;
+
+   // Set the number of subsets (lines to draw).
+ PEnset(hPEGrph, PEP_nSUBSETS, 2);
+   // Set the number of data points.
+ PEnset(hPEGrph, PEP_nPOINTS, pgi->iNumDataPoints);
+   // Plot the points.
+ for(iCnt = 0; iCnt < pgi->iNumDataPoints; ++iCnt)
+   {
+   fX = pgi->fStartMin + ((float)iCnt / (float)DATA_POINTS_PER_MIN_1);
+     // EGG Signal
+   PEvsetcellEx(hPEGrph, PEP_faXDATA, 0, iCnt, &fX);
+   fY = *pgi->pfData;
+   ++pgi->pfData;
+     // Don't graph anything above the maximum or below the minumum.
+   if(fY < pgi->fMinEGG)
+     fY = pgi->fMinEGG;
+   else if(fY > pgi->fMaxEGG)
+     fY = pgi->fMaxEGG;
+   PEvsetcellEx(hPEGrph, PEP_faYDATA, 0, iCnt, &fY);
+    // Respiration Signal
+   PEvsetcellEx(hPEGrph, PEP_faXDATA, 1, iCnt, &fX);
+   fY = *pgi->pfData;
+   ++pgi->pfData;
+     // Don't graph anything above the maximum or below the minumum.
+   if(fY < pgi->fMinResp)
+     fY = pgi->fMinResp;
+   if(fY > pgi->fMaxResp)
+     fY = pgi->fMaxResp;
+   PEvsetcellEx(hPEGrph, PEP_faYDATA, 1, iCnt, &fY);
+   }
+
+    // Remove plotting method from pop-up menu.
+  PEnset(hPEGrph, PEP_bALLOWPLOTCUSTOMIZATION, FALSE);
+  PEszset(hPEGrph, PEP_szMAINTITLE, ""); // No graph title.
+  PEszset(hPEGrph, PEP_szSUBTITLE, ""); // no subtitle
+  cstrTitle.LoadString(IDS_MINUTES);
+  PEszset(hPEGrph, PEP_szXAXISLABEL, (char *)(const char *)cstrTitle);
+
+  PEnset(hPEGrph, PEP_nFONTSIZE, PEFS_LARGE); // Set to large font size.
+
+    // Label the X axis using minutes starting with the first minute of the 
+    // 4-minute epoch.
+    // Remove everything on the X-axis except the label.
+  PEnset(hPEGrph, PEP_nSHOWXAXIS, PESA_LABELONLY); //PESA_EMPTY);
+    // Set the minimum and maximum X-axis scale values.
+  PEnset(hPEGrph, PEP_nMANUALSCALECONTROLX, PEMSC_MINMAX);
+  dValue = (double)pgi->fStartMin;
+  PEvset(hPEGrph, PEP_fMANUALMINX, &dValue, 1);
+  dValue = (double)(pgi->fStartMin + pgi->fMinOnGraph);
+  PEvset(hPEGrph, PEP_fMANUALMAXX, &dValue, 1);
+
+    // Now build the data used for drawing the X-axis tick marks
+    // and delineating the artifact.
+  cstrTickMarks.Empty();
+  uNumAnnotations = ((unsigned)pgi->fMinOnGraph * 2) + 1;
+  for(iCnt = 0; iCnt < (short int)uNumAnnotations; ++iCnt)
+    {
+    if(cstrTickMarks.IsEmpty() == FALSE)
+      cstrTickMarks += "\t";
+    if((iCnt % 2) == 0)
+      { // On the minute
+      cstrTemp.Format("%s%.1f", pszPrefix, pgi->fGraphStartMin + (iCnt / 2));
+        // Specify type of tick mark.
+      iTypes[iCnt] = PELAT_GRIDLINE;; //iLineType;
+        // Specify where on the X-axis the tick marks go.
+      iMinute = iCnt / 2;
+      fXLoc[iCnt] = (double)(pgi->fStartMin + iMinute);
+      }
+    else
+      { // On the half minute
+      cstrTemp = pszPrefix; //.Format("%s%s", pszPrefix, cstrArtifact);
+        // Specify type of tick mark.
+      iTypes[iCnt] = PELAT_GRIDTICK; //iLineType;
+        // Specify where on the X-axis the tick marks go.
+      fXLoc[iCnt] = (double)(pgi->fStartMin + iMinute) + (double)0.5;
+      }
+    cstrTickMarks += cstrTemp;
+      // Set the color of the X-axis tick marks, BLACK_RGB.
+    dwTickColor[iCnt] = BLACK_RGB;; //dwColor;
+    }
+
+  strcpy(szTickMarks, cstrTickMarks);
+  PEvset(hPEGrph, PEP_szaVERTLINEANNOTATIONTEXT, szTickMarks, uNumAnnotations);
+  PEvset(hPEGrph, PEP_naVERTLINEANNOTATIONTYPE, iTypes, uNumAnnotations);
+  PEvset(hPEGrph, PEP_faVERTLINEANNOTATION, fXLoc, uNumAnnotations);
+  PEvset(hPEGrph, PEP_dwaVERTLINEANNOTATIONCOLOR, dwTickColor, uNumAnnotations);
+    // Set flag so the above data is used.
+  PEnset(hPEGrph, PEP_bSHOWANNOTATIONS, TRUE);
+    // Increase line annotation text size
+  PEnset(hPEGrph, PEP_nLINEANNOTATIONTEXTSIZE, 100); //150);
+    // Set a bottom margin so we have enough room to display the label.
+  PEszset(hPEGrph, PEP_szBOTTOMMARGIN, "a");
+    // Set the colors for the graphs.
+  dwArray[0] = RED_RGB; //BLACK_RGB; // Draw the main graph in red.
+  iCnt = 1;
+  dwArray[1] = LTGRAY_RGB; // Draw respiration graph in light gray.
+  iCnt = 2;
+  PEvset(hPEGrph, PEP_dwaSUBSETCOLORS, dwArray, iCnt);
+    // Don't draw any grid lines.
+  PEnset(hPEGrph, PEP_nGRIDLINECONTROL, PEGLC_NONE);
+    // Remove the subset legends.
+  iCnt = -1;
+  PEvset(hPEGrph, PEP_naSUBSETSTOLEGEND, &iCnt, 1);
+    
+  iLineStyles[0] = PELT_THINSOLID; // Line style for EGG signal.
+  iCnt = 1;
+  iLineStyles[1] = PELT_DOT;  // Line style for respiration.
+  iCnt = 2;
+  PEvset(hPEGrph, PEP_naSUBSETLINETYPES, iLineStyles, iCnt);
+
+    // Get label for Y-axis.
+  cstrTitle.LoadString(IDS_RAW_WAVFRM_Y_AXIS_LBL);
+
+    // Two graphs are to be drawn in this window (EGG and respiration).
+    // Designate which graph uses the top part of the window and which
+    // uses the bottom part of the window.
+  iMASArray[0] = 1;   // EGG signal is top graph.
+  iMASArray[1] = 1;   // Respiration signal is bottom graph.
+  PEvset(hPEGrph, PEP_naMULTIAXESSUBSETS, iMASArray, 2);
+  
+    // Designate axes proportions.  The percentage of the window that
+    // each graph uses.
+    // Percentage of window top graph uses.
+  fMAPArray[0] = (float)0.6; //(float)m_pApp->m_iRawSigGphPct / (float)100;
+    // Percentage of window bottom graph uses.
+  fMAPArray[1] = (float)0.4; //(float)(100 - m_pApp->m_iRawSigGphPct) / (float)100;
+  PEvset(hPEGrph, PEP_faMULTIAXESPROPORTIONS, fMAPArray, 2);
+
+    // Y-axis label for the top graph.
+  PEnset(hPEGrph, PEP_nWORKINGAXIS, 0); // Set first y axis parameters
+  PEszset(hPEGrph, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+    // Set the minimum and maximum Y-axis scale values for EGG.
+  PEnset(hPEGrph, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  dValue = (double)pgi->fMinEGG;
+  PEvset(hPEGrph, PEP_fMANUALMINY, &dValue, 1);
+  dValue = (double)pgi->fMaxEGG;
+  PEvset(hPEGrph, PEP_fMANUALMAXY, &dValue, 1);
+
+    // Y-axis label for the bottom graph.
+  PEnset(hPEGrph, PEP_nWORKINGAXIS, 1); // Set second y axis parameters
+  PEszset(hPEGrph, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+    // Set the minimum and maximum Y-axis scale values for Respiration.
+  PEnset(hPEGrph, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  dValue = (double)pgi->fMinResp;
+  PEvset(hPEGrph, PEP_fMANUALMINY, &dValue, 1);
+  dValue = (double)pgi->fMaxResp;
+  PEvset(hPEGrph, PEP_fMANUALMAXY, &dValue, 1);
+
+  PEnset(hPEGrph, PEP_nWORKINGAXIS, 0); // Always reset working axis to 0.
+    // Set line style separating the two graphs.
+  PEnset(hPEGrph, PEP_nMULTIAXESSEPARATORS, PEMAS_THIN);
+
+    // Separate the 2 graphs.
+  PEnset(hPEGrph, PEP_nMULTIAXISSTYLE, PEMAS_SEPARATE_AXES);
+  PEnset(hPEGrph, PEP_nMULTIAXISSEPARATORSIZE, 75);
+
+
+  PEnset(hPEGrph, 2944, 1); // Disable clipping
+  PEnset(hPEGrph, PEP_nALLOWZOOMING, PEAZ_HORZANDVERT);
+
+  PEreinitialize(hPEGrph);
+  PEresetimage(hPEGrph, 0, 0);
+  }
+
+/********************************************************************
+vDraw_raw_data_graph - Draw the raw data graph.
+
+                       The graph window is split into 2 with the top graph for
+                       the EGG signal and the bottom graph for the
+                       respiration signal.
+
+  inputs: The window handle of the graph.
+          Pointer to a GRAPH_INFO structure that contains the information
+            needed to draw the graph.
+
+  output: The pointer to the data in the GRAPH_INFO structure is incremented
+            for each data item graphed.  This change affects the caller so if
+            the caller needs the original data pointer, it must be saved
+            outside this structure.
+
+  return: None.
+********************************************************************/
+void CTenMinView::vDraw_raw_data_graph(HWND m_hPEData, GRAPH_INFO *pgiData)
+  {
+//  CEGGSASDoc *pDoc;
+  CString cstrTitle, cstrTickMarks, cstrTemp;
+  int iTypes[(HALF_MINUTES_PER_EPOCH + 1) * 2], iCnt, iLineStyles[2], iMASArray[2];
+  int iMinute;
+  double fXLoc[(HALF_MINUTES_PER_EPOCH + 1) * 2], dValue;
+  char *pszPrefix = "|h";
+  float fX, fY, fMAPArray[2];
+  DWORD dwArray[2], dwTickColor[(HALF_MINUTES_PER_EPOCH + 1) * 2];
+  char szTickMarks[100];
+	
+//    // Get the document.
+//  pDoc =(CEGGSASDoc *)GetDocument();
+
+    // Set the number of subsets (lines to draw).
+  PEnset(m_hPEData, PEP_nSUBSETS, 2);
+    // Set the number of data points.
+  PEnset(m_hPEData, PEP_nPOINTS, pgiData->iNumDataPoints);
+
+    // Plot the points.
+  for(iCnt = 0; iCnt < pgiData->iNumDataPoints; ++iCnt)
+    {
+    fX = (float)pgiData->fStartMin + ((float)iCnt / (float)DATA_POINTS_PER_MIN_1);
+      // EGG Signal
+    PEvsetcellEx(m_hPEData, PEP_faXDATA, 0, iCnt, &fX);
+    fY = *pgiData->pfData;
+    ++pgiData->pfData;
+      // Don't graph anything above the maximum or below the minumum.
+    if(fY < pgiData->fMinEGG)
+      fY = pgiData->fMinEGG;
+    else if(fY > pgiData->fMaxEGG)
+      fY = pgiData->fMaxEGG;
+    PEvsetcellEx(m_hPEData, PEP_faYDATA, 0, iCnt, &fY);
+     // Respiration Signal
+    PEvsetcellEx(m_hPEData, PEP_faXDATA, 1, iCnt, &fX);
+    fY = *pgiData->pfData;
+    ++pgiData->pfData;
+      // Don't graph anything above the maximum or below the minumum.
+    if(fY < pgiData->fMinResp)
+      fY = pgiData->fMinResp;
+    if(fY > pgiData->fMaxResp)
+      fY = pgiData->fMaxResp;
+    PEvsetcellEx(m_hPEData, PEP_faYDATA, 1, iCnt, &fY);
+    }
+
+    // Remove plotting method from pop-up menu.
+  PEnset(m_hPEData, PEP_bALLOWPLOTCUSTOMIZATION, FALSE);
+  PEszset(m_hPEData, PEP_szMAINTITLE, ""); // No graph title.
+  PEszset(m_hPEData, PEP_szSUBTITLE, ""); // no subtitle
+  if(pgiData->bAddXAxisLabel == true)
+    {
+    cstrTitle.LoadString(IDS_MINUTES);
+    PEszset(m_hPEData, PEP_szXAXISLABEL, (char *)(const char *)cstrTitle);
+    }
+  else
+    PEszset(m_hPEData, PEP_szXAXISLABEL, ""); // no label.
+
+  PEnset(m_hPEData, PEP_nFONTSIZE, PEFS_LARGE); // Set to large font size.
+
+    // Label the X axis using minutes starting with the first minute of the 
+    // 4-minute epoch.
+    // Remove everything on the X-axis except the label.
+  PEnset(m_hPEData, PEP_nSHOWXAXIS, PESA_LABELONLY);
+    // Set the minimum and maximum X-axis scale values.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLX, PEMSC_MINMAX);
+  dValue = (double)pgiData->fStartMin;
+  PEvset(m_hPEData, PEP_fMANUALMINX, &dValue, 1);
+  dValue = (double)(pgiData->fStartMin + pgiData->fMinOnGraph); //4);
+  PEvset(m_hPEData, PEP_fMANUALMAXX, &dValue, 1);
+
+    // Now build the data used for drawing the X-axis tick marks
+    // Put tick marks at half minute intervals.
+//  for(iCnt = 0; iCnt <= HALF_MINUTES_PER_EPOCH; ++iCnt)
+  for(iCnt = 0; iCnt <= ((int)pgiData->fMinOnGraph * 2); ++iCnt)
+    {
+    if(cstrTickMarks.IsEmpty() == FALSE)
+      cstrTickMarks += "\t";
+    if((iCnt % 2) == 0)
+      { // On the minute
+      cstrTemp.Format("%s%d", pszPrefix, (int)pgiData->fStartMin + (iCnt / 2));
+        // Specify type of tick mark.
+      iTypes[iCnt] = PELAT_GRIDLINE;
+        // Specify where on the X-axis the tick marks go.
+      iMinute = iCnt / 2;
+      fXLoc[iCnt] = (double)pgiData->fStartMin + (double)iMinute;
+      }
+    else
+      { // On the half minute
+      cstrTemp = pszPrefix;
+        // Specify type of tick mark.
+      iTypes[iCnt] = PELAT_GRIDTICK;
+        // Specify where on the X-axis the tick marks go.
+      fXLoc[iCnt] = ((double)pgiData->fStartMin + (double)iMinute) + (double)0.5;
+      }
+    cstrTickMarks += cstrTemp;
+      // Set the color of the X-axis tick marks, BLACK_RGB.
+    dwTickColor[iCnt] = BLACK_RGB;
+    }
+  strcpy(szTickMarks, cstrTickMarks);
+  PEvset(m_hPEData, PEP_szaVERTLINEANNOTATIONTEXT, szTickMarks, ((int)pgiData->fMinOnGraph * 2) + 1);
+  PEvset(m_hPEData, PEP_naVERTLINEANNOTATIONTYPE, iTypes, ((int)pgiData->fMinOnGraph * 2) + 1);
+  PEvset(m_hPEData, PEP_faVERTLINEANNOTATION, fXLoc, ((int)pgiData->fMinOnGraph * 2) + 1);
+  PEvset(m_hPEData, PEP_dwaVERTLINEANNOTATIONCOLOR, dwTickColor, ((int)pgiData->fMinOnGraph * 2) + 1);
+//  PEvset(m_hPEData, PEP_szaVERTLINEANNOTATIONTEXT, szTickMarks, HALF_MINUTES_PER_EPOCH + 1);
+//  PEvset(m_hPEData, PEP_naVERTLINEANNOTATIONTYPE, iTypes, HALF_MINUTES_PER_EPOCH + 1);
+//  PEvset(m_hPEData, PEP_faVERTLINEANNOTATION, fXLoc, HALF_MINUTES_PER_EPOCH + 1);
+//  PEvset(m_hPEData, PEP_dwaVERTLINEANNOTATIONCOLOR, dwTickColor, HALF_MINUTES_PER_EPOCH + 1);
+
+    // Set flag so the above data is used.
+  PEnset(m_hPEData, PEP_bSHOWANNOTATIONS, TRUE);
+    // Increase line annotation text size
+  PEnset(m_hPEData, PEP_nLINEANNOTATIONTEXTSIZE, 100); //150);
+    // Set a bottom margin so we have enough room to display the label.
+  PEszset(m_hPEData, PEP_szBOTTOMMARGIN, "a");
+    // Set the colors for the graphs.
+  dwArray[0] = RED_RGB; //BLACK_RGB; // Draw the main graph in red.
+  iCnt = 1;
+  dwArray[1] = LTGRAY_RGB; // Draw respiration graph in light gray.
+  iCnt = 2;
+  PEvset(m_hPEData, PEP_dwaSUBSETCOLORS, dwArray, iCnt);
+    // Don't draw any grid lines.
+  PEnset(m_hPEData, PEP_nGRIDLINECONTROL, PEGLC_NONE);
+    // Remove the subset legends.
+  iCnt = -1;
+  PEvset(m_hPEData, PEP_naSUBSETSTOLEGEND, &iCnt, 1);
+    
+  iLineStyles[0] = PELT_THINSOLID; // Line style for EGG signal.
+  iCnt = 1;
+  iLineStyles[1] = PELT_DOT;  // Line style for respiration.
+  iCnt = 2;
+  PEvset(m_hPEData, PEP_naSUBSETLINETYPES, iLineStyles, iCnt);
+
+    // Get label for Y-axis.
+  cstrTitle.LoadString(IDS_RAW_WAVFRM_Y_AXIS_LBL);
+
+    // Two graphs are to be drawn in this window (EGG and respiration).
+    // Designate which graph uses the top part of the window and which
+    // uses the bottom part of the window.
+  iMASArray[0] = 1;   // EGG signal is top graph.
+  iMASArray[1] = 1;   // Respiration signal is bottom graph.
+  PEvset(m_hPEData, PEP_naMULTIAXESSUBSETS, iMASArray, 2);
+  
+    // Designate axes proportions.  The percentage of the window that
+    // each graph uses.
+    // Percentage of window top graph uses.
+  fMAPArray[0] = (float)0.6; //(float)m_pApp->m_iRawSigGphPct / (float)100;
+    // Percentage of window bottom graph uses.
+  fMAPArray[1] = (float)0.4; //(float)(100 - m_pApp->m_iRawSigGphPct) / (float)100;
+  PEvset(m_hPEData, PEP_faMULTIAXESPROPORTIONS, fMAPArray, 2);
+
+    // Y-axis label for the top graph.
+  PEnset(m_hPEData, PEP_nWORKINGAXIS, 0); // Set first y axis parameters
+  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+    // Set the minimum and maximum Y-axis scale values for EGG.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  dValue = (double)pgiData->fMinEGG; //m_iRawDataMin;
+  PEvset(m_hPEData, PEP_fMANUALMINY, &dValue, 1);
+  dValue = (double)pgiData->fMaxEGG; //m_iRawDataMax;
+    PEvset(m_hPEData, PEP_fMANUALMAXY, &dValue, 1);
+
+    // Y-axis label for the bottom graph.
+  PEnset(m_hPEData, PEP_nWORKINGAXIS, 1); // Set second y axis parameters
+  PEszset(m_hPEData, PEP_szYAXISLABEL, (char *)(const char *)cstrTitle);
+    // Set the minimum and maximum Y-axis scale values for Respiration.
+  PEnset(m_hPEData, PEP_nMANUALSCALECONTROLY, PEMSC_MINMAX);
+  dValue = (double)pgiData->fMinResp; //m_iRawRespMin;
+  PEvset(m_hPEData, PEP_fMANUALMINY, &dValue, 1);
+  dValue = (double)pgiData->fMaxResp; //m_iRawRespMax;
+  PEvset(m_hPEData, PEP_fMANUALMAXY, &dValue, 1);
+
+  PEnset(m_hPEData, PEP_nWORKINGAXIS, 0); // Always reset working axis to 0.
+    // Set line style separating the two graphs.
+  PEnset(m_hPEData, PEP_nMULTIAXESSEPARATORS, PEMAS_THIN);
+
+    // Separate the 2 graphs.
+  PEnset(m_hPEData, PEP_nMULTIAXISSTYLE, PEMAS_SEPARATE_AXES);
+  PEnset(m_hPEData, PEP_nMULTIAXISSEPARATORSIZE, 75);
+
+  PEnset(m_hPEData, 2944, 1); // Disable clipping
+
+  PEnset(m_hPEData, PEP_nALLOWZOOMING, PEAZ_HORZANDVERT);
+  PEreinitialize(m_hPEData);
+  PEresetimage(m_hPEData, 0, 0);
+  }
+
+/********************************************************************
+iCheck_battery_impedance - Check the battery voltage level and the
+                           electrode impedance.
+
+                           Battery voltage and impedance are valid only
+                           after 2.5 sec.
+
+  inputs: Indicator of what to check.
+            CHK_BATTERY: check the battery.
+            CHK_IMPEDANCE_POS: check the positive impedance
+            CHK_IMPEDANCE_NEG: Check the negative impedance.
+            These values may be ORed together.
+  
+  return: SUCCESS if everything that's checked is OK.
+          FAIL if there is an error reading the hardware.
+          IDS_BAD_BATTERY if the battery is too low.
+          IDS_LOW_BATTERY if the battery is low but useable.
+          IDS_BAD_POS_IMPEDANCE if the positive impedance is bad indicating
+            a bad connection.
+          IDS_BAD_NEG_IMPEDANCE if the negative impedance is bad indicating
+            a bad connection.
+********************************************************************/
+short int CDriver::iCheck_battery_impedance(unsigned uCheck,
+void(__cdecl *pvShowStatus)())
+  {
+  CString cstrMsg;
+  CTime ctStart, ctEnd;
+  CTimeSpan ctsElapsed;
+  int iNumPts, iNumPtsRead;
+  short int iRet = SUCCESS;
+
+    // First assume that the EGG configuration is active, so close it.
+  if(m_iHandle >= 0)
+    Close(m_iHandle);
+    // Now open the battery and impedance configuration.
+  m_iHandle = Initialize(1, BATT_IMP_CONFIG);
+  if(m_iHandle < 0)
+    {
+    m_cstrErr.Format(IDS_ERR_DLL, DLL_NAME, Error_Message(-m_iHandle));
+    ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error initializing for battery impedance configuration: %s", m_cstrErr);
+    iRet = FAIL;
+    }
+  else
+    {
+    if((uCheck & CHK_BATTERY) != 0)
+      { // Check the battery.
+        // Set up a timeout so that we don't get stuck here forever.
+      ctStart = CTime::GetCurrentTime();
+      iNumPtsRead = 0;
+      do
+        {
+	      iNumPts = Read_Buffer(m_iHandle, 0, m_dData, 300);
+        iNumPtsRead += iNumPts;
+        ctEnd = CTime::GetCurrentTime();
+        ctsElapsed = ctEnd - ctStart;
+        if(ctsElapsed.GetSeconds() > READ_BATTERY_TIMEOUT)
+          {
+          iRet = FAIL;
+          break;
+          }
+       if(pvShowStatus != NULL)
+         {
+         pvShowStatus();
+         Sleep(500);
+         }
+        } while(iNumPts >= 0 && iNumPtsRead <= m_iFirstValidImpSignal);
+//        } while(iNumPts == 0);
+      if(iNumPts < 0)
+        {
+        m_cstrErr = Error_Message(-iNumPts); // Error in reading.
+        ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error reading battery voltage: %s", m_cstrErr);
+        iRet = FAIL;
+        }
+      else if(iRet == FAIL)
+        {
+        m_cstrErr.LoadString(IDS_ERR_READ_BATTERY_TIMEOUT);
+        ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error reading battery voltage: %s", m_cstrErr);
+        }
+      else
+        {
+        --iNumPts; // Convert to an index so we can look at the last point.
+        if(m_dData[iNumPts] < (double)5.0)
+          {
+          iRet = FAIL_BAD_BATTERY;
+          m_cstrErr.LoadString(IDS_BAD_BATTERY);
+          ((CEGGSASApp *)AfxGetApp())->vLog("Battery voltage bad: %.2f", m_dData[iNumPts]);
+          }
+        else if(m_dData[iNumPts] < (double)6.0)
+          {
+          iRet = SUCCESS_LOW_BATTERY;
+          m_cstrErr.LoadString(IDS_LOW_BATTERY);
+          ((CEGGSASApp *)AfxGetApp())->vLog("Battery voltage low: %.2f", m_dData[iNumPts]);
+          }
+        else
+          ((CEGGSASApp *)AfxGetApp())->vLog("Battery voltage OK: %.2f", m_dData[iNumPts]);
+        }
+      }
+    if(m_iDoElectrodeTest != 0)
+      { // Do electrode tests.
+      if(iRet >= SUCCESS)
+        { // Battery check passed or didn't do it.
+        m_cstrErr.Empty();
+        if((uCheck & CHK_IMPEDANCE_NEG) != 0)
+          { // Check the impedance of the negative input.
+            // Set up a timeout so that we don't get stuck here forever.
+          ctStart = CTime::GetCurrentTime();
+          iNumPtsRead = 0;
+          do
+            {
+	          iNumPts = Read_Buffer(m_iHandle, 2, m_dData, 300);
+            iNumPtsRead += iNumPts;
+            ctEnd = CTime::GetCurrentTime();
+            ctsElapsed = ctEnd - ctStart;
+            if(ctsElapsed.GetSeconds() > READ_IMPEDANCE_TIMEOUT)
+              {
+              iRet = FAIL;
+              break;
+              }
+            if(pvShowStatus != NULL)
+              {
+              pvShowStatus();
+              Sleep(500);
+              }
+            } while(iNumPts >= 0 && iNumPtsRead <= m_iFirstValidImpSignal);
+          if(iNumPts < 0)
+            {
+            m_cstrErr = Error_Message(-iNumPts); // Error in reading.
+            ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error reading negative impedance: %s", m_cstrErr);
+            iRet = FAIL;
+            }
+          else if(iRet == FAIL)
+            {
+            m_cstrErr.LoadString(IDS_ERR_READ_NEG_IMP_TIMEOUT);
+            ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error reading negative impedance: %s", m_cstrErr);
+            }
+          else
+            {
+            --iNumPts; // Convert to an index so we can look at the last point.
+            if(m_dData[iNumPts] > (double)m_fNegImpedanceLimit)
+              {
+              iRet = FAIL_BAD_NEG_IMPEDANCE;
+              m_cstrErr.LoadString(IDS_BAD_NEG_IMPEDANCE);
+              ((CEGGSASApp *)AfxGetApp())->vLog("Neg Impedance too high: %.2f", m_dData[iNumPts]);
+              }
+            }
+          } // End of check negative impedance.
+        if((uCheck & CHK_IMPEDANCE_POS) != 0 && iRet != FAIL)
+          { // Check the impedance of the positive input.
+            // Set up a timeout so that we don't get stuck here forever.
+          ctStart = CTime::GetCurrentTime();
+          iNumPtsRead = 0;
+          do
+            {
+	          iNumPts = Read_Buffer(m_iHandle, 1, m_dData, 300);
+            iNumPtsRead += iNumPts;
+            ctEnd = CTime::GetCurrentTime();
+            ctsElapsed = ctEnd - ctStart;
+            if(ctsElapsed.GetSeconds() > READ_IMPEDANCE_TIMEOUT)
+              {
+              iRet = FAIL;
+              break;
+              }
+            if(pvShowStatus != NULL)
+              {
+              pvShowStatus();
+              Sleep(500);
+              }
+            } while(iNumPts >= 0 && iNumPtsRead <= m_iFirstValidImpSignal);
+//            } while(iNumPts == 0);
+          if(iNumPts < 0)
+            {
+            m_cstrErr = Error_Message(-iNumPts); // Error in reading.
+            ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error reading positive impedance: %s", m_cstrErr);
+            iRet = FAIL;
+            }
+          else if(iRet == FAIL)
+            {
+            m_cstrErr.LoadString(IDS_ERR_READ_POS_IMP_TIMEOUT);
+            ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error reading positive impedance: %s", m_cstrErr);
+            }
+          else
+            {
+            --iNumPts; // Convert to an index so we can look at the last point.
+            if(m_dData[iNumPts] > (double)m_fPosImpedanceLimit)
+              {
+              iRet = FAIL_BAD_POS_IMPEDANCE;
+              cstrMsg.LoadString(IDS_BAD_POS_IMPEDANCE);
+              if(m_cstrErr.IsEmpty() == FALSE)
+                m_cstrErr += "\r\n";
+              m_cstrErr += cstrMsg;
+              ((CEGGSASApp *)AfxGetApp())->vLog("Pos Impedance too high: %.2f", m_dData[iNumPts]);
+              }
+            }
+          }
+        }
+      }
+    }
+    // Restore the EGG handle.
+  if(m_iHandle >= 0)
+    Close(m_iHandle);
+  m_iHandle = Initialize(1, EGG_CONFIG);
+  if(m_iHandle < 0)
+    {
+    m_cstrErr.Format(IDS_ERR_DLL, DLL_NAME, Error_Message(-m_iHandle));
+    ((CEGGSASApp *)AfxGetApp())->vLog("iCheck_battery_impedance: error initializing EGG configuration: %s", m_cstrErr);
+    iRet = FAIL;
+    }
+
+  return(iRet);
+  }
+
+/*********************** from CEGGSASDoc::vDraw_raw_data_graph()
+  for(iCnt = 0; iCnt < (short int)uNumAnnotations; ++iCnt)
+    {
+    if(cstrTickMarks.IsEmpty() == FALSE)
+      cstrTickMarks += "\t";
+    if((iCnt % 2) == 0)
+      { // On the minute
+      if((pgi->uAttrib & MINUTES_FRACTIONS) != 0)
+        cstrTemp.Format("%s%.1f", pszPrefix, pgi->fGraphStartMin + (iCnt / 2));
+      else
+        cstrTemp.Format("%s%d", pszPrefix, (int)pgi->fGraphStartMin + (iCnt / 2));
+        // Specify type of tick mark.
+      iTypes[iCnt] = PELAT_GRIDLINE;; //iLineType;
+        // Specify where on the X-axis the tick marks go.
+      iMinute = iCnt / 2;
+      fXLoc[iCnt] = (double)(pgi->fStartMin + iMinute);
+      }
+    else
+      { // On the half minute
+      cstrTemp = pszPrefix; //.Format("%s%s", pszPrefix, cstrArtifact);
+        // Specify type of tick mark.
+      iTypes[iCnt] = PELAT_GRIDTICK; //iLineType;
+        // Specify where on the X-axis the tick marks go.
+      fXLoc[iCnt] = (double)(pgi->fStartMin + iMinute) + (double)0.5;
+      }
+    cstrTickMarks += cstrTemp;
+      // Set the color of the X-axis tick marks, BLACK_RGB.
+    dwTickColor[iCnt] = BLACK_RGB;; //dwColor;
+    }
+  strcpy(szTickMarks, cstrTickMarks);
+  PEvset(hPEGrph, PEP_szaVERTLINEANNOTATIONTEXT, szTickMarks, uNumAnnotations);
+  PEvset(hPEGrph, PEP_naVERTLINEANNOTATIONTYPE, piTypes, uNumAnnotations);
+  PEvset(hPEGrph, PEP_faVERTLINEANNOTATION, pfXLoc, uNumAnnotations);
+  PEvset(hPEGrph, PEP_dwaVERTLINEANNOTATIONCOLOR, pdwTickColor, uNumAnnotations);
+**************************/
+
+/********************************************************************
+iDiagnose_postwater - Determine the suggested diagnosis using the
+                      post-water periods based on the document:
+                      Diagnostic Aid.doc.
+
+  inputs: None.
+
+  return: Indicator of the suggested diagnosis.
+********************************************************************/
+short int CDiagnosis::iDiagnose_postwater()
+  {
+  short unsigned uNumTachyAboveNorm, uNumBradyAboveNorm, uNumDuodAboveNorm;
+  short unsigned uNum3cpmBelowNorm, uRespRate, uPeriodCnt;
+//  short int iRespRate, iRespHighCnt;
+  short int iRet = DIAG_NONE;
+
+  uNumTachyAboveNorm = 0;
+  if(m_uPostWater10[RI_TACHY] == ABOVE_NORM)
+    ++uNumTachyAboveNorm;
+  if(m_uPostWater20[RI_TACHY] == ABOVE_NORM)
+    ++uNumTachyAboveNorm;
+  if(m_uPostWater30[RI_TACHY] == ABOVE_NORM)
+    ++uNumTachyAboveNorm;
+
+  uNumBradyAboveNorm = 0;
+  if(m_uPostWater10[RI_BRADY] == ABOVE_NORM)
+    ++uNumBradyAboveNorm;
+  if(m_uPostWater20[RI_BRADY] == ABOVE_NORM)
+    ++uNumBradyAboveNorm;
+  if(m_uPostWater30[RI_BRADY] == ABOVE_NORM)
+    ++uNumBradyAboveNorm;
+
+  uNum3cpmBelowNorm = 0;
+  if(m_uPostWater10[RI_3CPM] != ABOVE_NORM)
+    ++uNum3cpmBelowNorm;
+  if(m_uPostWater20[RI_3CPM] != ABOVE_NORM)
+    ++uNum3cpmBelowNorm;
+  if(m_uPostWater30[RI_3CPM] != ABOVE_NORM)
+    ++uNum3cpmBelowNorm;
+
+  uNumDuodAboveNorm = 0;
+  if(m_uPostWater10[RI_DUOD] == ABOVE_NORM)
+    ++uNumDuodAboveNorm;
+  if(m_uPostWater20[RI_DUOD] == ABOVE_NORM)
+    ++uNumDuodAboveNorm;
+  if(m_uPostWater30[RI_DUOD] == ABOVE_NORM)
+    ++uNumDuodAboveNorm;
+
+  if(uNumDuodAboveNorm >= 2)
+    { // Look at duodenal for respiration effect.
+      // Average the respiration rate for all the periods with
+      // high duodenal.
+    uRespRate = 0;
+    uPeriodCnt = 0;
+    if(m_uPostWater10[RI_DUOD] == ABOVE_NORM)
+      {
+      uRespRate += m_pDoc->m_pdPatient.uRespRate[PERIOD_10];
+      ++uPeriodCnt;
+      }
+    if(m_uPostWater20[RI_DUOD] == ABOVE_NORM)
+      {
+      uRespRate += m_pDoc->m_pdPatient.uRespRate[PERIOD_20];
+      ++uPeriodCnt;
+      }
+    if(m_uPostWater30[RI_DUOD] == ABOVE_NORM)
+      {
+      uRespRate += m_pDoc->m_pdPatient.uRespRate[PERIOD_30];
+      ++uPeriodCnt;
+      }
+    if(uPeriodCnt != 0)
+      uRespRate /= uPeriodCnt;
+    if(uRespRate > 15)
+      iRet = DIAG_DUOD_HYPER;
+    }
+  if(iRet == DIAG_NONE)
+    { // First look for normal conditions:
+    if(uNumBradyAboveNorm == 0 && uNumTachyAboveNorm == 0)
+      {
+      if(uNum3cpmBelowNorm >= 2)
+        iRet = DIAG_NORMAL;
+      else if(uNum3cpmBelowNorm == 1)
+        iRet = DIAG_SUB_NORMAL;
+      }
+    if(iRet == DIAG_NONE)
+      {
+      if(uNumBradyAboveNorm == 0 && uNumTachyAboveNorm > 0)
+        { // Look for tachygastria
+        if(uNumTachyAboveNorm >= 2)
+          {
+          if(uNum3cpmBelowNorm >= 2)
+            iRet = DIAG_TACHY;
+          else
+            iRet = DIAG_PROB_TACHY;
+          }
+        else // if(uNumTachyAboveNorm == 1)
+          {
+          if(uNum3cpmBelowNorm >= 2)
+            iRet = DIAG_PROB_TACHY;
+          else
+            iRet = DIAG_POS_TACHY_CC;
+          }
+        }
+      else if(uNumTachyAboveNorm == 0 && uNumBradyAboveNorm > 0)
+        { // Look for bradygastria.
+        if(uNumBradyAboveNorm == 3)
+          {
+          if(uNum3cpmBelowNorm >= 2)
+            iRet = DIAG_BRADY;
+          else
+            iRet = DIAG_PROB_BRADY;
+          }
+        else if(uNumBradyAboveNorm == 2)
+          {
+          if(uNum3cpmBelowNorm >= 2)
+            iRet = DIAG_BRADY;
+          else
+            iRet = DIAG_POS_BRADY_CC;
+          }
+        else // uNumBradyAboveNorm == 1
+          {
+          if(uNum3cpmBelowNorm >= 2)
+            iRet = DIAG_POS_BRADY_CC;
+          else
+            iRet = DIAG_PROB_NORM;
+          }
+        }
+      else if(uNumBradyAboveNorm == 0 && uNumTachyAboveNorm == 0)
+        { // All values are in normal range, check for obstruction.
+        if(uNum3cpmBelowNorm > 1)
+          iRet = DIAG_NORMAL;
+        else if(uNum3cpmBelowNorm == 1)
+          {
+          iRet = DIAG_PROB_NORM;
+/**** Version III
+//          if(m_uPostWater20[RI_3CPM] == ABOVE_NORM && m_uPostWater30[RI_3CPM] == ABOVE_NORM)
+//            iRet = DIAG_PROB_NORM_GAS_OUT_OBS;
+//          else
+//            iRet = DIAG_NORMAL;
+******/
+          }
+        else // uNum3cpmAboveNorm == 3
+          iRet = DIAG_GAS_OUT_OBS;
+        }
+      }
+    }
+/***********************
+  else
+    { // At least 1 duodenal point is above normal.
+      // Need to look at respiration rate.
+      // For each period that is above normal, get the respiration rate for each
+      // minute selected and average the rate for all the minutes selected.
+
+    iRespHighCnt = 0;
+    if(m_uPostWater10[RI_DUOD] == ABOVE_NORM)
+      {
+      iRespRate = m_pDoc->m_pAnalyze->iCalc_respiration_rate(PERIOD_10,
+                                      m_pDoc->m_pdPatient.fGoodMinStart[PERIOD_10],
+                                      m_pDoc->m_pdPatient.fGoodMinEnd[PERIOD_10]);
+      if(iRespRate > 15)
+        ++iRespHighCnt;
+      }
+    if(m_uPostWater20[RI_DUOD] == ABOVE_NORM)
+      {
+      iRespRate = m_pDoc->m_pAnalyze->iCalc_respiration_rate(PERIOD_20,
+                                     m_pDoc->m_pdPatient.fGoodMinStart[PERIOD_20],
+                                     m_pDoc->m_pdPatient.fGoodMinEnd[PERIOD_20]);
+      if(iRespRate > 15)
+        ++iRespHighCnt;
+      }
+    if(m_uPostWater30[RI_DUOD] == ABOVE_NORM)
+      {
+      iRespRate = m_pDoc->m_pAnalyze->iCalc_respiration_rate(PERIOD_30,
+                                      m_pDoc->m_pdPatient.fGoodMinStart[PERIOD_30],
+                                      m_pDoc->m_pdPatient.fGoodMinEnd[PERIOD_30]);
+      if(iRespRate > 15)
+        ++iRespHighCnt;
+      }
+    if(iRespHighCnt >= 2)
+      iRet = DIAG_DUOD_HYPER;
+    }
+***********************/
+
+  if(iRet == DIAG_NONE)
+    iRet = DIAG_MIX_DYS;
+  return(iRet);
+  }

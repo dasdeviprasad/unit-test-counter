@@ -1,0 +1,84 @@
+Run the Example.exe and look at the code Example.cpp.
+
+First load DLL with hDLL = LoadLibrary("XXDRIVER.DLL");
+
+Than assign function pointers from driverh.h to the entry addresses in DLL.
+
+After initialization   handle = Initialize(1,configuration);,
+where configuration = 1 or 2 are the same in the Device.ini two configurations 
+for Impedance and EGG, you can call other functions.
+    If handle <0 function Error_Message(-num) would return pointer to the error message.
+
+Functions:
+  - Total_Channels(handle) returns number of channels for current configuration.
+  - Signal_Name(handle,i) returns name and units for channel # i from Device.ini
+  - Maximum_Value(handle,i) and Minimum_Value(handle,i) return input range.
+  - Signal_Rate(handle,i) returns sample/second rate.
+  - You can get data for channel # i by calling function num = Read_Buffer(handle,i,data,1024);
+      returned num is a number of data samples copied to your array "double data[1024]"
+      or zero if no data are avalable.
+      This data is the double numbers and are in Kohms and microvolts for Impedance and EGG.
+      If num<0 function Error_Message(-num) would return pointer to the error message.
+
+      DLL has it`s own hight priority thread and buffers can hold a few seconds of data.
+        So you don`t have to call Read_Buffer() constantly.
+      At the end call Close(handle).
+  - Is_Impedance_Mode() and  Reset_CO2_T0_0() are for the different devices 
+      and don`t work with this device.
+
+And you probably will never use Pause(), Send_Command(), Set_File_Name(), Read_DFT().
+
+
+
+EGG machine wouldn`t work propely if device.ini file is edited. 
+So it is useless for you to learn how to do it. 
+
+The only thing that can be changed is a sample rate for EGG. 
+Right now it is 341.36 s/s (4.267*80).It can be 170.68 s/s (4.267*40) OR 85.34 s/s (4.267*20) only. 
+
+
+1) Result of A/D conversion is 16bit int value, and floating point value 
+of microvolts is calculated in the driver. 
++/- 1000 uV p-p range is a natural result of measurement. 
+Adding 1000.0 is the easiest way to make it positive, if you want. 
+
+3) Electrode impedance test dosn`t require any special functions. 
+In the INI file, first configuration describes 3 signals: battery voltage and 
+two impedances for two electrodes.They are the real time signals like 
+EGG or Respiration.In our applications they are represented by bars, 
+that change their height and color depending of values. 
+For battery voltage value >6v is good(green), <5v is bad(red) and we have 
+warning "Replace battary". 
+For impedance value below than 200(Kohm) is good and above is bad. 
+If they are good we proceed to the second configuration with signals of interest. 
+
+4)We reset caps only ones at the begining of EGG acquisition.I am going to add 
+reset command to the firmware, so it will be posible to do it any time, 
+and send you info about commands and new micros soon. 
+
+
+1 Impedance channel=4,look in the INI file, is impidance between positive input electrode(white) and ground(green). 
+Impedance channel=5 is impidance between negative input electrode(black) and ground(green). 
+
+2 We apply 3 volt at the electrodes to measure impedance, obviously it is impossible 
+to measure microvolts of EGG signal, but Respiration may work fine. 
+
+
+Yes,you have to Close(handle) before you can Initialize(impedance configuration). 
+You can use Pause(handle) instead of Close(handle) between Initialize(configuration) 
+to make settling time shorter. But always Close(handle) at the end of the programm. 
+
+Settling time for the hight pass filter with 16 miliHz cutoff is about 1 minute. 
+For this device it is less then 10 seconds, if electrodes were placed on the skin before 
+programm was started and Pause(handle) between configurations. 
+
+Impedance test dosn`t significantly affect settling time. 
+
+Yes, battery voltage and Impedance are valid only after 2 seconds. 
+EGG and Respiration are valid after few miliseconds. 
+
+
+Battery voltage and impedance are valid only after 2.5 sec. 
+You have to count "iNumPts" until the summ is bigger than 
+int(2.5*Signal_Rate(m_iHandle, 2)) 
+and only after that compare value with "m_fPosImpedanceLimit" 

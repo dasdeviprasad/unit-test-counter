@@ -1,0 +1,813 @@
+27/11/2020  15:00:59  Connected to the local database: c:\3cpm\3CPM EGGSAS.mdb
+27/11/2020  15:00:59  Have 34 patients to transfer
+27/11/2020  15:00:59  Connected to the remote database: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\3CPM EGGSAS
+27/11/2020  15:00:59  Got local patient: patient ID = 49
+27/11/2020  15:00:59  Got local patient info: patient ID = 49
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 49, remote patient ID = 12
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 12
+27/11/2020  15:00:59  Got local study data for study ID: 45
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 45, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 48
+27/11/2020  15:00:59  Got local patient info: patient ID = 48
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 48, remote patient ID = 13
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 13
+27/11/2020  15:00:59  Got local study data for study ID: 44
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 44, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 44
+27/11/2020  15:00:59  Got local patient info: patient ID = 44
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 44, remote patient ID = 14
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 14
+27/11/2020  15:00:59  Got local study data for study ID: 41
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 41, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 45
+27/11/2020  15:00:59  Got local patient info: patient ID = 45
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 45, remote patient ID = 15
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 15
+27/11/2020  15:00:59  Got local study data for study ID: 42
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 42, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 47
+27/11/2020  15:00:59  Got local patient info: patient ID = 47
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 47, remote patient ID = 16
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 16
+27/11/2020  15:00:59  Got local study data for study ID: 43
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 43, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 50
+27/11/2020  15:00:59  Got local patient info: patient ID = 50
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 50, remote patient ID = 17
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 17
+27/11/2020  15:00:59  Got local study data for study ID: 46
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 46, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 42
+27/11/2020  15:00:59  Got local patient info: patient ID = 42
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 42, remote patient ID = 18
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 18
+27/11/2020  15:00:59  Got local study data for study ID: 40
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 40, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 36
+27/11/2020  15:00:59  Got local patient info: patient ID = 36
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 36, remote patient ID = 19
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 19
+27/11/2020  15:00:59  Got local study data for study ID: 34
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 34, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 37
+27/11/2020  15:00:59  Got local patient info: patient ID = 37
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 37, remote patient ID = 20
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 20
+27/11/2020  15:00:59  Got local study data for study ID: 35
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 35, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 13
+27/11/2020  15:00:59  Got local patient info: patient ID = 13
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 13, remote patient ID = 21
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 21
+27/11/2020  15:00:59  Got local study data for study ID: 13
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 13, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 14
+27/11/2020  15:00:59  Got local patient info: patient ID = 14
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 14, remote patient ID = 22
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 22
+27/11/2020  15:00:59  Got local study data for study ID: 14
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 14, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 15
+27/11/2020  15:00:59  Got local patient info: patient ID = 15
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 15, remote patient ID = 23
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 23
+27/11/2020  15:00:59  Got local study data for study ID: 15
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 15, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 16
+27/11/2020  15:00:59  Got local patient info: patient ID = 16
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 16, remote patient ID = 24
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 24
+27/11/2020  15:00:59  Got local study data for study ID: 16
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 16, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 17
+27/11/2020  15:00:59  Got local patient info: patient ID = 17
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 17, remote patient ID = 25
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 25
+27/11/2020  15:00:59  Got local study data for study ID: 17
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 17, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 18
+27/11/2020  15:00:59  Got local patient info: patient ID = 18
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 18, remote patient ID = 26
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 26
+27/11/2020  15:00:59  Got local study data for study ID: 18
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 18, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 19
+27/11/2020  15:00:59  Got local patient info: patient ID = 19
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 19, remote patient ID = 27
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 27
+27/11/2020  15:00:59  Got local study data for study ID: 19
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 19, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 20
+27/11/2020  15:00:59  Got local patient info: patient ID = 20
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 20, remote patient ID = 28
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 28
+27/11/2020  15:00:59  Got local study data for study ID: 20
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 20, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 21
+27/11/2020  15:00:59  Got local patient info: patient ID = 21
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 21, remote patient ID = 29
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 29
+27/11/2020  15:00:59  Got local study data for study ID: 21
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 21, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 22
+27/11/2020  15:00:59  Got local patient info: patient ID = 22
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 22, remote patient ID = 30
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 30
+27/11/2020  15:00:59  Got local study data for study ID: 22
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 22, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 23
+27/11/2020  15:00:59  Got local patient info: patient ID = 23
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 23, remote patient ID = 31
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 31
+27/11/2020  15:00:59  Got local study data for study ID: 23
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 23, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 24
+27/11/2020  15:00:59  Got local patient info: patient ID = 24
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 24, remote patient ID = 32
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 32
+27/11/2020  15:00:59  Got local study data for study ID: 24
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 24, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 25
+27/11/2020  15:00:59  Got local patient info: patient ID = 25
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 25, remote patient ID = 33
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 33
+27/11/2020  15:00:59  Got local study data for study ID: 25
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 25, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 26
+27/11/2020  15:00:59  Got local patient info: patient ID = 26
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 26, remote patient ID = 34
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 34
+27/11/2020  15:00:59  Got local study data for study ID: 26
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 26, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 27
+27/11/2020  15:00:59  Got local patient info: patient ID = 27
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 27, remote patient ID = 35
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 35
+27/11/2020  15:00:59  Got local study data for study ID: 27
+27/11/2020  15:00:59  Saved study data to remote DB: local study ID: 27, remote study ID: 
+27/11/2020  15:00:59  Got local patient: patient ID = 28
+27/11/2020  15:00:59  Got local patient info: patient ID = 28
+27/11/2020  15:00:59  Save patient to remote DB: local patient ID = 28, remote patient ID = 36
+27/11/2020  15:00:59  Save patient info to remote DB: remote patient ID = 36
+27/11/2020  15:00:59  Got local study data for study ID: 28
+27/11/2020  15:01:00  Saved study data to remote DB: local study ID: 28, remote study ID: 
+27/11/2020  15:01:00  Found a WhatIf for local study ID: 28, WhatIf ID: 
+27/11/2020  15:01:00  Saved a WhatIf to remote DB, local study ID: 28, remote WhatIf ID: 
+27/11/2020  15:01:00  Found a WhatIf for local study ID: 28, WhatIf ID: 
+27/11/2020  15:01:00  Saved a WhatIf to remote DB, local study ID: 28, remote WhatIf ID: 
+27/11/2020  15:01:00  Found a WhatIf for local study ID: 28, WhatIf ID: 
+27/11/2020  15:01:00  Saved a WhatIf to remote DB, local study ID: 28, remote WhatIf ID: 
+27/11/2020  15:01:00  Got local patient: patient ID = 29
+27/11/2020  15:01:00  Got local patient info: patient ID = 29
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 29, remote patient ID = 37
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 37
+27/11/2020  15:01:00  Got local study data for study ID: 29
+27/11/2020  15:01:00  Saved study data to remote DB: local study ID: 29, remote study ID: 
+27/11/2020  15:01:00  Found an event for local study ID: 29, Event ID: 
+27/11/2020  15:01:00  Saved event to remote DB, local study ID: 29, remote Event ID: 
+27/11/2020  15:01:00  Found an event for local study ID: 29, Event ID: 
+27/11/2020  15:01:00  Saved event to remote DB, local study ID: 29, remote Event ID: 
+27/11/2020  15:01:00  Got local patient: patient ID = 30
+27/11/2020  15:01:00  Got local patient info: patient ID = 30
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 30, remote patient ID = 38
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 38
+27/11/2020  15:01:00  Got local study data for study ID: 30
+27/11/2020  15:01:00  Saved study data to remote DB: local study ID: 30, remote study ID: 
+27/11/2020  15:01:00  Found a WhatIf for local study ID: 30, WhatIf ID: 
+27/11/2020  15:01:00  Saved a WhatIf to remote DB, local study ID: 30, remote WhatIf ID: 
+27/11/2020  15:01:00  Found a WhatIf for local study ID: 30, WhatIf ID: 
+27/11/2020  15:01:00  Saved a WhatIf to remote DB, local study ID: 30, remote WhatIf ID: 
+27/11/2020  15:01:00  Found an event for local study ID: 30, Event ID: 
+27/11/2020  15:01:00  Saved event to remote DB, local study ID: 30, remote Event ID: 
+27/11/2020  15:01:00  Found an event for local study ID: 30, Event ID: 
+27/11/2020  15:01:00  Saved event to remote DB, local study ID: 30, remote Event ID: 
+27/11/2020  15:01:00  Found an event for local study ID: 30, Event ID: 
+27/11/2020  15:01:00  Saved event to remote DB, local study ID: 30, remote Event ID: 
+27/11/2020  15:01:00  Found an event for local study ID: 30, Event ID: 
+27/11/2020  15:01:00  Saved event to remote DB, local study ID: 30, remote Event ID: 
+27/11/2020  15:01:00  Found an event for local study ID: 30, Event ID: 
+27/11/2020  15:01:00  Saved event to remote DB, local study ID: 30, remote Event ID: 
+27/11/2020  15:01:00  Got local patient: patient ID = 31
+27/11/2020  15:01:00  Got local patient info: patient ID = 31
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 31, remote patient ID = 39
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 39
+27/11/2020  15:01:00  Got local study data for study ID: 31
+27/11/2020  15:01:00  Saved study data to remote DB: local study ID: 31, remote study ID: 
+27/11/2020  15:01:00  Got local patient: patient ID = 12
+27/11/2020  15:01:00  Got local patient info: patient ID = 12
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 12, remote patient ID = 40
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 40
+27/11/2020  15:01:00  Got local study data for study ID: 12
+27/11/2020  15:01:00  Saved study data to remote DB: local study ID: 12, remote study ID: 
+27/11/2020  15:01:00  Found a WhatIf for local study ID: 12, WhatIf ID: 
+27/11/2020  15:01:00  Saved a WhatIf to remote DB, local study ID: 12, remote WhatIf ID: 
+27/11/2020  15:01:00  Got local patient: patient ID = 32
+27/11/2020  15:01:00  Got local patient info: patient ID = 32
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 32, remote patient ID = 41
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 41
+27/11/2020  15:01:00  Got local patient: patient ID = 34
+27/11/2020  15:01:00  Got local patient info: patient ID = 34
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 34, remote patient ID = 42
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 42
+27/11/2020  15:01:00  Got local study data for study ID: 32
+27/11/2020  15:01:00  Saved study data to remote DB: local study ID: 32, remote study ID: 
+27/11/2020  15:01:00  Got local patient: patient ID = 35
+27/11/2020  15:01:00  Got local patient info: patient ID = 35
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 35, remote patient ID = 43
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 43
+27/11/2020  15:01:00  Got local study data for study ID: 33
+27/11/2020  15:01:00  Saved study data to remote DB: local study ID: 33, remote study ID: 
+27/11/2020  15:01:00  Got local patient: patient ID = 43
+27/11/2020  15:01:00  Got local patient info: patient ID = 43
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 43, remote patient ID = 44
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 44
+27/11/2020  15:01:00  Got local patient: patient ID = 33
+27/11/2020  15:01:00  Got local patient info: patient ID = 33
+27/11/2020  15:01:00  Save patient to remote DB: local patient ID = 33, remote patient ID = 45
+27/11/2020  15:01:00  Save patient info to remote DB: remote patient ID = 45
+27/11/2020  15:01:00  Copying *.egg files from c:\3cpm to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test.
+27/11/2020  15:01:00      Copying file: 10001 a78816b6-c26f-0cb0-1.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\10001 a78816b6-c26f-0cb0-1.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\10001 a78816b6-c26f-0cb0-1.egg: 
+27/11/2020  15:01:00      Copying file: 1001 fe895816-126d-0ef0-1.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\1001 fe895816-126d-0ef0-1.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1001 fe895816-126d-0ef0-1.egg: 
+27/11/2020  15:01:00      Copying file: 1112 06-11-2016.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\1112 06-11-2016.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-11-2016.egg: 
+27/11/2020  15:01:00      Copying file: 1112 06-14-2016.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\1112 06-14-2016.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-14-2016.egg: 
+27/11/2020  15:01:00      Copying file: 1234 4f425546-b26c-0120-1.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\1234 4f425546-b26c-0120-1.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1234 4f425546-b26c-0120-1.egg: 
+27/11/2020  15:01:00      Copying file: 12345 815650e6-e26e-0da0-1.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\12345 815650e6-e26e-0da0-1.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\12345 815650e6-e26e-0da0-1.egg: 
+27/11/2020  15:01:00      Copying file: 22221 41449546-3262-2620-1.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\22221 41449546-3262-2620-1.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 41449546-3262-2620-1.egg: 
+27/11/2020  15:01:00      Copying file: 33330 7d210bc7-326a-0030-1.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\33330 7d210bc7-326a-0030-1.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\33330 7d210bc7-326a-0030-1.egg: 
+27/11/2020  15:01:00      Copying file: A  Patient 07-01-2008.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\A  Patient 07-01-2008.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\A  Patient 07-01-2008.egg: 
+27/11/2020  15:01:00      Copying file: Allison Stock - 10-22-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Allison Stock - 10-22-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Allison Stock - 10-22-2012.egg: 
+27/11/2020  15:01:00      Copying file: Ashley Rosen - 10-16-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Ashley Rosen - 10-16-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Ashley Rosen - 10-16-2012.egg: 
+27/11/2020  15:01:00      Copying file: B  Patient 10-05-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\B  Patient 10-05-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\B  Patient 10-05-2010.egg: 
+27/11/2020  15:01:00      Copying file: C  Patient 04-14-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\C  Patient 04-14-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\C  Patient 04-14-2010.egg: 
+27/11/2020  15:01:00      Copying file: D  Patient 11-03-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\D  Patient 11-03-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\D  Patient 11-03-2010.egg: 
+27/11/2020  15:01:00      Copying file: E  Patient 02-07-2008.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\E  Patient 02-07-2008.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\E  Patient 02-07-2008.egg: 
+27/11/2020  15:01:00      Copying file: F  Patient 07-23-2007.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\F  Patient 07-23-2007.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\F  Patient 07-23-2007.egg: 
+27/11/2020  15:01:00      Copying file: G  Patient 05-13-2009.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\G  Patient 05-13-2009.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\G  Patient 05-13-2009.egg: 
+27/11/2020  15:01:00      Copying file: H  Patient 06-11-2008.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\H  Patient 06-11-2008.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\H  Patient 06-11-2008.egg: 
+27/11/2020  15:01:00      Copying file: I  Patient 12-02-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\I  Patient 12-02-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\I  Patient 12-02-2010.egg: 
+27/11/2020  15:01:00      Copying file: J  Patient 11-08-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\J  Patient 11-08-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\J  Patient 11-08-2010.egg: 
+27/11/2020  15:01:00      Copying file: K  Patient 11-23-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\K  Patient 11-23-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\K  Patient 11-23-2010.egg: 
+27/11/2020  15:01:00      Copying file: L  Patient 10-11-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\L  Patient 10-11-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\L  Patient 10-11-2010.egg: 
+27/11/2020  15:01:00      Copying file: M  Patient 10-21-2010.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\M  Patient 10-21-2010.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\M  Patient 10-21-2010.egg: 
+27/11/2020  15:01:00      Copying file: Misty Snow - 09-25-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Misty Snow - 09-25-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Misty Snow - 09-25-2012.egg: 
+27/11/2020  15:01:00      Copying file: Natalie Powers - 09-19-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Natalie Powers - 09-19-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Natalie Powers - 09-19-2012.egg: 
+27/11/2020  15:01:00      Copying file: Patricia Goodman - 09-25-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Patricia Goodman - 09-25-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Patricia Goodman - 09-25-2012.egg: 
+27/11/2020  15:01:00      Copying file: R  T 02-27-2013.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\R  T 02-27-2013.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T 02-27-2013.egg: 
+27/11/2020  15:01:00      Copying file: R  T 11-28-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\R  T 11-28-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T 11-28-2012.egg: 
+27/11/2020  15:01:00      Copying file: R  T200 09-29-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\R  T200 09-29-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T200 09-29-2012.egg: 
+27/11/2020  15:01:00      Copying file: R  T60 09-22-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\R  T60 09-22-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T60 09-22-2012.egg: 
+27/11/2020  15:01:00      Copying file: R  TH 02-27-2013.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\R  TH 02-27-2013.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  TH 02-27-2013.egg: 
+27/11/2020  15:01:00      Copying file: Ra  Patient 07-17-2007.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Ra  Patient 07-17-2007.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Ra  Patient 07-17-2007.egg: 
+27/11/2020  15:01:00      Copying file: Rb  Patient 07-15-2008.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Rb  Patient 07-15-2008.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rb  Patient 07-15-2008.egg: 
+27/11/2020  15:01:00      Copying file: Rc  Patient 01-11-2008.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Rc  Patient 01-11-2008.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rc  Patient 01-11-2008.egg: 
+27/11/2020  15:01:00      Copying file: Rd  Patient 06-17-2008.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\Rd  Patient 06-17-2008.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rd  Patient 06-17-2008.egg: 
+27/11/2020  15:01:00      Copying file: rwl rv test 2B 05-17-2011.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\rwl rv test 2B 05-17-2011.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\rwl rv test 2B 05-17-2011.egg: 
+27/11/2020  15:01:00      Copying file: T  Y 11-28-2012.egg
+27/11/2020  15:01:00          Copied file from c:\3cpm\T  Y 11-28-2012.egg to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\T  Y 11-28-2012.egg: 
+27/11/2020  15:01:00  Copying *.csv files from c:\3cpm to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test.
+27/11/2020  15:01:00      Copying file: 1112 06-14-2016.csv
+27/11/2020  15:01:00          Copied file from c:\3cpm\1112 06-14-2016.csv to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-14-2016.csv: 
+27/11/2020  15:01:00      Copying file: 22221 06-24-2016.csv
+27/11/2020  15:01:00          Copied file from c:\3cpm\22221 06-24-2016.csv to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 06-24-2016.csv: 
+27/11/2020  15:01:00      Copying file: 22221 41449546-3262-2620-1.csv
+27/11/2020  15:01:00          Copied file from c:\3cpm\22221 41449546-3262-2620-1.csv to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 41449546-3262-2620-1.csv: 
+27/11/2020  15:01:00      Copying file: 22221 ffb4dbd6-1260-2210-1.csv
+27/11/2020  15:01:00          Copied file from c:\3cpm\22221 ffb4dbd6-1260-2210-1.csv to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 ffb4dbd6-1260-2210-1.csv: 
+27/11/2020  15:01:00      Copying file: A  Patient 07-01-2008.csv
+27/11/2020  15:01:00          Copied file from c:\3cpm\A  Patient 07-01-2008.csv to C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\A  Patient 07-01-2008.csv: 
+27/11/2020  15:01:00  Validating
+27/11/2020  15:01:00  Got patient from local database, patient ID: 49
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 12
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 49, remote patient ID: 12
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 49
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 12
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 49, remote patient ID: 12
+27/11/2020  15:01:00  Comparing studies for local patient ID: 49 and remote patient ID: 12
+27/11/2020  15:01:00  Found local study to compare, study ID: 45
+27/11/2020  15:01:00  Got local study data to compare, study ID: 45
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 12
+27/11/2020  15:01:00  Comparing study data, local study ID: 45, remote study ID: 12
+27/11/2020  15:01:00  Got patient from local database, patient ID: 48
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 13
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 48, remote patient ID: 13
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 48
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 13
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 48, remote patient ID: 13
+27/11/2020  15:01:00  Comparing studies for local patient ID: 48 and remote patient ID: 13
+27/11/2020  15:01:00  Found local study to compare, study ID: 44
+27/11/2020  15:01:00  Got local study data to compare, study ID: 44
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 13
+27/11/2020  15:01:00  Comparing study data, local study ID: 44, remote study ID: 13
+27/11/2020  15:01:00  Got patient from local database, patient ID: 44
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 14
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 44, remote patient ID: 14
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 44
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 14
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 44, remote patient ID: 14
+27/11/2020  15:01:00  Comparing studies for local patient ID: 44 and remote patient ID: 14
+27/11/2020  15:01:00  Found local study to compare, study ID: 41
+27/11/2020  15:01:00  Got local study data to compare, study ID: 41
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 14
+27/11/2020  15:01:00  Comparing study data, local study ID: 41, remote study ID: 14
+27/11/2020  15:01:00  Got patient from local database, patient ID: 45
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 15
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 45, remote patient ID: 15
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 45
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 15
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 45, remote patient ID: 15
+27/11/2020  15:01:00  Comparing studies for local patient ID: 45 and remote patient ID: 15
+27/11/2020  15:01:00  Found local study to compare, study ID: 42
+27/11/2020  15:01:00  Got local study data to compare, study ID: 42
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 15
+27/11/2020  15:01:00  Comparing study data, local study ID: 42, remote study ID: 15
+27/11/2020  15:01:00  Got patient from local database, patient ID: 47
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 16
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 47, remote patient ID: 16
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 47
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 16
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 47, remote patient ID: 16
+27/11/2020  15:01:00  Comparing studies for local patient ID: 47 and remote patient ID: 16
+27/11/2020  15:01:00  Found local study to compare, study ID: 43
+27/11/2020  15:01:00  Got local study data to compare, study ID: 43
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 16
+27/11/2020  15:01:00  Comparing study data, local study ID: 43, remote study ID: 16
+27/11/2020  15:01:00  Got patient from local database, patient ID: 50
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 17
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 50, remote patient ID: 17
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 50
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 17
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 50, remote patient ID: 17
+27/11/2020  15:01:00  Comparing studies for local patient ID: 50 and remote patient ID: 17
+27/11/2020  15:01:00  Found local study to compare, study ID: 46
+27/11/2020  15:01:00  Got local study data to compare, study ID: 46
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 17
+27/11/2020  15:01:00  Comparing study data, local study ID: 46, remote study ID: 17
+27/11/2020  15:01:00  Got patient from local database, patient ID: 42
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 18
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 42, remote patient ID: 18
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 42
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 18
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 42, remote patient ID: 18
+27/11/2020  15:01:00  Comparing studies for local patient ID: 42 and remote patient ID: 18
+27/11/2020  15:01:00  Found local study to compare, study ID: 40
+27/11/2020  15:01:00  Got local study data to compare, study ID: 40
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 18
+27/11/2020  15:01:00  Comparing study data, local study ID: 40, remote study ID: 18
+27/11/2020  15:01:00  Got patient from local database, patient ID: 36
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 19
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 36, remote patient ID: 19
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 36
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 19
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 36, remote patient ID: 19
+27/11/2020  15:01:00  Comparing studies for local patient ID: 36 and remote patient ID: 19
+27/11/2020  15:01:00  Found local study to compare, study ID: 34
+27/11/2020  15:01:00  Got local study data to compare, study ID: 34
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 19
+27/11/2020  15:01:00  Comparing study data, local study ID: 34, remote study ID: 19
+27/11/2020  15:01:00  Got patient from local database, patient ID: 37
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 20
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 37, remote patient ID: 20
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 37
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 20
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 37, remote patient ID: 20
+27/11/2020  15:01:00  Comparing studies for local patient ID: 37 and remote patient ID: 20
+27/11/2020  15:01:00  Found local study to compare, study ID: 35
+27/11/2020  15:01:00  Got local study data to compare, study ID: 35
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 20
+27/11/2020  15:01:00  Comparing study data, local study ID: 35, remote study ID: 20
+27/11/2020  15:01:00  Got patient from local database, patient ID: 13
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 21
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 13, remote patient ID: 21
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 13
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 21
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 13, remote patient ID: 21
+27/11/2020  15:01:00  Comparing studies for local patient ID: 13 and remote patient ID: 21
+27/11/2020  15:01:00  Found local study to compare, study ID: 13
+27/11/2020  15:01:00  Got local study data to compare, study ID: 13
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 21
+27/11/2020  15:01:00  Comparing study data, local study ID: 13, remote study ID: 21
+27/11/2020  15:01:00  Got patient from local database, patient ID: 14
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 22
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 14, remote patient ID: 22
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 14
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 22
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 14, remote patient ID: 22
+27/11/2020  15:01:00  Comparing studies for local patient ID: 14 and remote patient ID: 22
+27/11/2020  15:01:00  Found local study to compare, study ID: 14
+27/11/2020  15:01:00  Got local study data to compare, study ID: 14
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 22
+27/11/2020  15:01:00  Comparing study data, local study ID: 14, remote study ID: 22
+27/11/2020  15:01:00  Got patient from local database, patient ID: 15
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 23
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 15, remote patient ID: 23
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 15
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 23
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 15, remote patient ID: 23
+27/11/2020  15:01:00  Comparing studies for local patient ID: 15 and remote patient ID: 23
+27/11/2020  15:01:00  Found local study to compare, study ID: 15
+27/11/2020  15:01:00  Got local study data to compare, study ID: 15
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 23
+27/11/2020  15:01:00  Comparing study data, local study ID: 15, remote study ID: 23
+27/11/2020  15:01:00  Got patient from local database, patient ID: 16
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 24
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 16, remote patient ID: 24
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 16
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 24
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 16, remote patient ID: 24
+27/11/2020  15:01:00  Comparing studies for local patient ID: 16 and remote patient ID: 24
+27/11/2020  15:01:00  Found local study to compare, study ID: 16
+27/11/2020  15:01:00  Got local study data to compare, study ID: 16
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 24
+27/11/2020  15:01:00  Comparing study data, local study ID: 16, remote study ID: 24
+27/11/2020  15:01:00  Got patient from local database, patient ID: 17
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 25
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 17, remote patient ID: 25
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 17
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 25
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 17, remote patient ID: 25
+27/11/2020  15:01:00  Comparing studies for local patient ID: 17 and remote patient ID: 25
+27/11/2020  15:01:00  Found local study to compare, study ID: 17
+27/11/2020  15:01:00  Got local study data to compare, study ID: 17
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 25
+27/11/2020  15:01:00  Comparing study data, local study ID: 17, remote study ID: 25
+27/11/2020  15:01:00  Got patient from local database, patient ID: 18
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 26
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 18, remote patient ID: 26
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 18
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 26
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 18, remote patient ID: 26
+27/11/2020  15:01:00  Comparing studies for local patient ID: 18 and remote patient ID: 26
+27/11/2020  15:01:00  Found local study to compare, study ID: 18
+27/11/2020  15:01:00  Got local study data to compare, study ID: 18
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 26
+27/11/2020  15:01:00  Comparing study data, local study ID: 18, remote study ID: 26
+27/11/2020  15:01:00  Got patient from local database, patient ID: 19
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 27
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 19, remote patient ID: 27
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 19
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 27
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 19, remote patient ID: 27
+27/11/2020  15:01:00  Comparing studies for local patient ID: 19 and remote patient ID: 27
+27/11/2020  15:01:00  Found local study to compare, study ID: 19
+27/11/2020  15:01:00  Got local study data to compare, study ID: 19
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 27
+27/11/2020  15:01:00  Comparing study data, local study ID: 19, remote study ID: 27
+27/11/2020  15:01:00  Got patient from local database, patient ID: 20
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 28
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 20, remote patient ID: 28
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 20
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 28
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 20, remote patient ID: 28
+27/11/2020  15:01:00  Comparing studies for local patient ID: 20 and remote patient ID: 28
+27/11/2020  15:01:00  Found local study to compare, study ID: 20
+27/11/2020  15:01:00  Got local study data to compare, study ID: 20
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 28
+27/11/2020  15:01:00  Comparing study data, local study ID: 20, remote study ID: 28
+27/11/2020  15:01:00  Got patient from local database, patient ID: 21
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 29
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 21, remote patient ID: 29
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 21
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 29
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 21, remote patient ID: 29
+27/11/2020  15:01:00  Comparing studies for local patient ID: 21 and remote patient ID: 29
+27/11/2020  15:01:00  Found local study to compare, study ID: 21
+27/11/2020  15:01:00  Got local study data to compare, study ID: 21
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 29
+27/11/2020  15:01:00  Comparing study data, local study ID: 21, remote study ID: 29
+27/11/2020  15:01:00  Got patient from local database, patient ID: 22
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 30
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 22, remote patient ID: 30
+27/11/2020  15:01:00  Got patient info from local database, patient ID: 22
+27/11/2020  15:01:00  Got patient info from remote database, patient ID: 30
+27/11/2020  15:01:00  Comparing Patient info records, local patient ID: 22, remote patient ID: 30
+27/11/2020  15:01:00  Comparing studies for local patient ID: 22 and remote patient ID: 30
+27/11/2020  15:01:00  Found local study to compare, study ID: 22
+27/11/2020  15:01:00  Got local study data to compare, study ID: 22
+27/11/2020  15:01:00  Got remote study data to compare, study ID: 30
+27/11/2020  15:01:00  Comparing study data, local study ID: 22, remote study ID: 30
+27/11/2020  15:01:00  Got patient from local database, patient ID: 23
+27/11/2020  15:01:00  Got patient from remote database, patient ID: 31
+27/11/2020  15:01:00  Comparing Patient records, local patient ID: 23, remote patient ID: 31
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 23
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 31
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 23, remote patient ID: 31
+27/11/2020  15:01:01  Comparing studies for local patient ID: 23 and remote patient ID: 31
+27/11/2020  15:01:01  Found local study to compare, study ID: 23
+27/11/2020  15:01:01  Got local study data to compare, study ID: 23
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 31
+27/11/2020  15:01:01  Comparing study data, local study ID: 23, remote study ID: 31
+27/11/2020  15:01:01  Got patient from local database, patient ID: 24
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 32
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 24, remote patient ID: 32
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 24
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 32
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 24, remote patient ID: 32
+27/11/2020  15:01:01  Comparing studies for local patient ID: 24 and remote patient ID: 32
+27/11/2020  15:01:01  Found local study to compare, study ID: 24
+27/11/2020  15:01:01  Got local study data to compare, study ID: 24
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 32
+27/11/2020  15:01:01  Comparing study data, local study ID: 24, remote study ID: 32
+27/11/2020  15:01:01  Got patient from local database, patient ID: 25
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 33
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 25, remote patient ID: 33
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 25
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 33
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 25, remote patient ID: 33
+27/11/2020  15:01:01  Comparing studies for local patient ID: 25 and remote patient ID: 33
+27/11/2020  15:01:01  Found local study to compare, study ID: 25
+27/11/2020  15:01:01  Got local study data to compare, study ID: 25
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 33
+27/11/2020  15:01:01  Comparing study data, local study ID: 25, remote study ID: 33
+27/11/2020  15:01:01  Got patient from local database, patient ID: 26
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 34
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 26, remote patient ID: 34
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 26
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 34
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 26, remote patient ID: 34
+27/11/2020  15:01:01  Comparing studies for local patient ID: 26 and remote patient ID: 34
+27/11/2020  15:01:01  Found local study to compare, study ID: 26
+27/11/2020  15:01:01  Got local study data to compare, study ID: 26
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 34
+27/11/2020  15:01:01  Comparing study data, local study ID: 26, remote study ID: 34
+27/11/2020  15:01:01  Got patient from local database, patient ID: 27
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 35
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 27, remote patient ID: 35
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 27
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 35
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 27, remote patient ID: 35
+27/11/2020  15:01:01  Comparing studies for local patient ID: 27 and remote patient ID: 35
+27/11/2020  15:01:01  Found local study to compare, study ID: 27
+27/11/2020  15:01:01  Got local study data to compare, study ID: 27
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 35
+27/11/2020  15:01:01  Comparing study data, local study ID: 27, remote study ID: 35
+27/11/2020  15:01:01  Got patient from local database, patient ID: 28
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 36
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 28, remote patient ID: 36
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 28
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 36
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 28, remote patient ID: 36
+27/11/2020  15:01:01  Comparing studies for local patient ID: 28 and remote patient ID: 36
+27/11/2020  15:01:01  Found local study to compare, study ID: 28
+27/11/2020  15:01:01  Got local study data to compare, study ID: 28
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 36
+27/11/2020  15:01:01  Comparing study data, local study ID: 28, remote study ID: 36
+27/11/2020  15:01:01  Found a local WhatIf, WhatIf ID: 1
+27/11/2020  15:01:01  Found a remote WhatIf, WhatIf ID: 1
+27/11/2020  15:01:01  Comparing WhatIfs, local WhatIf ID: 1, remote WhatIf ID: 1
+27/11/2020  15:01:01  Found a local WhatIf, WhatIf ID: 2
+27/11/2020  15:01:01  Got patient from local database, patient ID: 29
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 37
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 29, remote patient ID: 37
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 29
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 37
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 29, remote patient ID: 37
+27/11/2020  15:01:01  Comparing studies for local patient ID: 29 and remote patient ID: 37
+27/11/2020  15:01:01  Found local study to compare, study ID: 29
+27/11/2020  15:01:01  Got local study data to compare, study ID: 29
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 37
+27/11/2020  15:01:01  Comparing study data, local study ID: 29, remote study ID: 37
+27/11/2020  15:01:01  Got patient from local database, patient ID: 30
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 38
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 30, remote patient ID: 38
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 30
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 38
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 30, remote patient ID: 38
+27/11/2020  15:01:01  Comparing studies for local patient ID: 30 and remote patient ID: 38
+27/11/2020  15:01:01  Found local study to compare, study ID: 30
+27/11/2020  15:01:01  Got local study data to compare, study ID: 30
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 38
+27/11/2020  15:01:01  Comparing study data, local study ID: 30, remote study ID: 38
+27/11/2020  15:01:01  Found a local WhatIf, WhatIf ID: 4
+27/11/2020  15:01:01  Found a remote WhatIf, WhatIf ID: 4
+27/11/2020  15:01:01  Comparing WhatIfs, local WhatIf ID: 4, remote WhatIf ID: 4
+27/11/2020  15:01:01  Found a local WhatIf, WhatIf ID: 5
+27/11/2020  15:01:01  Got patient from local database, patient ID: 31
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 39
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 31, remote patient ID: 39
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 31
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 39
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 31, remote patient ID: 39
+27/11/2020  15:01:01  Comparing studies for local patient ID: 31 and remote patient ID: 39
+27/11/2020  15:01:01  Found local study to compare, study ID: 31
+27/11/2020  15:01:01  Got local study data to compare, study ID: 31
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 39
+27/11/2020  15:01:01  Comparing study data, local study ID: 31, remote study ID: 39
+27/11/2020  15:01:01  Got patient from local database, patient ID: 12
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 40
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 12, remote patient ID: 40
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 12
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 40
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 12, remote patient ID: 40
+27/11/2020  15:01:01  Comparing studies for local patient ID: 12 and remote patient ID: 40
+27/11/2020  15:01:01  Found local study to compare, study ID: 12
+27/11/2020  15:01:01  Got local study data to compare, study ID: 12
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 40
+27/11/2020  15:01:01  Comparing study data, local study ID: 12, remote study ID: 40
+27/11/2020  15:01:01  Found a local WhatIf, WhatIf ID: 6
+27/11/2020  15:01:01  Found a remote WhatIf, WhatIf ID: 6
+27/11/2020  15:01:01  Comparing WhatIfs, local WhatIf ID: 6, remote WhatIf ID: 6
+27/11/2020  15:01:01  Got patient from local database, patient ID: 32
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 41
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 32, remote patient ID: 41
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 32
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 41
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 32, remote patient ID: 41
+27/11/2020  15:01:01  Comparing studies for local patient ID: 32 and remote patient ID: 41
+27/11/2020  15:01:01  Got patient from local database, patient ID: 34
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 42
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 34, remote patient ID: 42
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 34
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 42
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 34, remote patient ID: 42
+27/11/2020  15:01:01  Comparing studies for local patient ID: 34 and remote patient ID: 42
+27/11/2020  15:01:01  Found local study to compare, study ID: 32
+27/11/2020  15:01:01  Got local study data to compare, study ID: 32
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 41
+27/11/2020  15:01:01  Comparing study data, local study ID: 32, remote study ID: 41
+27/11/2020  15:01:01  Got patient from local database, patient ID: 35
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 43
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 35, remote patient ID: 43
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 35
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 43
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 35, remote patient ID: 43
+27/11/2020  15:01:01  Comparing studies for local patient ID: 35 and remote patient ID: 43
+27/11/2020  15:01:01  Found local study to compare, study ID: 33
+27/11/2020  15:01:01  Got local study data to compare, study ID: 33
+27/11/2020  15:01:01  Got remote study data to compare, study ID: 42
+27/11/2020  15:01:01  Comparing study data, local study ID: 33, remote study ID: 42
+27/11/2020  15:01:01  Got patient from local database, patient ID: 43
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 44
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 43, remote patient ID: 44
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 43
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 44
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 43, remote patient ID: 44
+27/11/2020  15:01:01  Comparing studies for local patient ID: 43 and remote patient ID: 44
+27/11/2020  15:01:01  Got patient from local database, patient ID: 33
+27/11/2020  15:01:01  Got patient from remote database, patient ID: 45
+27/11/2020  15:01:01  Comparing Patient records, local patient ID: 33, remote patient ID: 45
+27/11/2020  15:01:01  Got patient info from local database, patient ID: 33
+27/11/2020  15:01:01  Got patient info from remote database, patient ID: 45
+27/11/2020  15:01:01  Comparing Patient info records, local patient ID: 33, remote patient ID: 45
+27/11/2020  15:01:01  Comparing studies for local patient ID: 33 and remote patient ID: 45
+27/11/2020  15:01:01  Compare data files: c:\3cpm\10001 a78816b6-c26f-0cb0-1.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\10001 a78816b6-c26f-0cb0-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\10001 a78816b6-c26f-0cb0-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\10001 a78816b6-c26f-0cb0-1.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\1001 fe895816-126d-0ef0-1.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1001 fe895816-126d-0ef0-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\1001 fe895816-126d-0ef0-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1001 fe895816-126d-0ef0-1.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\1112 06-11-2016.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-11-2016.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\1112 06-11-2016.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-11-2016.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\1112 06-14-2016.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-14-2016.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\1112 06-14-2016.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-14-2016.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\1234 4f425546-b26c-0120-1.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1234 4f425546-b26c-0120-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\1234 4f425546-b26c-0120-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1234 4f425546-b26c-0120-1.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\12345 815650e6-e26e-0da0-1.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\12345 815650e6-e26e-0da0-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\12345 815650e6-e26e-0da0-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\12345 815650e6-e26e-0da0-1.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\22221 41449546-3262-2620-1.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 41449546-3262-2620-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\22221 41449546-3262-2620-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 41449546-3262-2620-1.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\33330 7d210bc7-326a-0030-1.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\33330 7d210bc7-326a-0030-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\33330 7d210bc7-326a-0030-1.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\33330 7d210bc7-326a-0030-1.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\A  Patient 07-01-2008.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\A  Patient 07-01-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\A  Patient 07-01-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\A  Patient 07-01-2008.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Allison Stock - 10-22-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Allison Stock - 10-22-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Allison Stock - 10-22-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Allison Stock - 10-22-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Ashley Rosen - 10-16-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Ashley Rosen - 10-16-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Ashley Rosen - 10-16-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Ashley Rosen - 10-16-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\B  Patient 10-05-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\B  Patient 10-05-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\B  Patient 10-05-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\B  Patient 10-05-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\C  Patient 04-14-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\C  Patient 04-14-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\C  Patient 04-14-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\C  Patient 04-14-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\D  Patient 11-03-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\D  Patient 11-03-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\D  Patient 11-03-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\D  Patient 11-03-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\E  Patient 02-07-2008.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\E  Patient 02-07-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\E  Patient 02-07-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\E  Patient 02-07-2008.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\F  Patient 07-23-2007.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\F  Patient 07-23-2007.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\F  Patient 07-23-2007.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\F  Patient 07-23-2007.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\G  Patient 05-13-2009.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\G  Patient 05-13-2009.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\G  Patient 05-13-2009.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\G  Patient 05-13-2009.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\H  Patient 06-11-2008.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\H  Patient 06-11-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\H  Patient 06-11-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\H  Patient 06-11-2008.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\I  Patient 12-02-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\I  Patient 12-02-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\I  Patient 12-02-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\I  Patient 12-02-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\J  Patient 11-08-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\J  Patient 11-08-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\J  Patient 11-08-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\J  Patient 11-08-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\K  Patient 11-23-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\K  Patient 11-23-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\K  Patient 11-23-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\K  Patient 11-23-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\L  Patient 10-11-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\L  Patient 10-11-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\L  Patient 10-11-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\L  Patient 10-11-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\M  Patient 10-21-2010.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\M  Patient 10-21-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\M  Patient 10-21-2010.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\M  Patient 10-21-2010.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Misty Snow - 09-25-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Misty Snow - 09-25-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Misty Snow - 09-25-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Misty Snow - 09-25-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Natalie Powers - 09-19-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Natalie Powers - 09-19-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Natalie Powers - 09-19-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Natalie Powers - 09-19-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Patricia Goodman - 09-25-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Patricia Goodman - 09-25-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Patricia Goodman - 09-25-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Patricia Goodman - 09-25-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\R  T 02-27-2013.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T 02-27-2013.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\R  T 02-27-2013.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T 02-27-2013.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\R  T 11-28-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T 11-28-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\R  T 11-28-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T 11-28-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\R  T200 09-29-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T200 09-29-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\R  T200 09-29-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T200 09-29-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\R  T60 09-22-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T60 09-22-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\R  T60 09-22-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  T60 09-22-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\R  TH 02-27-2013.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  TH 02-27-2013.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\R  TH 02-27-2013.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\R  TH 02-27-2013.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Ra  Patient 07-17-2007.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Ra  Patient 07-17-2007.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Ra  Patient 07-17-2007.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Ra  Patient 07-17-2007.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Rb  Patient 07-15-2008.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rb  Patient 07-15-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Rb  Patient 07-15-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rb  Patient 07-15-2008.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Rc  Patient 01-11-2008.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rc  Patient 01-11-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Rc  Patient 01-11-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rc  Patient 01-11-2008.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\Rd  Patient 06-17-2008.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rd  Patient 06-17-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\Rd  Patient 06-17-2008.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\Rd  Patient 06-17-2008.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\rwl rv test 2B 05-17-2011.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\rwl rv test 2B 05-17-2011.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\rwl rv test 2B 05-17-2011.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\rwl rv test 2B 05-17-2011.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\T  Y 11-28-2012.egg, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\T  Y 11-28-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\T  Y 11-28-2012.egg
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\T  Y 11-28-2012.egg
+27/11/2020  15:01:01  Compare data files: c:\3cpm\1112 06-14-2016.csv, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-14-2016.csv
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\1112 06-14-2016.csv
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\1112 06-14-2016.csv
+27/11/2020  15:01:01  Compare data files: c:\3cpm\22221 06-24-2016.csv, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 06-24-2016.csv
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\22221 06-24-2016.csv
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 06-24-2016.csv
+27/11/2020  15:01:01  Compare data files: c:\3cpm\22221 41449546-3262-2620-1.csv, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 41449546-3262-2620-1.csv
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\22221 41449546-3262-2620-1.csv
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 41449546-3262-2620-1.csv
+27/11/2020  15:01:01  Compare data files: c:\3cpm\22221 ffb4dbd6-1260-2210-1.csv, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 ffb4dbd6-1260-2210-1.csv
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\22221 ffb4dbd6-1260-2210-1.csv
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\22221 ffb4dbd6-1260-2210-1.csv
+27/11/2020  15:01:01  Compare data files: c:\3cpm\A  Patient 07-01-2008.csv, C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\A  Patient 07-01-2008.csv
+27/11/2020  15:01:01  Opening data file for comparison: c:\3cpm\A  Patient 07-01-2008.csv
+27/11/2020  15:01:01  Opening data file for comparison: C:\Users\Robert Thawley\AppData\Roaming\3CPM\Transfer test\A  Patient 07-01-2008.csv

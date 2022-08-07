@@ -1,0 +1,80 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_FILE_REV_ORIG                       0x18003
+HID_FILE_NEW_PATIENT                    0x18004
+HID_FILE_EXIST_PATIENT                  0x18005
+HID_EDIT_PATIENT_DIAG_HIST              0x18006
+HID_EDIT_PATIENT_MEDS                   0x18007
+HID_EDIT_SUGGESTED_DIAG                 0x18008
+HID_VIEW_PATIENT_DIAG_HIST              0x18009
+HID_VIEW_PATIENT_MEDS                   0x1800A
+HID_VIEW_SUGGESTED_DIAG                 0x1800B
+HID_VIEW_BASELINE                       0x1800C
+HID_VIEW_POSTWATER_10                   0x1800D
+HID_VIEW_POSTWATER_20                   0x1800E
+HID_VIEW_POSTWATER_30                   0x1800F
+HID_GOTO_PREV_PERIOD                    0x18010
+HID_GOTO_NEXT_PERIOD                    0x18011
+HID_GOTO_START                          0x18012
+HID_GOTO_END                            0x18013
+HID_ANALYZE_BASELINE                    0x18014
+HID_ANALYZE_POSTWATER_10                0x18015
+HID_ANALYZE_POSTWATER_20                0x18016
+HID_ANALYZE_POSTWATER_30                0x18017
+HID_ANALYZE_CURRENT                     0x18018
+HID_ANALYZE_DIAGNOSIS                   0x18019
+HID_REPORT_CREATE                       0x1801A
+HID_REPORT_VIEW                         0x1801B
+HID_REPORT_DELETE                       0x1801C
+HID_REPORT_EDIT                         0x1801D
+HID_REPORT_TYPE                         0x1801E
+HID_REPORT_BASELINE                     0x1801F
+HID_REPORT_POSTWATER_10                 0x18020
+HID_REPORT_POSTWATER_20                 0x18021
+HID_REPORT_POSTWATER_30                 0x18022
+HID_REPORT_DIAGNOSIS                    0x18023
+HID_REPORT_RECOMMENDATIONS              0x18024
+HID_REPORT_CORE_EGG                     0x18025
+HID_REPORT_CUSTOM                       0x18026
+HID_EDIT_PRE_STUDY_INFO                 0x1802D
+HID_VIEW_PRE_STUDY_INFO                 0x1802E
+HID_EDIT_PATIENT_DEMOGRAHICS            0x1802F
+HID_VIEW_PATIENT_DEMOGRAHICS            0x18030
+HID_VIEW_AMT_WATER                      0x18031
+HID_EDIT_AMT_WATER                      0x18032
+HID_ANALYZE_RSA                         0x18033
+HID_REPORT_PRINT                        0x18035
+HID_REPORT_FAC_INFO                     0x18036
+HID_ANALYZE_POSTWATER_40                0x18037
+HID_REPORT_POSTWATER_40                 0x18037
+HID_VIEW_POSTWATER_40                   0x18038
+HID_EDIT_RECOMMENDATIONS                0x18039
+HID_VIEW_RECOMMENDATIONS                0x1803A
+ 
+// Prompts (IDP_*) 
+HIDP_OLE_INIT_FAILED                    0x30064
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_EGGSASTYPE                         0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_10MIN_VIEW                         0x2008C
+HIDD_DEMOGRAPHICS                       0x2008D
+HIDD_EQUIP_TEST                         0x2008E
+HIDD_BASELINE                           0x20092
+HIDD_WATER_LOAD                         0x20093
+HIDD_POST_WATER_TEST                    0x20094
+HIDD_PRE_STUDY_INFO                     0x20095
+HIDD_SELECT_PATIENT                     0x20097
+HIDD_ANALYZE_PERIOD                     0x20098
+HIDD_DIAGNOSTIC_HISTORY                 0x20099
+HIDD_MEDICATIONS                        0x2009A
+HIDD_DIAGNOSIS                          0x2009B
+HIDD_FACILITY_INFO                      0x2009F
+HIDD_RECOMMENDATIONS                    0x200A0
+HIDD_CUSTOM_REPORT                      0x200A2
+ 
+// Frame Controls (IDW_*) 
+HIDW_COMBO                              0x58027

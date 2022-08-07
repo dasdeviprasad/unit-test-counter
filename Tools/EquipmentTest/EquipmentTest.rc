@@ -1,0 +1,254 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\EquipmentTest.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\EquipmentTest.ico"
+IDI_RED_LED             ICON                    "res\\RED_LED.ICO"
+IDI_GREEN_LED           ICON                    "res\\GREEN_LED.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 198, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About EquipmentTest"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    CTEXT           "EquipmentTest Version 1.1",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    CTEXT           "Copyright (C) 2010, 3CPM Company, Inc.",IDC_STATIC,40,
+                    25,143,8
+    DEFPUSHBUTTON   "OK",IDOK,73,54,50,16,WS_GROUP
+    CTEXT           "All rights reserved.",IDC_STATIC,40,39,119,8
+END
+
+IDD_EQUIPMENTTEST_DIALOG DIALOGEX 0, 0, 350, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | 
+    WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Equipment Test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,293,258,50,16,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Close",IDCANCEL,149,258,50,16
+    PUSHBUTTON      "Start Equipment Test",IDC_BTN_START_EQUIPMENT_TEST,77,
+                    176,94,14
+    LTEXT           "Respiratory sensor",IDC_STATIC,7,198,62,8
+    LTEXT           "Gastric electrodes",IDC_STATIC,7,221,58,8
+    ICON            IDI_RED_LED,IDC_RESP_RED,75,194,21,20
+    ICON            IDI_GREEN_LED,IDC_RESP_GREEN,97,194,21,20
+    ICON            IDI_RED_LED,IDC_ELECTRODE_RED,75,216,21,20
+    ICON            IDI_GREEN_LED,IDC_ELECTRODE_GREEN,97,216,21,20
+    PUSHBUTTON      "Stop Equipment Test",IDC_BTN_STOP,178,176,94,14
+    LTEXT           "Status",IDC_STATIC,134,197,22,8
+    LTEXT           "Status",IDC_STATUS,134,209,208,42,WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "3CPM Company, Inc."
+            VALUE "FileDescription", "Equipment Test"
+            VALUE "FileVersion", "1.1"
+            VALUE "InternalName", "EquipmentTest.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2010, 3CPM Co., Inc.  All rights reserved."
+            VALUE "OriginalFilename", "EquipmentTest.exe"
+            VALUE "ProductName", "EquipmentTest"
+            VALUE "ProductVersion", "1.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_EQUIPMENTTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About EquipmentTest..."
+    IDS_STRING102           "Can't load DLL, %s"
+    IDS_ERR_LOAD_DLL        "Can't find functions for DLL, %s"
+    IDS_ERR_DLL_FUNCS_NOT_FOUND "Can't find functions for DLL, %s"
+    IDS_ERR_DLL             "%s: %s"
+    IDS_MINUTES             "Minutes"
+    IDS_EGG                 "EGG"
+    IDS_RESPIRATION         "Respiration"
+    IDS_RAW_WAVFRM_Y_AXIS_LBL "Micro Volts"
+    IDS_CONTINUE            "Do you want to continue?"
+    IDS_WARNING             "Warning"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_DLL_CHANNELS    "Not all input channels are working."
+    IDS_ERROR1              "ERROR"
+    IDS_BAD_BATTERY         "Battery is too low to use."
+    IDS_LOW_BATTERY         "Battery is low but useable.  It may or may not remain useable for the test."
+    IDS_ERR_READ_BATTERY_TIMEOUT "Timeout while reading battery for voltage."
+    IDS_ERR_READ_POS_IMP_TIMEOUT "Timeout while reading positive impedance."
+    IDS_BAD_POS_IMPEDANCE   "The positive impedance is bad.  Check connections."
+    IDS_ERR_READ_NEG_IMP_TIMEOUT "Timeout while reading negative impedance."
+    IDS_BAD_NEG_IMPEDANCE   "The negative impedance is bad.  Check connections."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EGG_SIGNAL_NOT_STABLE "The EGG signal is NOT stabilizing."
+    IDS_READING_ZERO_POINTS "Not reading any data."
+    IDS_ERR_EGG_READ        "Error reading EGG channel: %s"
+    IDS_RESP_SIGNAL_NOT_STABLE "The Respiration signal is NOT stabilizing."
+    IDS_ALL_SIGNALS_NOT_STABLE 
+                            "The EGG and Respiration signals are NOT stabilizing."
+    IDS_BOTH_SIGNALS_STABLE "The EGG and Respiration signals are stable."
+    IDS_CHECK_RESP_BELT     "Check the Respiration belt, it may not be properly connected."
+    IDS_TEST_STOPPED        "The test has been cancelled."
+    IDS_RESP_SIGNAL_TOO_LOW "Signal too low, belt may not be connected."
+    IDS_RESP_SIGNAL_LOW     "Signal is low, belt may need to be tightened."
+    IDS_RESP_SIGNAL_VARIANCE_LOW 
+                            "Signal variance is too small, belt may be too loose."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\EquipmentTest.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,232 @@
+Description of classes for the Orphan File Recovery Program
+
+/********************************************************************
+OrphanFileRecoveryDlg.cpp
+Implementation file for the main dialog box.
+
+  Operation:
+    - Find the orphaned data files and list them.
+    - Include an orphaned data file in the database.
+      This may require more input from the user.
+      - All studies:
+        Ask user if the name is a research reference number or a patient name.
+      - WaterLoad study:
+        . If there were extra minutes (or periods) in the study,
+          ask the user to specify the number of minutes in the baseline
+          and postwater study.
+      - Incomplete or cancelled study
+         . Ask if user wants to include the study anyway.
+           For a research, if adding a cancelled study, add it as a paused study.
+           
+Methods:
+
+OnInitDialog
+  Initialize class data.
+  Set up the orphan file list box.
+  Find orphan files.
+------------------------------------------------
+iFind_orphan_files - Message handler for the WMUSER_FIND_ORPHAN_FILES
+                     user message.
+
+          Find the orphaned files.
+            Method: Go through each file in the data directory and check to
+                    see if its in the database.  If it is in the database
+                    and the file is valid (see the description for
+                    bValidate_data_file() function), add it to the orphan
+                    file listbox.
+          Add to the orphan file listbox: patient name, date of study
+            and type of study (research or waterload) or each orphan
+            file found.
+
+inputs: Not used.
+        Not used.
+
+return: 0
+------------------------------------------------
+OnBnClickedBtnAddSelToDb - Handler for the "Add Selection to Database" button.
+
+- Read the selected data file and validate the header.
+- Calculate the baseline minutes and post-stimulation minutes.
+- If the baseline is too short or there is not enough data points in either
+  the baseline or post-stimulation data, display a message to ask if the
+  user still wants to add to the database.  For a research study, if it was
+  cancelled, it can be added as a paused study.
+- Ask the user if the patient name is a patient name or a researh number.
+------------------------------------------------
+vInit_patient_data - Initialize all data associated with a patient.
+                         
+  inputs: None.
+
+  return: None.
+------------------------------------------------
+bValidate_data_file - Validate a data file. Open the file and read
+                      it.  Then make sure the header is valid and there
+                      are data points in the file.
+                         
+  inputs: CString object containing the file name.
+
+  return: true if the file is valid.
+          false if no data points, the file header is invalid or there
+            was a file error.
+------------------------------------------------
+********************************************************************/
+
+/********************************************************************
+NameResearchNum.cpp
+  Implementation file for the Patient Name/Research Reference Number dialog box.
+
+  Operation:
+    - Display the name on the study from the study file name.
+    - There are 2 checkboxes, one to use the name as a patient name and the other
+      to use the name as a research reference number.  One of the checkboxes is
+      always checked (i.e. the user cannot uncheck both checkboxes).
+    - One of the checkboxes is initially checked based based on the following:
+      . If there is a space in the name, it is most likely a patient name
+        and the patient name checkbox is checked.
+      . If there is no space in the name, it is most likely a research reference
+        number and that checkbox is checked.
+    - The user can change the default selection.
+
+Methods:
+
+OnInitDialog
+
+  Initialize class data.
+  Decide which checkbox should be checked.
+------------------------------------------------
+OnBnClickedChkPatientName - Handler for the "Patient Name" checkbox.
+
+If the checkbox has been checked, uncheck the research reference number
+  checkbox.
+If the checkbox has been unchecked (it was checked which means that the
+  research reference number checkbox is unchecked), check it again to
+  make sure one of the checkboxes is always checked.
+------------------------------------------------
+OnBnClickedChkResearchNum - Handler for the "Research Reference Number" checkbox.
+
+If the checkbox has been checked, uncheck the patient name checkbox.
+If the checkbox has been unchecked (it was checked which means that the
+  patient name checkbox is unchecked), check it again to make sure one
+  of the checkboxes is always checked.
+********************************************************************/
+
+/********************************************************************
+WaterLoadInfo.cpp
+  Implementation file for the WaterLoad information dialog box.
+
+  Operation:
+    - Used only for a waterload study.
+    - Display the total minutes in the study.
+    - The user must enter the baseline and post-waterload minutes in multiples
+      of 10 minutes.
+    - If the baseline minutes and the post-waterload minutes don't add up to
+      the total minuteS, an error message is displayed.
+
+Methods:
+
+OnInitDialog
+
+  Initialize class data.
+------------------------------------------------
+OnBnClickedOk - Handler for the "OK" button.
+
+- Make sure the baseline and post-waterload study minutes add up to the
+  total minutes.
+- If the minutes don't add up, display an error message and don't exit
+  the dialog box.
+- If the minutes add up, exit the dialog box.
+********************************************************************/
+
+/********************************************************************
+DataFile.cpp
+  Implementation file for the CDataFile class.
+
+  This class performs file I/O for the data file.
+  It also parses the file name for the patient name and date of study.
+
+Methods:
+
+iRead - Read a data file.
+        Saves the header and baseline trailer information and the total
+          number of data points in the file.
+
+  inputs: None.
+
+  return: SUCCESS if the file is read with no errors.
+          FAIL if there was an error, the class variable contains
+            the error message.
+------------------------------------------------
+iOpen_file_get_hdr - Opens a data file, reads and saves the header information.
+
+  inputs: None.
+
+  return: SUCCESS if the file is read with no errors.
+          FAIL if there was an error and the class variable contains
+            the error message.
+------------------------------------------------
+bIsValid_hdr - Validates the header read from the file for the
+               file version number and the program version that created
+               it.
+
+  inputs: None.
+
+  return: true if the header is OK, false if the file version or the
+          program version is wrong.
+------------------------------------------------
+vClose_file - Close the data file if it is open.
+
+  inputs: None.
+
+  return: None.
+------------------------------------------------
+bIsResearch_study - Determine if the data file contains a research or
+                    waterload study.
+
+  inputs: None.
+
+  return: true if a research study, false if a waterload study.
+------------------------------------------------
+cstrDate_of_study - Get the date of the study from the file name.
+                    Format: mm/dd/yyyy
+
+  inputs: None.
+
+  return: CString object containing the date of the study.
+------------------------------------------------
+cstrGet_name - Get the patient name from the file name.
+               Format: FirstName MI LastName
+
+  inputs: None.
+
+  return: CString object containing the patient name.
+------------------------------------------------
+iAdd_baseline_trailer - Add a baseline trailer to the data file.  This
+                        makes a cancelled research study a paused study.
+
+  inputs: None.
+
+  return: SUCCESS if the baseline trailer was added.
+          FAIL if there was an error.
+********************************************************************/
+
+/********************************************************************
+Utils.cpp
+  Class contains various utility functions.
+
+Methods:
+
+fRound - Round a floating point number.
+
+    inputs: Floating point number.
+            Number of decimal places to round the number to.
+
+    return: The rounded number.
+------------------------------------------------
+fRound_down_to_half_min - Round a value down to the next half minute.
+                          The input is never negative.
+
+    inputs: Value to be rounded down.
+
+    return: Rounded down value.
+********************************************************************/
+

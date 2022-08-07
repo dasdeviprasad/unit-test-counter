@@ -1,0 +1,9 @@
+17/08/2010  10:35:13  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to open INI file
+17/08/2010  10:37:32  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to open INI file
+17/08/2010  10:59:41  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to open INI file
+20/08/2010  09:36:52  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to open INI file
+20/08/2010  09:37:09  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to open INI file
+20/08/2010  11:19:20  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to find USB device
+20/08/2010  11:21:19  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to find USB device
+20/08/2010  11:22:49  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to find USB device
+20/08/2010  11:24:48  iInit: error initializing EGG configuration: XXDRIVER.DLL: Unable to find USB device

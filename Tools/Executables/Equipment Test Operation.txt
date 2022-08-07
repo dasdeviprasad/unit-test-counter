@@ -1,0 +1,25 @@
+  Equipment Test Operation:
+    - This program uses the eggsas.ini file.  There for EGGSAS must be installed in the
+      standard place on the computer.
+    - Select the Start Equipment Test button to start the test.
+    - Select the Stop Equipment Test button to stop the test.
+    - For the test to pass, the signal for both channels must be stable for
+      2 minutes.  The time is specified in the eggsas.ini file "stabletime=120  ; seconds".
+        - EGG stability:  Max signal must be within 1000 microvolts of the min signal.
+             Specified in eggsas.ini file "stableEGGwindow=500 ; microvolts"
+        - Respiration stability: Max signal must be within 400 microvolts of the min signal.
+             Specified in eggsas.ini file "stableRespwindow=200 ; microvolts"
+    - Errors:
+        Hardware not connected at start of test.
+        Driver (or part of) is missing.
+        Hardware disconnected during test.
+          Error is no signal.
+        Respiration and/or EGG signals do not settle.
+    - Status window:
+        Shows any errors.
+        Shows if test is stopped by the stop button.
+        Shows if both signals have settled (test passed)
+    - Does not detect:
+        If a lead (or all leads) is disconnected.
+        If one channel (EGG or Respiration) is working but not the other.
+          It will show an error of no signal.

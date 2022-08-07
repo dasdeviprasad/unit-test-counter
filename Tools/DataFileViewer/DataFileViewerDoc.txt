@@ -1,0 +1,171 @@
+/********************************************************************
+DataFileViewerDlg.cpp
+  Implementation file for the main dialog box.
+
+  Operation:
+    - Select a data file.
+    - Read the data file and fill in the various fields.
+    - Read the database if the study is a waterload and the
+      baseline and/or the post-waterload has been extended.
+      If the study is not in the database, fill in the default minutes
+      and display a status message indicating the number of extra minutes
+      in the study.
+
+Methods:
+
+OnInitDialog
+
+  Create the data file class.
+  Create the utility class.
+------------------------------------------------
+Handler for the "Select Data File" button.
+
+  Display a file selection dialog box.
+  Save the selected file (including the path).
+------------------------------------------------
+Handler for the "Read Data File" button.
+
+  Read the data file and validate the data file header.
+  Display the information from the data file.
+------------------------------------------------
+vDisplay_data - Display the data from the data file.
+                Calculate the baseline and post-stimulation lengths.
+
+                If this is a waterload study and its incomplete, an attempt
+                is made to assign the minutes in the study to baseline and
+                post-waterload.  In addition a status message is displayed
+                indicating the total minutes in the study.
+
+                For a research study, indicate through a status message:
+                - If there are not enough minutes in the baseline or post-stimulation
+                  study to analyze (need at least 4 minutes).
+                - If the study was paused.
+                - If the study was cancelled.
+
+  inputs: None.
+
+  return: None.
+------------------------------------------------
+vGet_db_info - Get the information needed from the database for this
+               study.
+
+               This is used only when the study is a waterload study and
+               either the baseline and/or the postwater study has been extended
+               for 10 minutes.  In this case, the number of periods is 4 (1 for
+               the baseline and 3 for the postwater study) plus 1 period for
+               each 10 minute extension.
+
+               The database is read only for the period lengths.
+               - Normal periods is 4. Periods to decide is Periods in study
+                 minus the normal periods.
+               - If the baseline period length is 20 minutes then the baseline has
+                 been extended for 10 minutes or 1 period.  Subtract 1 from the
+                 periods to decide.
+               - The remaining periods to decide is the number of periods the
+                 postwater study has been extended.
+
+               If the database can't be accessed or the study isn't in the database,
+               a status message is displayed that indicates the number of extra minutes
+               in the study.
+
+  inputs: Number of 10 minute periods in the study.
+          Pointer to the number of minutes in the baseline.  This gets changed
+            if the baseline has an extra 10 minute period.
+          Pointer to the number of minutes in the postwater study.  This gets changed
+            if the postwater study has one or more extra 10 minute periods.
+
+  return: None.
+********************************************************************/
+
+/********************************************************************
+DataFile.cpp
+  Implementation file for the CDataFile class.
+
+  This class performs file I/O for the data file.
+  It also parses the file name for the patient name and date of study.
+
+Methods:
+
+iRead - Read a data file.
+        Saves the header and baseline trailer information and the total
+          number of data points in the file.
+
+  inputs: None.
+
+  return: SUCCESS if the file is read with no errors.
+          FAIL if there was an error, the class variable contains
+            the error message.
+------------------------------------------------
+iOpen_file_get_hdr - Opens a data file, reads and saves the header information.
+
+  inputs: None.
+
+  return: SUCCESS if the file is read with no errors.
+          FAIL if there was an error and the class variable contains
+            the error message.
+------------------------------------------------
+bIsValid_hdr - Validates the header read from the file for the
+               file version number and the program version that created
+               it.
+
+  inputs: None.
+
+  return: true if the header is OK, false if the file version or the
+          program version is wrong.
+------------------------------------------------
+vClose_file - Close the data file if it is open.
+
+  inputs: None.
+
+  return: None.
+------------------------------------------------
+bIsResearch_study - Determine if the data file contains a research or
+                    waterload study.
+
+  inputs: None.
+
+  return: true if a research study, false if a waterload study.
+------------------------------------------------
+cstrDate_of_study - Get the date of the study from the file name.
+                    Format: mm/dd/yyyy
+
+  inputs: None.
+
+  return: CString object containing the date of the study.
+------------------------------------------------
+cstrGet_name - Get the patient name from the file name.
+               Format: FirstName MI LastName
+
+  inputs: None.
+
+  return: CString object containing the patient name.
+------------------------------------------------
+iAdd_baseline_trailer - Add a baseline trailer to the data file.  This
+                        makes a cancelled research study a paused study.
+
+  inputs: None.
+
+  return: SUCCESS if the baseline trailer was added.
+          FAIL if there was an error.
+********************************************************************/
+
+/********************************************************************
+Utils.cpp
+  Class contains various utility functions.
+
+Methods:
+
+fRound - Round a floating point number.
+
+    inputs: Floating point number.
+            Number of decimal places to round the number to.
+
+    return: The rounded number.
+------------------------------------------------
+fRound_down_to_half_min - Round a value down to the next half minute.
+                          The input is never negative.
+
+    inputs: Value to be rounded down.
+
+    return: Rounded down value.
+********************************************************************/

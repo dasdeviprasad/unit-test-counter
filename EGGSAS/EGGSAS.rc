@@ -1,0 +1,2014 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\EGGSAS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\eggsas1.ico"
+IDR_EGGSASTYPE          ICON                    "res\\EGGSASDoc.ico"
+IDI_GREEN_LED           ICON                    "res\\GREEN_LED.ICO"
+IDI_RED_LED             ICON                    "res\\RED_LED.ICO"
+IDI_ICON1               ICON                    "res\\Funnel.ico"
+IDI_ICON2               ICON                    "res\\filter.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_3CPM_LOGO           BITMAP                  "res\\3cpm logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_REPORT_PRINT
+    SEPARATOR
+    BUTTON      ID_GOTO_START
+    BUTTON      ID_GOTO_PREV_PERIOD
+    BUTTON      ID_GOTO_PREVIOUS_STIM_PERIOD
+    BUTTON      ID_GOTO_CURRENT_PERIOD
+    BUTTON      ID_GOTO_NEXT_PERIOD
+    BUTTON      ID_GOTO_NEXT_STIM_PERIOD
+    BUTTON      ID_GOTO_END
+    SEPARATOR
+    BUTTON      ID_ANALYZE_RSA
+    BUTTON      ID_VIEW_FILTER_RSA
+    BUTTON      ID_VIEW_SUMM_GRAPH
+    BUTTON      ID_VIEW_DATA_SHEET
+    BUTTON      ID_SETTINGS_FREQUENCYRANGE
+    SEPARATOR
+    BUTTON      ID_ANALYZE_DIAGNOSIS
+    BUTTON      ID_EDIT_RECOMMENDATIONS
+    BUTTON      ID_EDIT_WHAT_IF
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_HELP_FINDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENUEX 
+BEGIN
+    POPUP "&file",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        POPUP "&new study\tCtrl+N",             65535,
+        MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+        BEGIN
+            MENUITEM "new patient",                 32772,
+            MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+            MENUITEM "existing patient",            32773,MFT_STRING,
+            MFS_ENABLED
+        END
+        MENUITEM "&open prior study...\tCtrl+O", 57601,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "&save patient\tCtrl+S",       57603,MFT_STRING,MFS_ENABLED
+        MENUITEM "save raw data",               33072,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&backup or restore",          32934,MFT_STRING,MFS_ENABLED
+        MENUITEM "export Studies",              33041,MFT_STRING,MFS_ENABLED
+        MENUITEM "import Studies",              33042,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&print...\tCtrl+P",           57607,MFT_STRING,MFS_GRAYED
+        MENUITEM "print Pre&view",              57609,MFT_STRING,MFS_GRAYED
+        MENUITEM "p&rint Setup...",             57606,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "revert to &orginal",          32771,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "recent File",                 57616,MFT_STRING,MFS_GRAYED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "e&xit",                       57665,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&edit",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&patient demographics",       32815,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient diagnostic &History", 32774,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient &Medications",        32775,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "pre-Study &Information",      32813,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "respiration",                 32944,MFT_STRING,MFS_ENABLED
+        MENUITEM "&amount of water ingested",   32818,MFT_STRING,MFS_ENABLED
+        MENUITEM "&suggested diagnosis",        32776,MFT_STRING,MFS_ENABLED
+        MENUITEM "&recommendations",            32825,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&View",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&baseline period",            32780,MFT_STRING,MFS_ENABLED
+        MENUITEM "&first post-water 10 minute period", 32781,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "&second post-water 10 minute period", 32782,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "&third post-water 10 minute period", 32783,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&patient demographics",       32816,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient diagnostic &History", 32777,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient &Medications",        32778,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "pre-Study &Information",      32814,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "respiration",                 32945,MFT_STRING,MFS_ENABLED
+        MENUITEM "&amount of water ingested",   32817,MFT_STRING,MFS_ENABLED
+        MENUITEM "suggested &diagnosis",        32779,MFT_STRING,MFS_ENABLED
+        MENUITEM "&recommendations",            32826,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "rSA",                         32946,MFT_STRING,MFS_ENABLED
+        MENUITEM "summary graphs",              32947,MFT_STRING,MFS_ENABLED
+        MENUITEM "data Sheet",                  32948,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "view hidden patient files",   33084,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Goto",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&start of study",             32786,MFT_STRING,MFS_ENABLED
+        MENUITEM "&previous 10 minute period",  32784,MFT_STRING,MFS_ENABLED
+        MENUITEM "&current period",             32903,MFT_STRING,MFS_ENABLED
+        MENUITEM "&next 10 minute period",      32785,MFT_STRING,MFS_ENABLED
+        MENUITEM "&end of study",               32787,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Analyze",                       65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&baseline period",            32788,MFT_STRING,MFS_ENABLED
+        MENUITEM "&first post-water 10 minute period", 32789,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "&second post-water 10 minute period", 32790,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "&third post-water 10 minute period", 32791,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&current period",             32792,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&diagnosis",                  32793,MFT_STRING,MFS_ENABLED
+        MENUITEM "rSA",                         32819,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Report",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&View report",                32795,MFT_STRING,MFS_ENABLED
+        MENUITEM "&Print Report",               32821,
+        MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+        MENUITEM "create SpreadSheet of Data Sheet", 32999,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&Configure Report",           32794,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&Facility/practice information", 32822,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "show/hide study dates",       33093,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Help",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&help Topics",                57667,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&about 3CPM EGGSAS...",       57664,MFT_STRING,MFS_ENABLED
+        MENUITEM "about 3CPM EGGSAS Reader...", 33053,MFT_STRING,MFS_ENABLED
+        MENUITEM "about 3CPM EGGSAS Central Data Depot Reader", 33055,
+        MFT_STRING,MFS_ENABLED
+    END
+    POPUP "settings",                       65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "settings",                    33074,MFT_STRING,MFS_ENABLED
+    END
+END
+
+IDR_MAINFRAME1 MENUEX 
+BEGIN
+    POPUP "&file",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        POPUP "&new study\tCtrl+N",             65535,
+        MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+        BEGIN
+            MENUITEM "new patient",                 32772,
+            MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+            MENUITEM "existing patient",            32773,MFT_STRING,
+            MFS_ENABLED
+        END
+        MENUITEM "&open prior study...\tCtrl+O", 57601,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "&save patient\tCtrl+S",       57603,MFT_STRING,MFS_ENABLED
+        MENUITEM "save raw data",               33071,MFT_STRING,MFS_ENABLED
+        MENUITEM "resume Study",                32995,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&backup or Restore",          32934,MFT_STRING,MFS_ENABLED
+        MENUITEM "export Studies",              33041,MFT_STRING,MFS_ENABLED
+        MENUITEM "import Studies",              33042,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           57607,MFT_STRING,MFS_GRAYED
+        MENUITEM "Print Pre&view",              57609,MFT_STRING,MFS_GRAYED
+        MENUITEM "p&rint Setup...",             57606,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Recent File",                 57616,MFT_STRING,MFS_GRAYED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "e&xit",                       57665,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&edit",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&patient demographics",       32815,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient diagnostic &History", 32774,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient &Medications",        32775,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "pre-Study &Information",      32813,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "respiration",                 32944,MFT_STRING,MFS_ENABLED
+        MENUITEM "stimulation medium and quantity", 32996,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "&suggested diagnosis",        32776,MFT_STRING,MFS_ENABLED
+        MENUITEM "&recommendations",            32825,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "what If ...",                 33019,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&view",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&baseline period",            32780,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&patient demographics",       32816,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient diagnostic &History", 32777,MFT_STRING,MFS_ENABLED
+        MENUITEM "patient &Medications",        32778,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "pre-Study &Information",      32814,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "respiration",                 32945,MFT_STRING,MFS_ENABLED
+        MENUITEM "stimulation medium and quantity", 32997,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "suggested &diagnosis",        32779,MFT_STRING,MFS_ENABLED
+        MENUITEM "&recommendations",            32826,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "rSA",                         32946,MFT_STRING,MFS_ENABLED
+        MENUITEM "filter rsa",                  33082,MFT_STRING,MFS_ENABLED
+        MENUITEM "summary graphs",              32947,MFT_STRING,MFS_ENABLED
+        MENUITEM "data Sheet",                  32948,MFT_STRING,MFS_ENABLED
+        MENUITEM "events",                      33014,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "change number of minutes per graph", 32959,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "view hidden patient files",   33084,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&goto",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&start of study",             32786,MFT_STRING,MFS_ENABLED
+        MENUITEM "previous period",             32954,MFT_STRING,MFS_ENABLED
+        MENUITEM "&current period",             32903,MFT_STRING,MFS_ENABLED
+        MENUITEM "next period",                 32956,MFT_STRING,MFS_ENABLED
+        MENUITEM "&end of study",               32787,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&analyze",                       65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&baseline period",            32788,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&current period",             32792,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&diagnosis",                  32793,MFT_STRING,MFS_ENABLED
+        MENUITEM "rSA",                         32819,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&report",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&view report",                32795,MFT_STRING,MFS_ENABLED
+        MENUITEM "&print Report",               32821,
+        MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+        MENUITEM "create SpreadSheet of Data Sheet", 32999,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&configure Report",           32794,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&facility/practice information", 32822,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "show/hide study dates",       33091,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&help",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&help Topics",                57667,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&about 3CPM EGGSAS...",       57664,MFT_STRING,MFS_ENABLED
+        MENUITEM "about 3CPM EGGSAS Reader...", 33053,MFT_STRING,MFS_ENABLED
+        MENUITEM "about 3CPM EGGSAS Central Data Depot Reader", 33055,
+        MFT_STRING,MFS_ENABLED
+    END
+    POPUP "settings",                       65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "settings",                    33074,MFT_STRING,MFS_ENABLED
+        MENUITEM "frequency Range",             33079,MFT_STRING,MFS_ENABLED
+        MENUITEM "filter RSA",                  33083,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 190, 162
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About 3CPM EGGSAS"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,162,135,21,20,NOT WS_VISIBLE
+    CTEXT           "3CPM EGGSAS",IDC_PROGRAM_NAME,15,57,159,8,SS_NOPREFIX
+    CTEXT           "Copyright",IDC_COPYRIGHT,15,92,159,8
+    DEFPUSHBUTTON   "OK",IDOK,72,141,50,14,WS_GROUP
+    CTEXT           "Version",IDC_VERSION,15,72,159,8
+    CTEXT           "All",IDC_COPYRIGHT1,15,112,159,8
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,37,12,113,35
+    CTEXT           "",IDC_EXPIRE,15,128,159,8
+END
+
+IDD_10MIN_VIEW DIALOGEX 0, 0, 678, 381
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Patient name",IDC_PATIENT_NAME,10,5,195,15,SS_SUNKEN
+    COMBOBOX        IDC_10MIN_PERIOD_LST,282,5,100,70,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Artifact (start minute - end minute)",
+                    IDC_ARTIFACT_TITLE,481,30,106,8,NOT WS_VISIBLE
+    LISTBOX         IDC_ARTIFACT_LIST,502,40,62,40,LBS_NOINTEGRALHEIGHT | 
+                    NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Good minutes",IDC_GOOD_MIN_TITLE,482,90,44,8,NOT 
+                    WS_VISIBLE
+    CTEXT           "",IDC_GOOD_MIN,536,88,45,13,SS_CENTERIMAGE | SS_SUNKEN | 
+                    NOT WS_VISIBLE
+    CONTROL         "Accept",IDC_ACCEPT,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_GROUP,487,111,39,10
+    CONTROL         "Reject",IDC_REJECT,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,537,111,37,10
+    LTEXT           "Select new minutes",IDC_SELECT_NEW_MINUTES,482,130,76,8,
+                    NOT WS_VISIBLE
+    LTEXT           "Start minute",IDC_START_MIN_TITLE,492,147,38,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_START_MIN,537,143,39,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "Spin1",IDC_START_MIN_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | NOT WS_VISIBLE,577,142,10,15
+    LTEXT           "End minute",IDC_END_MIN_TITLE,492,167,38,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_END_MIN,537,163,40,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "Spin1",IDC_END_MIN_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | NOT WS_VISIBLE,577,163,10,15
+    PUSHBUTTON      "Undo changes",IDC_UNDO_CHANGES,509,190,60,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "Accept changes",IDC_ACCEPT_CHANGES,508,215,65,14,NOT 
+                    WS_VISIBLE
+    GROUPBOX        "",IDC_SUGGESTED_MIN_FRAME,476,22,118,105,NOT WS_VISIBLE
+    CONTROL         167,IDC_LOGO_3CPM,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE,17,269,151,38
+    LTEXT           "Select length of period",IDC_SELECT_PERIOD_LEN,482,249,
+                    72,8,NOT WS_VISIBLE
+    LTEXT           "Start minute",IDC_START_PERIOD_MIN_TITLE,491,267,38,8,
+                    NOT WS_VISIBLE
+    EDITTEXT        IDC_START_PERIOD_MIN,537,262,39,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_START_PERIOD_MIN_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | NOT WS_VISIBLE,577,262,10,15
+    LTEXT           "End minute",IDC_END_PERIOD_MIN_TITLE,491,286,38,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_END_PERIOD_MIN,537,283,40,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_END_PERIOD_MIN_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | NOT WS_VISIBLE,577,283,10,15
+    SCROLLBAR       IDC_SCROLLBAR_GRAPH,7,35,10,304,SBS_VERT | NOT 
+                    WS_VISIBLE | WS_DISABLED
+    CONTROL         "Set Period Length",IDC_CHK_SET_PERIOD_LENGTH,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,509,305,73,
+                    10
+    CONTROL         "Set Good Minutes",IDC_CHK_SET_GOOD_MINUTES,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,505,323,73,
+                    10
+    LTEXT           "Select good minutes",IDC_SELECT_GOOD_MINUTES,359,283,76,
+                    8,NOT WS_VISIBLE
+    LTEXT           "Start minute",IDC_START_GOOD_MIN_TITLE,369,301,38,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_START_GOOD_MIN,415,296,39,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_START_GOOD_MIN_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | NOT WS_VISIBLE,455,296,11,15
+    LTEXT           "End minute",IDC_END_GOOD_MIN_TITLE,369,320,38,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_END_GOOD_MIN,415,317,40,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_END_GOOD_MIN_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | NOT WS_VISIBLE,455,317,11,15
+    GROUPBOX        "",IDC_PERIOD_GOOD_MIN_FRAME,353,269,118,105,NOT 
+                    WS_VISIBLE
+    GROUPBOX        "Events",IDC_FRAME_PERIOD_EVENT,201,142,118,188,NOT 
+                    WS_VISIBLE
+    LISTBOX         IDC_EVENT_LIST,205,154,109,77,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EVENT_DESCRIPTION,206,247,109,56,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Event Description",IDC_EVENT_DESC_TITLE,205,236,57,8,
+                    NOT WS_VISIBLE
+    PUSHBUTTON      "Edit",IDC_BTN_EVENTS_EDIT,221,307,31,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Delete",IDC_BTN_EVENTS_DELETE,265,307,31,14,NOT 
+                    WS_VISIBLE
+    LTEXT           "",IDC_STUDY_TYPE,206,5,73,15,SS_SUNKEN
+    LTEXT           "What If",IDC_EDIT_WHAT_IF,424,7,243,11,SS_SUNKEN | NOT 
+                    WS_VISIBLE
+    LTEXT           "What If",IDC_STATIC_WHAT_IF,392,8,24,8,NOT WS_VISIBLE
+    PUSHBUTTON      "Reset Periods",IDC_RESET_PERIODS,507,338,60,14,NOT 
+                    WS_VISIBLE
+END
+
+IDD_DEMOGRAPHICS DIALOGEX 0, 0, 326, 337
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "patient Demographics"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "there is a checkbox next to each field.  To include the field in the report, click on the box so a checkmark is displayed.",
+                    IDC_STATIC_INC_IN_RPT_DESC,12,7,302,17
+    LTEXT           "Patient name",IDC_STATIC_PATIENT_NAME,8,27,42,8
+    LTEXT           "First Name",IDC_STATIC,35,37,34,8
+    EDITTEXT        IDC_PATIENT_FIRST_NAME,35,48,90,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_FIRSTNAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,126,50,13,10
+    LTEXT           "middle Initial",IDC_STATIC_MIDDLE_INITIAL,140,37,39,8
+    EDITTEXT        IDC_MIDDLE_INITIAL,154,48,13,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_MI,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,170,50,13,10
+    LTEXT           "last Name",IDC_STATIC_LAST_NAME,196,37,32,8
+    EDITTEXT        IDC_PATIENT_LAST_NAME,196,48,90,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_LASTNAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,286,49,13,10
+    LTEXT           "date of Birth",IDC_STATIC_DATE_OF_BIRTH,9,71,39,8
+    LTEXT           "(mm/dd/yyyy)",IDC_STATIC_DATE_FMT,33,77,44,8
+    EDITTEXT        IDC_DATE_OF_BIRTH,92,70,90,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_DATEOFBIRTH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,184,72,13,10
+    LTEXT           "patient ID or \nsocial Security Number",IDC_STATIC_SSN,
+                    9,108,78,17
+    EDITTEXT        IDC_SOCIAL_SECURITY_NUM,93,109,75,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_SSN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,170,111,13,10
+    LTEXT           "address",IDC_STATIC_ADDRESS,10,133,26,8
+    EDITTEXT        IDC_ADDRESS1,93,131,210,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_ADDR1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,304,134,13,10
+    LTEXT           "Address",IDC_STATIC_ADDRESS_1,10,153,26,8
+    EDITTEXT        IDC_ADDRESS2,93,152,210,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_ADDR2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,304,154,13,10
+    LTEXT           "city",IDC_STATIC_CITY,11,176,12,8
+    EDITTEXT        IDC_CITY,93,173,165,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_CITY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,259,175,13,10
+    LTEXT           "state",IDC_STATIC_STATE,11,196,16,8
+    EDITTEXT        IDC_STATE,93,194,40,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_STATE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,134,196,13,10
+    LTEXT           "zip Code",IDC_STATIC_ZIP_CODE,152,197,32,8
+    EDITTEXT        IDC_ZIPCODE,191,194,75,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_ZIPCODE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,268,196,13,10
+    LTEXT           "phone number",IDC_STATIC_PHONE_NUM,8,217,46,8
+    EDITTEXT        IDC_PHONE_NUMBER,93,215,75,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_PHONENUM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,170,217,13,10
+    LTEXT           "hospital",IDC_STATIC_HOSP_NUM,8,241,25,8
+    EDITTEXT        IDC_HOSPITAL_NUMBER,93,237,70,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_INCRPT_HOSPNUM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,164,239,13,10
+    CONTROL         "research reference number",IDC_RESRCH_REF_NUM_ENA,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,263,101,10
+    EDITTEXT        IDC_RESRCH_REF_NUM,119,261,79,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    CONTROL         " ",IDC_CHK_INCRPT_RSRCHREFNUM,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,200,263,13,10
+    CONTROL         "human",IDC_CHK_HUMAN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,226,256,37,10
+    CONTROL         "dog",IDC_CHK_DOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    226,269,28,10
+    PUSHBUTTON      "save and Close",IDC_SAVE_AND_CLOSE,48,297,85,14
+    DEFPUSHBUTTON   "continue",IDOK,149,297,58,14
+    PUSHBUTTON      "Cancel",IDCANCEL,226,297,50,14
+    PUSHBUTTON      "Help",IDC_DEMOGRAPHICS_HELP,143,316,40,14,0,0,
+                    HIDC_DEMOGRAPHICS_HELP
+    CONTROL         "male",IDC_CHK_MALE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,92,93,31,10
+    CONTROL         "female",IDC_CHK_FEMALE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,129,93,37,10
+    CONTROL         " ",IDC_CHK_INCRPT_MALE_FEMALE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,180,93,13,10
+    CONTROL         "Hide patient",IDC_CHK_HIDE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,282,54,10
+END
+
+IDD_EQUIP_TEST DIALOGEX 0, 0, 312, 276
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "equipment Test"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "begin baseline",IDOK,215,232,60,14,WS_DISABLED
+    PUSHBUTTON      "cancel",IDCANCEL,189,255,50,14
+    LTEXT           "respiratory sensor",IDC_STATIC_RESPIRATORY_SENSOR,5,229,
+                    60,8
+    LTEXT           "gastric electrodes",IDC_STATIC_GASTRIC_ELECTRODES,5,253,
+                    60,8
+    ICON            IDI_GREEN_LED,IDC_RESP_GREEN,90,224,20,20
+    ICON            IDI_RED_LED,IDC_RESP_RED,69,224,20,20
+    ICON            IDI_GREEN_LED,IDC_ELECTRODE_GREEN,90,248,20,20
+    ICON            IDI_RED_LED,IDC_ELECTRODE_RED,69,248,20,20
+    PUSHBUTTON      "start Equipment Test",IDC_START_TEST,10,193,105,20
+    LTEXT           "",IDC_STATUS,129,196,168,8
+    CONTROL         "",IDC_ADJUST_AMP,"msctls_updown32",UDS_ARROWKEYS | NOT 
+                    WS_VISIBLE,162,221,11,22
+    LTEXT           "Inc. Amp.",IDC_INC_AMP_TITLE,126,223,31,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "Dec. Amp.",IDC_DEC_AMP_TITLE,126,232,34,8,NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_ADJUST_FREQ,"msctls_updown32",UDS_ARROWKEYS | NOT 
+                    WS_VISIBLE,162,250,11,22
+    LTEXT           "Inc. Freq.",IDC_INC_FREQ_TITLE,126,251,31,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "Dec. Freq.",IDC_DEC_FREQ_TITLE,126,261,34,8,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "help",IDC_EQUIP_TEST_HELP,259,255,40,14,0,0,
+                    HIDC_EQUIP_TEST_HELP
+END
+
+IDD_BASELINE DIALOGEX 0, 0, 492, 265
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "baseline"
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "water Load",IDOK,403,221,50,14,WS_DISABLED
+    PUSHBUTTON      "cancel",IDCANCEL,379,243,50,14
+    PUSHBUTTON      "start Baseline",IDC_START_BL,31,220,105,23
+    CTEXT           "",IDC_CLOCK,5,2,50,13,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "extend baseline for 10 minutes",IDC_EXTEND,155,220,147,
+                    23,WS_DISABLED
+    CONTROL         "",IDC_ADJUST_AMP,"msctls_updown32",UDS_ARROWKEYS | NOT 
+                    WS_VISIBLE,157,246,11,18
+    LTEXT           "Inc. Amp.",IDC_INC_AMP_TITLE,121,247,31,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "Dec. Amp.",IDC_DEC_AMP_TITLE,121,256,34,8,NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_ADJUST_FREQ,"msctls_updown32",UDS_ARROWKEYS | NOT 
+                    WS_VISIBLE,208,246,11,17
+    LTEXT           "Inc. Freq.",IDC_INC_FREQ_TITLE,172,246,31,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "Dec. Freq.",IDC_DEC_FREQ_TITLE,172,256,34,8,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "help",IDC_BASELINE_HELP,438,243,40,14,0,0,
+                    HIDC_BASELINE_HELP
+    DEFPUSHBUTTON   "pause Study",IDC_PAUSE_STUDY,342,221,50,14,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "skip Stimulation Medium",IDC_SKIP_STIM_MED,282,246,84,
+                    14,NOT WS_VISIBLE
+END
+
+IDD_WATER_LOAD DIALOGEX 0, 0, 177, 119
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "water Load"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CTEXT           "ingest Water",IDC_BEGIN_WATER,7,10,163,15
+    LTEXT           "amount of water ingested",IDC_STATIC_AMT_WATER,9,45,80,
+                    8
+    EDITTEXT        IDC_WATER_AMOUNT,94,42,40,14,ES_AUTOHSCROLL
+    CONTROL         "oz",IDC_OUNCES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    144,39,23,10
+    CONTROL         "ml",IDC_MILLILITERS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,52,23,10
+    DEFPUSHBUTTON   "start study",IDOK,22,75,60,14
+    PUSHBUTTON      "cancel",IDCANCEL,102,75,50,14
+    PUSHBUTTON      "help",IDC_WATERLOAD_HELP,70,97,40,14,0,0,
+                    HIDC_WATERLOAD_HELP
+END
+
+IDD_POST_WATER_TEST DIALOGEX 0, 0, 492, 266
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "study phase"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "finished",IDOK,406,225,50,14,WS_DISABLED
+    PUSHBUTTON      "cancel",IDCANCEL,383,245,50,14
+    CTEXT           "",IDC_CLOCK,5,2,50,13,SS_SUNKEN
+    PUSHBUTTON      "begin Study",IDC_START,10,218,70,25
+    PUSHBUTTON      "extend test for 10 minutes",IDC_EXTEND_TEST,95,218,120,
+                    25,WS_DISABLED
+    CONTROL         "",IDC_ADJUST_AMP,"msctls_updown32",UDS_ARROWKEYS | NOT 
+                    WS_VISIBLE,274,233,11,22
+    LTEXT           "Inc. Amp.",IDC_INC_AMP_TITLE,238,235,31,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "Dec. Amp.",IDC_DEC_AMP_TITLE,238,244,34,8,NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_ADJUST_FREQ,"msctls_updown32",UDS_ARROWKEYS | NOT 
+                    WS_VISIBLE,336,234,11,22
+    LTEXT           "Inc. Freq.",IDC_INC_FREQ_TITLE,300,235,31,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "Dec. Freq.",IDC_DEC_FREQ_TITLE,300,245,34,8,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "help",IDC_POSTWATER_HELP,439,245,40,14,0,0,
+                    HIDC_POSTWATER_HELP
+END
+
+IDD_PRE_STUDY_INFO DIALOGEX 0, 0, 302, 270
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "pre-study information"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "time of pre-test meal",IDC_STATIC_MEAL_TIME,9,10,64,8
+    CONTROL         "",IDC_DATETIMEPICKER_MEAL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP,79,7,68,15
+    GROUPBOX        "indication for procedure",IDC_STATIC_BOX_INDICATIONS,9,
+                    35,285,131
+    CONTROL         "gastroparesis - 536.3",IDC_CHK_GASTROPARESIS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,48,81,10
+    CONTROL         "dyspepsia - bloating and/or satiety - 536.80",
+                    IDC_CHK_DYSPEPSIA_BLOAT_SATIETY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,62,151,10
+    CONTROL         "dyspepsia - 536.80",IDC_CHK_DYSPEPSIA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,76,75,10
+    CONTROL         "nausea - 787.02",IDC_IFP_NAUSEA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,90,67,10
+    CONTROL         "vomiting - 787.01",IDC_IFP_VOMITING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,104,70,10
+    CONTROL         "anorexia - 783.0",IDC_CHK_ANOREXIA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,183,48,67,10
+    CONTROL         "refractory GERD - 530.11",IDC_CHK_REFRACTORY_GERD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,183,62,96,10
+    CONTROL         "weight loss",IDC_CHK_WEIGHTLOSS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,183,76,103,10
+    CONTROL         "post dilation evaluation",IDC_CHK_POST_DILATION_EVAL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,183,90,88,10
+    CONTROL         "evaluate effect of medication",IDC_CHK_EVAL_EFFECT_MED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,183,104,107,10
+    LTEXT           "additional Indications",IDC_IFP_COMMENTS_TITLE,16,123,
+                    67,8
+    EDITTEXT        IDC_IFP_COMMENTS,15,134,220,25,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    LTEXT           "attending physician",IDC_STATIC_ATTENDING_PHYSICIAN,15,
+                    192,63,8
+    EDITTEXT        IDC_ATTEND_PHYS,84,190,141,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_ATTEND_PHYS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,229,193,15,10
+    LTEXT           "referring physician",IDC_STATIC_REFERRING_PHYSICIAN,14,
+                    210,65,8
+    EDITTEXT        IDC_REFER_PHYS,84,208,141,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_REFER_PHYS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,229,210,15,10
+    LTEXT           "technician",IDC_STATIC_TECHNICIAN,14,227,64,8
+    EDITTEXT        IDC_TECHNICIAN,84,226,141,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_TECHNICIAN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,229,228,15,10
+    DEFPUSHBUTTON   "Begin Study",IDOK,61,249,55,14
+    PUSHBUTTON      "Cancel",IDCANCEL,134,249,50,14
+    PUSHBUTTON      "Help",IDC_PRESTUDY_HELP,200,249,40,14,0,0,
+                    HIDC_PRESTUDY_HELP
+    LTEXT           "there is a checkbox next to each field.  To include the field in the report, click on the box so a checkmark is displayed.",
+                    IDC_STATIC_INC_IN_RPT_DESC,15,170,273,17
+END
+
+IDD_SELECT_PATIENT DIALOGEX 0, 0, 287, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "select Patient"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "oK",IDOK,209,149,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,182,171,50,14
+    LTEXT           "current database of patients",IDC_STATIC_CURRENT_DB,15,
+                    10,89,8
+    CONTROL         "List2",IDC_PATIENT_DB_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,
+                    15,35,160,150
+    PUSHBUTTON      "import patient file",IDC_IMPORT,114,151,90,14,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "select patient database",IDC_ALTERNATE_DB,190,122,90,14
+    PUSHBUTTON      "help",IDC_SELECTPATIENT_HELP,240,171,40,14,0,0,
+                    HIDC_SELECTPATIENT_HELP
+    LTEXT           "3CPM EGGSAS.mdb",IDC_STATIC_DB_FILE,23,21,257,8
+    PUSHBUTTON      "select Reader database",IDC_BTN_SELECT_READER_DB,190,
+                    100,90,14
+    PUSHBUTTON      "select Local database",IDC_BTN_SELECT_LOCAL_DB,190,79,
+                    90,14
+    PUSHBUTTON      "Search Database",IDC_BTN_SEARCH,196,34,68,14
+END
+
+IDD_DIAGNOSTIC_HISTORY DIALOGEX 0, 0, 337, 262
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Diagnostic History"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,82,243,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,145,243,50,14
+    EDITTEXT        IDC_DIAGNOSIS,42,148,288,62,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN
+    LTEXT           "diagnosis",IDC_DIAGNOSIS_TITLE,5,151,30,8
+    PUSHBUTTON      "go to study",IDC_GOTO_STUDY,137,218,63,14,WS_DISABLED
+    CONTROL         "List1",IDC_DIAGNOSIS_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,8,10,322,110
+    LTEXT           "date",IDC_DATE_TITLE,5,130,15,8
+    CTEXT           "",IDC_DATE,30,130,45,10,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "Help",IDC_DIAGHIST_HELP,209,243,40,14,0,0,
+                    HIDC_DIAGHIST_HELP
+END
+
+IDD_MEDICATIONS DIALOGEX 0, 0, 317, 217
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "medications"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",IDC_MEDICATION_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    WS_BORDER | WS_TABSTOP,8,5,300,110
+    DEFPUSHBUTTON   "oK",IDOK,104,190,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,265,200,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    EDITTEXT        IDC_MEDICATION,50,140,259,14,ES_AUTOHSCROLL
+    LTEXT           "medication",IDC_MEDICATION_TITLE,9,143,37,8
+    LTEXT           "date",IDC_DATE_TITLE,9,122,15,8
+    CTEXT           "",IDC_MED_DATE,32,122,53,12,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "update Medication",IDC_MED_UPDATE,81,165,70,14
+    PUSHBUTTON      "go to study",IDC_MED_GOTO_STUDY,173,165,50,14
+    PUSHBUTTON      "help",IDC_MEDICATIONS_HELP,165,190,40,14,0,0,
+                    HIDC_MEDICATIONS_HELP
+END
+
+IDD_DIAGNOSIS DIALOGEX 0, 0, 366, 226
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Diagnosis"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Suggested diagnosis",IDC_STATIC_SUGGESTED_DIAGNOSIS,52,
+                    6,261,57
+    LTEXT           "",IDC_SUGGESTED_DIAGNOSIS,61,19,250,25,SS_SUNKEN
+    CONTROL         "Accept",IDC_ACCEPT_DIAGNOSIS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,102,48,39,10
+    CONTROL         "Modify/Add",IDC_MODIFY_DIAGNOSIS,"Button",
+                    BS_AUTORADIOBUTTON,157,49,53,10
+    CONTROL         "Reject",IDC_REJECT_DIAGNOSIS,"Button",
+                    BS_AUTORADIOBUTTON,226,49,37,10
+    LTEXT           "in order to use the additional features, select modify/add or reject.",
+                    IDC_STATIC_ADDITIONAL_FEATURE_INFO,79,70,206,8
+    LTEXT           "Diagnosis",IDC_STATIC_DIAGNOSIS,5,84,32,8
+    PUSHBUTTON      "add to report",IDC_BTN_ADD_TO_REPORT,9,96,67,14
+    COMBOBOX        IDC_CBX_DIAG_LIST,87,96,98,73,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "save description to list",IDC_BTN_SAVE_DIAG_TO_LIST,191,
+                    96,83,14
+    PUSHBUTTON      "remove from list",IDC_BTN_REMOVE_FROM_LIST,283,96,72,14
+    PUSHBUTTON      "include ICD Code",IDC_BTN_INCLUDE_ICD_CODE,9,114,67,14
+    COMBOBOX        IDC_CBX_ICD_LIST,87,114,98,74,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "save ICD Code to list",IDC_BTN_SAVE_ICD_TO_LIST,191,114,
+                    83,14
+    PUSHBUTTON      "remove from list",IDC_BTN_REMOVE_ICD_FROM_LIST,283,114,
+                    72,14
+    EDITTEXT        IDC_DIAGNOSIS,20,136,323,55,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_GROUP
+    DEFPUSHBUTTON   "OK",IDOK,101,201,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,162,201,50,14
+    PUSHBUTTON      "Help",IDC_DIAGNOSIS_HELP,223,201,40,14,0,0,
+                    HIDC_DIAGNOSIS_HELP
+END
+
+IDD_FACILITY_INFO DIALOGEX 0, 0, 346, 243
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Facility Information"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "there is a checkbox next to each field.  To include the field in the report, click on the box so a checkmark is displayed.",
+                    IDC_STATIC_FAC_INC_IN_RPT_DESC,20,7,302,17
+    LTEXT           "facility/Practice name",IDC_STATIC_PRACTICE_NAME,8,31,
+                    74,8
+    EDITTEXT        IDC_FACILITY_NAME,133,28,190,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_NAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,325,29,13,10
+    LTEXT           "address",IDC_STATIC_ADDRESS,8,52,38,8
+    EDITTEXT        IDC_FACILITY_ADDRESS1,133,49,190,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_ADDR1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,325,51,13,10
+    LTEXT           "address",IDC_STATIC_ADDRESS1,8,69,38,8
+    EDITTEXT        IDC_FACILITY_ADDRESS2,133,69,190,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_ADDR2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,325,70,13,10
+    LTEXT           "city",IDC_STATIC_CITY,8,92,24,8
+    EDITTEXT        IDC_FACILITY_CITY,86,89,95,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_CITY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,183,91,13,10
+    LTEXT           "state",IDC_STATIC_STATE,8,109,40,8
+    EDITTEXT        IDC_FACILITY_STATE,86,109,40,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_STATE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,127,112,13,10
+    LTEXT           "zip Code",IDC_STATIC_ZIPCODE,148,112,38,8
+    EDITTEXT        IDC_FACILITY_ZIPCODE,190,109,57,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_ZIPCODE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,247,112,13,10
+    LTEXT           "phone number",IDC_STATIC_PHONE,8,130,69,8
+    EDITTEXT        IDC_FACILITY_PHONE,86,129,85,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_PHONENUM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,173,131,13,10
+    LTEXT           "Select a logo",IDC_STATIC,11,152,42,8
+    LTEXT           "use BMP, JPG, or PNG files.",IDC_STATIC_LOGO_REQ,70,152,
+                    234,10,SS_PATHELLIPSIS
+    EDITTEXT        IDC_EDIT_FAC_LOGO,12,195,255,14,ES_AUTOHSCROLL
+    CONTROL         " ",IDC_CHK_FAC_LOGO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,267,198,13,10
+    PUSHBUTTON      "Browse",IDC_BTN_BROWSE_LOGO,288,196,50,14
+    DEFPUSHBUTTON   "save and close",IDOK,81,217,65,14
+    PUSHBUTTON      "Cancel",IDCANCEL,159,217,50,14
+    PUSHBUTTON      "Help",IDC_FACILITYINFO_HELP,222,217,40,14,0,0,
+                    HIDC_FACILITYINFO_HELP
+    LTEXT           "maximum size is 200 pixels wide, 200 pixels high.",
+                    IDC_STATIC_LOGO_REQ2,70,162,234,10,SS_PATHELLIPSIS
+    LTEXT           "if image size is less than this, the image will be displayed as is.",
+                    IDC_STATIC_LOGO_REQ3,70,172,234,10,SS_PATHELLIPSIS
+    LTEXT           "if image size is greater than this, it will be shrunk to fit.",
+                    IDC_STATIC_LOGO_REQ4,70,183,234,10,SS_PATHELLIPSIS
+END
+
+IDD_RECOMMENDATIONS DIALOGEX 0, 0, 384, 145
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Patient recommendations"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_RECOMMENDATIONS,11,29,360,80,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,108,120,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,173,120,50,14
+    PUSHBUTTON      "Help",IDC_RECOMMENDATIONS_HELP,235,120,40,14,0,0,
+                    HIDC_RECOMMENDATIONS_HELP
+    PUSHBUTTON      "add to report",IDC_BTN_ADD_TO_REPORT,12,10,67,14
+    COMBOBOX        IDC_CBX_RECOMM_KEY_PHRASE,90,10,98,76,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "save recommendation to list",
+                    IDC_BTN_SAVE_RECOMM_TO_LIST,194,10,98,14
+    PUSHBUTTON      "remove from list",IDC_BTN_REMOVE_FROM_LIST,299,10,72,14
+END
+
+IDD_CUSTOM_REPORT DIALOGEX 0, 0, 237, 267
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configure Report"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "if the core report is selected, you can then select the following items to be included in the report on subsequent pages.",
+                    IDC_STATIC_INSTRUCTIONS,12,19,214,18
+    CONTROL         "Entire raw signal",IDC_RPT_ENTIRE_RAW_SIGNAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,59,203,67,10
+    CONTROL         "Data sheet",IDC_RPT_DATA_SHEET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,59,179,51,10
+    DEFPUSHBUTTON   "OK",IDOK,32,238,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,98,238,50,14
+    CONTROL         "core Report only",IDC_CORE_REPORT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,80,5,70,10
+    GROUPBOX        "",IDC_STATIC,9,62,219,169
+    PUSHBUTTON      "Help",IDC_CONFIGRPT_HELP,163,238,40,14,0,0,
+                    HIDC_CONFIGRPT_HELP
+    CONTROL         "include on first page of report",IDC_RPT_RSA_FIRST_PAGE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,80,121,10
+    CONTROL         "Raw Signal of Selected Minutes",IDC_RPT_RAW_SIG_SEL_MIN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,59,191,117,10
+    CONTROL         "Diagnosis/Recommendations",IDC_RPT_DIAG_RECOM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,59,168,109,10
+    CONTROL         "Patient Information",IDC_RPT_PATIENT_INFO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,59,156,75,10
+    CONTROL         "Event log",IDC_RPT_EVENT_LOG,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,59,216,46,10
+    LTEXT           "RSA",IDC_STATIC_RSA_TITLE,59,71,16,8
+    CONTROL         "include on subsequent page of report",
+                    IDC_RPT_RSA_OTHER_PAGE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,67,90,135,10
+    LTEXT           "Summary Graphs",IDC_STATIC_SUMM_GRPHS_TITLE,59,120,54,8
+    CONTROL         "include on first page of report",
+                    IDC_RPT_SUMM_GRPHS_FIRST_PAGE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,67,129,121,10
+    CONTROL         "include on subsequent page of report",
+                    IDC_RPT_SUMM_GRPHS_OTHER_PAGE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,67,140,135,10
+    LTEXT           "if the core report is de-selected, you can then select the following items to be include in the report.",
+                    IDC_STATIC_INSTRUCTIONS2,12,41,214,18
+    CONTROL         "include on subsequent pages of report both filtered and unfiltered",
+                    IDC_RPT_RSA_INCLUDE_BOTH,"Button",BS_AUTOCHECKBOX | 
+                    BS_MULTILINE | WS_TABSTOP,67,102,135,14
+END
+
+IDD_RESPIRATION DIALOGEX 0, 0, 157, 81
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "respiration Rate"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "please enter the respiration rate per minute",
+                    IDC_STATIC_INSTRUCTIONS,10,5,134,8
+    EDITTEXT        IDC_RESP_RATE,60,36,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "oK",IDOK,55,61,50,14
+    CTEXT           "",IDC_PERIOD,11,17,135,8
+END
+
+IDD_EDIT_VIEW_RESPIRATION DIALOGEX 0, 0, 152, 134
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Respiration"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "first 10 minute period",IDC_STATIC_FIRST_10_MIN_PD,5,15,
+                    82,8
+    EDITTEXT        IDC_RESP_RATE_10,92,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "second 10 minute period",IDC_STATIC_SECOND_10_MIN_PD,5,
+                    39,82,8
+    EDITTEXT        IDC_RESP_RATE_20,91,38,40,14,ES_AUTOHSCROLL
+    LTEXT           "third 10 minute period",IDC_STATIC_THIRD_10_MIN_PD,5,61,
+                    82,8
+    EDITTEXT        IDC_RESP_RATE_30,92,60,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "oK",IDOK,18,88,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,83,88,50,14
+    PUSHBUTTON      "help",IDC_EDITVIEWRESP_HELP,55,109,40,14,0,0,
+                    HIDC_EDITVIEWRESP_HELP
+END
+
+IDD_BCKUP_REST DIALOGEX 0, 0, 235, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "backup/Restore Data"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,60,172,50,14
+    PUSHBUTTON      "backup",IDC_BACKUP,55,18,50,14
+    PUSHBUTTON      "restore",IDC_RESTORE,127,18,50,14
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,112,145,
+                    80,9
+    LTEXT           "",IDC_BCKUP_REST_PROG_TITLE,43,143,63,12,WS_BORDER
+    LTEXT           "",IDC_BCKUP_REST_PATH,15,52,206,23,WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "backup to/Restore from",IDC_BCKUP_REST_TOFROM,15,41,81,
+                    8
+    PUSHBUTTON      "start",IDC_START,91,84,50,14,WS_DISABLED
+    LTEXT           "file being copied",IDC_FILE_COPIED,42,105,94,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "",IDC_BCKUP_REST_FILENAME,41,117,153,12,NOT WS_VISIBLE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Help",IDC_BCKUPREST_HELP,136,172,40,14,0,0,
+                    HIDC_BCKUPREST_HELP
+END
+
+IDD_STIMULATION_MEDIUM DIALOGEX 0, 0, 177, 169
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "stimulation Medium"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CTEXT           "ingest Stimulation Medium",IDC_BEGIN_STIM_MEDIUM,7,10,
+                    163,25
+    LTEXT           "description",IDC_STATIC_DESCRIPTION,6,40,35,8
+    EDITTEXT        IDC_EDIT_DESCRIPTION,17,51,153,14,ES_AUTOHSCROLL
+    LTEXT           "quantity",IDC_STATIC_QUANTITY,39,87,26,8
+    EDITTEXT        IDC_EDIT_QUANTITY,70,84,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "oz",IDC_OUNCES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    107,73,23,10
+    CONTROL         "ml",IDC_MILLILITERS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,107,86,23,10
+    CONTROL         "grams",IDC_GRAMS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    107,100,35,10
+    DEFPUSHBUTTON   "start study",IDOK,22,117,60,14
+    PUSHBUTTON      "Cancel",IDCANCEL,102,117,50,14
+    PUSHBUTTON      "Help",IDC_WATERLOAD_HELP,70,139,40,14,0,0,
+                    HIDC_WATERLOAD_HELP
+END
+
+IDD_FINISH_STUDY DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "finish the Study"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "oK",IDOK,35,69,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,101,69,50,14
+    CONTROL         "finish the Study",IDC_FINISH_STUDY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,60,27,66,10
+END
+
+IDD_SELECT_STUDY_TYPE DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "study Type"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "oK",IDOK,67,69,50,14
+    CTEXT           "select Study Type",IDC_TITLE,45,7,95,14
+    CONTROL         "standard Study",IDC_CHK_STANDARD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,59,29,65,10
+    CONTROL         "research Study",IDC_CHK_RESEARCH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,59,43,65,10
+END
+
+IDD_CHG_MIN_PER_GRAPH DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "change minutes per graph"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "change the number of minutes that are displayed on each graph.",
+                    IDC_STATIC_INSTRUCTIONS,17,14,154,20
+    EDITTEXT        IDC_EDIT_MIN_PER_GRAPH,70,43,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,39,69,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,69,50,14
+END
+
+IDD_EDIT_VIEW_RESP_RESEARCH DIALOGEX 0, 0, 186, 193
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "respiration"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "oK",IDOK,35,152,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,101,152,50,14
+    PUSHBUTTON      "help",IDC_EDITVIEWRESP_HELP,73,172,40,14,0,0,
+                    HIDC_EDITVIEWRESP_HELP
+    LISTBOX         IDC_LIST_RESPIRATION,7,7,172,114,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_RESPIRATION,82,129,29,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "change Respiration",IDC_STATIC_CHANGE_RESP,9,131,70,8
+    DEFPUSHBUTTON   "set Respiration",IDC_BTN_SET_RESP,113,129,62,14
+END
+
+IDD_EVENT_RECORDER DIALOGEX 0, 0, 186, 174
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "record Event"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "oK",IDOK,49,153,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,107,153,50,14
+    CONTROL         "cough",IDC_CHK_COUGH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,26,35,10
+    CONTROL         "movement",IDC_CHK_MOVEMENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,57,49,10
+    CONTROL         "talking",IDC_CHK_TALKING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,112,42,37,10
+    CONTROL         "ingestion",IDC_CHK_INGESTION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,42,45,10
+    CONTROL         "nausea",IDC_CHK_NAUSEA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,73,39,10
+    CONTROL         "pain",IDC_CHK_PAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,112,26,29,10
+    CONTROL         "vomiting",IDC_CHK_VOMITING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,112,57,43,10
+    CONTROL         "other",IDC_CHK_OTHER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,112,73,33,10
+    LTEXT           "description",IDC_STATIC_DESCRIPTION,14,90,36,8
+    EDITTEXT        IDC_EDIT_DESCRIPTION,7,104,172,44,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "time",IDC_STATIC_TIME,68,6,14,8
+    EDITTEXT        IDC_EDIT_TIME,87,6,30,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_EVENT_LIST DIALOGEX 0, 0, 186, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Events"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,67,180,50,14
+    LISTBOX         IDC_LIST_EVENTS,37,7,110,92,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_EVENT_DESCRIPTION,7,116,172,59,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC_DESCRIPTION,7,106,36,8
+END
+
+IDD_WHAT_IF DIALOGEX 0, 0, 334, 206
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "What If Scenario"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_WHAT_IF,17,17,303,101,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_WHAT_IF_DESCRIPTION,6,135,321,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "save",IDC_BTN_SAVE,90,162,45,14
+    PUSHBUTTON      "recall",IDC_BTN_RECALL,144,162,45,14
+    PUSHBUTTON      "delete",IDC_BTN_DELETE,198,162,45,14
+    DEFPUSHBUTTON   "Ok",IDOK,7,186,45,14,NOT WS_VISIBLE
+    PUSHBUTTON      "close",IDCANCEL,116,186,45,14
+    PUSHBUTTON      "help",IDC_BTN_WHAT_IF_HELP,172,186,45,14,0,0,
+                    HIDC_BTN_WHAT_IF_HELP
+    LTEXT           "Description",IDC_STATIC_DESCRIPTION_1,7,122,36,8
+    CTEXT           "date/Time",IDC_STATIC_DATE_TIME,17,7,65,11,WS_BORDER
+    CTEXT           "description",IDC_STATIC_DESCRITPION,82,7,239,11,
+                    WS_BORDER
+END
+
+IDD_IMPORT_REMOTE_DB DIALOGEX 0, 0, 354, 289
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "import remote database"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "close",IDOK,124,262,50,14
+    LTEXT           "import database from:",IDC_STATIC_IMPORT_DB_FROM,14,10,
+                    72,8
+    EDITTEXT        IDC_EDIT_DB_LOCATION,17,21,264,27,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_HSCROLL
+    PUSHBUTTON      "import",IDC_BTN_IMPORT,55,235,50,14
+    LTEXT           "import Progress",IDC_STATIC_PROGRESS_TITLE,117,237,55,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,177,235,
+                    121,14
+    PUSHBUTTON      "select Database to import",IDC_BTN_BROWSE,287,18,50,32,
+                    BS_MULTILINE
+    PUSHBUTTON      "help",IDC_IMPORT_REMOTE_DB_HELP,190,262,40,14,0,0,
+                    HIDC_IMPORT_REMOTE_DB_HELP
+    CONTROL         "",IDC_LIST_IMPORT,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,48,58,256,145
+    PUSHBUTTON      "sSelect All Studies",IDC_BTN_SELECT_ALL,137,207,79,14
+END
+
+IDD_BCKUP_REST_ERRS DIALOGEX 0, 0, 291, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "backup/Restore Errors"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,111,162,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,234,162,50,14,NOT WS_VISIBLE
+    LISTBOX         IDC_LIST_ERRORS,7,31,277,115,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CTEXT           "Static",IDC_STATIC_NUM_ERRS,7,11,277,8
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 289, 163
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "select Language",IDC_STATIC_SEL_LANGUAGE,53,7,53,8
+    COMBOBOX        IDC_COMBO_LANGUAGE,110,7,127,64,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "select a location for data files",
+                    IDC_STATIC_DATA_FILE_LOC,0,122,134,8,NOT WS_VISIBLE,
+                    WS_EX_RIGHT
+    PUSHBUTTON      "browse",IDC_DATA_FILE_LOC_BROWSE,238,123,50,14,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_DATA_FILE_LOC,2,127,238,31,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE | NOT 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "oK",IDOK,57,138,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,119,138,50,14
+    PUSHBUTTON      "help",IDC_SETTINGS_HELP,195,139,38,14,0,0,
+                    HIDC_SETTINGS_HELP
+    LTEXT           "select the location for the remote database",
+                    IDC_STATIC_REMOTE_DB_LOC,23,68,144,8
+    PUSHBUTTON      "browse",IDC_REMOTE_DB_LOC_BROWSE,174,65,50,14
+    EDITTEXT        IDC_EDIT_REMOTE_DB_LOC,23,85,243,31,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,13,26,262,96
+    LTEXT           "enter the password for changing the location for the remote database",
+                    IDC_STATIC_REMOTE_DB_PASSWD,23,35,228,8
+    EDITTEXT        IDC_EDIT_REMOTE_DB_PASSWD,31,47,107,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_FREQ_RANGE DIALOGEX 0, 0, 176, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "frequency Range"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,33,79,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,93,79,50,14
+    CTEXT           "select a frequency range.",IDC_STATIC_SEL_FREQ_RANGE,14,
+                    11,146,8
+    CONTROL         "15 cpm",IDC_RADIO_15_CPM,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,67,30,39,10
+    CONTROL         "60 cpm",IDC_RADIO_60_CPM,"Button",BS_AUTORADIOBUTTON,67,
+                    45,39,10
+    CONTROL         "200 cpm",IDC_RADIO_200_CPM,"Button",BS_AUTORADIOBUTTON,
+                    67,60,43,10
+    PUSHBUTTON      "help",IDC_FREQ_RANGE_HELP,68,103,40,14,0,0,
+                    HIDC_FREQ_RANGE_HELP
+END
+
+IDD_FILTER_RSA DIALOGEX 0, 0, 186, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "filter RSA"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,37,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,99,50,50,14
+    CONTROL         "filter out of the RSA frequencies below 10 CPM",
+                    IDC_CHK_FILTER,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,37,17,110,23
+END
+
+IDD_SEL_STUDY_TYPE_FREQ DIALOGEX 0, 0, 186, 122
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Study Type and Frequency Range"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ok",IDOK,37,95,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,99,95,50,14
+    CTEXT           "select Study Type and Frequency Range",IDC_TITLE,20,7,
+                    145,14
+    CONTROL         "0 - 15 cpm standard Study",IDC_CHK_STANDARD_15,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,41,29,101,10
+    CONTROL         "0 - 15 cpm research Study",IDC_CHK_RESEARCH_15,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,41,42,100,10
+    CONTROL         "0 - 60 cpm research Study",IDC_CHK_RESEARCH_60,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,41,56,100,10
+    CONTROL         "0 - 200 cpm research Study",IDC_CHK_RESEARCH_200,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,41,70,104,10
+END
+
+IDD_HIDE_STUDY_DATE DIALOGEX 0, 0, 278, 185
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "show/Hide study dates"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "enter password",IDC_STATIC_ENTER_PASSWORD,8,42,51,8
+    EDITTEXT        IDC_EDIT_PASSWORD,65,39,103,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "create New Password",IDC_BUTTON_NEW_PASSWORD,29,67,94,
+                    14
+    PUSHBUTTON      "reset Password",IDC_BUTTON_RESET_PASSWORD,135,67,67,14
+    LTEXT           "enter a new password (max 10 characters) and then re-enter the password",
+                    IDC_STATIC_ENTER_NEW_PASSWORD,14,92,244,8
+    EDITTEXT        IDC_EDIT_NEW_PASSWORD,18,105,91,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "re-enter password to validate it",
+                    IDC_STATIC_VALIDATE_PASSWORD,13,128,102,8
+    EDITTEXT        IDC_EDIT_VALIDATE_PASSWORD,16,141,91,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "oK",IDOK,73,162,50,14
+    PUSHBUTTON      "cancel",IDCANCEL,141,162,50,14
+    PUSHBUTTON      "next",IDC_BUTTON_NEXT,124,106,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_HIDE_SHOW_STATE,31,7,215,22,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_RESET_PASSWORD,175,136,40,14,ES_AUTOHSCROLL
+END
+
+IDD_SEARCH DIALOGEX 0, 0, 434, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Search"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Last name",IDC_CHK_LAST_NAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,33,49,10
+    CONTROL         "Research reference number",IDC_CHK_RRNUM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,93,33,105,10
+    CONTROL         "Ascending order",IDC_CHK_NAME_ASC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,60,68,10
+    CONTROL         "Descending order",IDC_CHK_NAME_DESC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,123,61,72,10
+    EDITTEXT        IDC_EDIT_NAME_RRNUM,26,96,80,14,ES_AUTOHSCROLL
+    CONTROL         "Dates older than the specified date (no wildcards)",
+                    IDC_CHK_DATE_OLDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    241,28,175,10
+    CONTROL         "Dates newer than the specified date (no wildcards)",
+                    IDC_CHK_DATE_NEWER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    241,43,179,10
+    CONTROL         "Dates equal to the specified date",IDC_CHK_DATE_EQUAL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,242,58,122,10
+    EDITTEXT        IDC_EDIT_MONTH,289,91,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DAY,325,91,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YEAR,361,91,31,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,149,137,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,235,137,50,14
+    LTEXT           "Last Name",IDC_STATIC_LABEL_NAME,20,82,126,8
+    LTEXT           "Study Date",IDC_STATIC_LABEL_DATE,246,93,37,8
+    LTEXT           "(Use * as a wildcard for month, day, and/or year)",
+                    IDC_STATIC_DATE_HELP,262,73,160,8
+    LTEXT           "Use * as a wildcard",IDC_STATIC_NAME_HELP,113,98,62,8
+    GROUPBOX        "Last Name/Research Reference Number",
+                    IDC_STATIC_NAME_RRNUM,10,13,206,103
+    GROUPBOX        "Study Date",IDC_STATIC_STUDY_DATE,227,13,197,112
+    GROUPBOX        "",IDC_STATIC,17,22,192,27
+    GROUPBOX        "",IDC_STATIC,17,51,192,27
+    CTEXT           "/",IDC_STATIC,313,94,8,8
+    CTEXT           "/",IDC_STATIC,348,93,8,8
+    CTEXT           "mm",IDC_STATIC_MONTH_HELP,293,108,12,8
+    CTEXT           "dd",IDC_STATIC_DAY_HELP,329,108,12,8
+    CTEXT           "yyyy",IDC_STATIC_YEAR_HELP,365,108,22,8
+    PUSHBUTTON      "help",IDC_SEARCH_HELP,378,137,40,14,0,0,
+                    HIDC_SEARCH_HELP
+END
+
+IDD_IMPORT_DUP_NAME DIALOGEX 0, 0, 198, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,40,132,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,131,50,14
+    CONTROL         "Don't import this patient information",IDC_RADIO_SKIP,
+                    "Button",BS_AUTORADIOBUTTON,11,35,131,10
+    CONTROL         "Overwrite the patient information in the database",
+                    IDC_RADIO_OVERWRITE,"Button",BS_AUTORADIOBUTTON,11,53,
+                    175,10
+    CONTROL         "Change the name and create a new patient",
+                    IDC_RADIO_CHANGE_NAME,"Button",BS_AUTORADIOBUTTON,11,72,
+                    155,10
+    EDITTEXT        IDC_EDIT_NAME,31,105,151,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC_NAME,32,91,132,8
+    LTEXT           "TItle",IDC_STATIC_TITLE,7,7,184,19
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "3CPM"
+            VALUE "FileDescription", "3CPM EGGSAS"
+            VALUE "FileVersion", "RWL 2.09i"
+            VALUE "InternalName", "EGGSAS"
+            VALUE "LegalCopyright", "Copyright (C) 2020, 3CPM Company, Inc."
+            VALUE "OriginalFilename", "3CPM EGGSAS"
+            VALUE "ProductName", "3CPM EGGSAS"
+            VALUE "ProductVersion", "2.09i"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_LOCAL_DB            "local database"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "3CPM EGGSAS\n\n3CPM EGGSAS\n\n\n3CPMEGGSAS.Document\n3CPM EGGSAS Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "EGGSAS"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE_AS         "Save the active patient to different location\nSave patient As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print report\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display report\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "A"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REPORT_POSTWATER_10  "Edit patient's first post-water 10 minute period\nFirst post-water 10 minute period"
+    ID_REPORT_POSTWATER_20  "Edit patient's second post-water 10 minute period\nSecond post-water 10 minute period"
+    ID_REPORT_POSTWATER_30  "Edit patient's third post-water 10 minute period\nThird post-water 10 minute period"
+    ID_REPORT_DIAGNOSIS     "Edit the diagnosis\nDiagnosis"
+    ID_REPORT_CORE_EGG      "Use the core EGG report\nCore EGG report"
+    ID_REPORT_CUSTOM        "Define a custom report\nCustom report"
+    IDW_COMBO               "Select period\nSelect period"
+    IDS_ENTER_WATER_AMOUNT  "enter amount of water ingested"
+    IDS_OK                  "oK"
+    IDS_END_STUDY_ARE_YOU_SURE 
+                            "this will end the study\nAre you sure you want to end the study?"
+    IDS_WARNING             "Warning"
+    ID_EDIT_PRE_STUDY_INFO  "Edit the patient's pre-Study information\nPre-Study information"
+    ID_VIEW_PRE_STUDY_INFO  "View the patient's pre-Study information\nPre-Study information"
+    IDS_TITLE_10_MIN_PERIOD "Analyze first 10 minute post-water period."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_REV_ORIG        "Revert study to original\nRevert to original"
+    ID_FILE_NEW_PATIENT     "Study is for a new patient\nNew patient"
+    ID_FILE_EXIST_PATIENT   "Study is for an existing patient\nExisting patient"
+    ID_EDIT_PATIENT_DIAG_HIST 
+                            "Edit the patient's diagnostic history\nPatient diagnostic history"
+    ID_EDIT_PATIENT_MEDS    "Edit the patient's medications\nPatient medications"
+    ID_EDIT_SUGGESTED_DIAG  "Edit the patient's suggested diagnosis\nSuggested diagnosis"
+    ID_VIEW_PATIENT_DIAG_HIST 
+                            "View the patient's diagnostic history\nPatient diagnostic history"
+    ID_VIEW_PATIENT_MEDS    "View the patient's medications\nPatient medications"
+    ID_VIEW_SUGGESTED_DIAG  "View the patient's suggested diagnosis\nSuggested diagnosis"
+    ID_VIEW_BASELINE        "View patient's baseline period\nBaseline period"
+    ID_VIEW_POSTWATER_10    "View patient's first post-water 10 minute period\nFirst post-water 10 minute period"
+    ID_VIEW_POSTWATER_20    "View patient's second post-water 10 minute period\nSecond post-water 10 minute period"
+    ID_VIEW_POSTWATER_30    "View patient's third post-water 10 minute period\nThird post-water 10 minute period"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ANALYZE_BASELINE     "Analyze patient's baseline period\nBaseline period"
+    ID_ANALYZE_POSTWATER_10 "Analyze patient's first post-water 10 minute period\nFirst post-water 10 minute period"
+    ID_ANALYZE_POSTWATER_20 "Analyze patient's second post-water 10 minute period\nSecond post-water 10 minute period"
+    ID_ANALYZE_POSTWATER_30 "Analyze patient's third post-water 10 minute period\nThird post-water 10 minute period"
+    ID_ANALYZE_CURRENT      "Patient's current period\nCurrent period"
+    ID_REPORT_CONFIGURE1    "Configure a report\nConfigure Report"
+    ID_REPORT_VIEW          "View the report\nView report"
+    ID_REPORT_DELETE        "Delete the report\nDelete report"
+    ID_REPORT_EDIT          "Edit the report\nEdit report"
+    ID_REPORT_TYPE          "Set the type of report\nSet report type"
+    ID_REPORT_BASELINE      "Edit patient's baseline period\nBaseline period"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_20_MIN_PERIOD "Analyze second 10 minute post-water period."
+    IDS_TITLE_30_MIN_PERIOD "Analyze third 10 minute post-water period."
+    ID_EDIT_AMT_WATER       "Amount of water ingested\nAmount of water ingested"
+    IDS_ERR_POSITION_FILE   "error positioning the file to the requested period (%d), %s, %s."
+    IDS_ERR_UNEXPECTED_EOF  "Information about the facility/practice\n&Facility/practice information"
+    ID_REPORT_POSTWATER_40  "Analyze patient's fourth post-water 10 minute period\nFourth post-water 10 minute period"
+    ID_VIEW_POSTWATER_40    "View patient's fourth post-water 10 minute period\nFourth post-water 10 minute period"
+    ID_VIEW_RECOMMENDATIONS "View patient recommendations\nRecommendations"
+    IDS_SAVE_CLOSE          "save and Close"
+    IDS_TITLE_BASELINE      "Analyze baseline"
+    IDS_RAW_WAVFRM_Y_AXIS_LBL "micro Volts"
+    IDS_ERR_LOAD_DLL        "can't load DLL, %s"
+    IDS_ERR_DLL_FUNCS_NOT_FOUND "can't find functions for DLL, %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_DLL             "%s: %s"
+    IDS_ERR_DLL_CHANNELS    "not all input channels are working."
+    IDS_DIAG_PP_NORM        "post-prandial EGG is suggestive of Normal gastric rhythm."
+    IDS_DIAG_PP_TACHY       "post-prandial EGG is suggestive of Tachygastria."
+    IDS_DIAG_PP_BRADY       "post-prandial EGG is suggestive of Bradygastria."
+    IDS_DIAG_PP_MXNS        "post-prandial EGG is suggestive of Mixed Dysrhythmia - Nonspecific."
+    IDS_DIAG_PP_GOO         "sustained 3 cpm activity in the post-prandial EGG is suggestive of Gastric Outlet Obstruction."
+    IDS_DIAG_PP_RPD         "Sustained duodenal/respiratory activity in the post-prandial EGG is suggestive of Respiration Pattern Dysrhythmia."
+    IDS_DIAG_PP_UGR         "Abnormal gastric rhythms in the post-prandial EGG are suggestive of an Unspecified Gastric Rhythm."
+    IDS_DIAG_PP_PROB_NORM   "post-prandial EGG is suggestive of Probable Normal gastric rhythm."
+    IDS_DIAG_PP_PROB_TACHY  "post-prandial EGG is suggestive of Probable Tachygastria."
+    IDS_DIAG_PP_POS_TACHY_CC 
+                            "post-prandial EGG is suggestive of Possible Tachygastria , clinical correlation is required"
+    IDS_DIAG_PP_POS_BRADY_CC 
+                            "post-prandial EGG is suggestive of Possible Bradygastria, clinical correlation is required."
+    IDS_DIAG_PP_SUB_PROB    "post-prandial EGG is suggestive of Sub-Normal gastric rhythm."
+    IDS_MIN_INCL_ART        "the Minutes you have chosen include an artifact.  This could affect the results of the study.\n\nAre you sure you want to accept the changes?"
+    IDS_ERR_MEM_ALLOC       "Can't allocate memory."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_EGG_READ        "error reading EGG channel: %s"
+    IDS_SECONDS             "Seconds"
+    IDS_EGG                 "eGG"
+    IDS_RESPIRATION         "respiration"
+    IDS_MINUTES             "minutes"
+    IDS_START_MINUTE_OUT_OF_RANGE "the starting minute is out of range."
+    IDS_END_MINUTE_OUT_OF_RANGE "the ending minute is out of range."
+    IDS_NEED_4_MINUTES      "at least 4 minutes must be selected."
+    IDS_START_MINUTE_FORMAT_ERR 
+                            "the start minute must be on the minute or half minute."
+    IDS_END_MINUTE_FORMAT_ERR 
+                            "the end minute must be on the minute or half minute."
+    IDS_OVERWRITE_FILE      "the file, %s, already exists.  Do you want to overwrite it?"
+    IDS_ERR_CREATE_FILE     "error creating file %s.  %s."
+    IDS_ERR_WRITE_FILE      "error writing file, %s.  %s."
+    IDS_NEED_FIRST_NAME     "there must be a first name."
+    IDS_NEED_LAST_NAME      "there must be a last name."
+    IDS_INVALID_DATE        "the date of birth is not valid."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PATIENT_IN_DB_CONTINUE 
+                            "there is already a patient by this name.  Do you want to continue with the study?"
+    IDS_BAD_BATTERY         "battery is too low to use."
+    IDS_LOW_BATTERY         "battery is low but useable.  It may or may not remain useable for the test."
+    IDS_BAD_POS_IMPEDANCE   "the positive impedance is bad.  Check connections."
+    IDS_BAD_NEG_IMPEDANCE   "the negative impedance is bad.  Check connections."
+    IDS_CONTINUE            "do you want to continue?"
+    IDS_SUMM_BRADY_TITLE    "1 - 2.5 cpm (Bradygastria)"
+    IDS_1_25CPM             "1.0 - 2.5 cpm"
+    IDS_25_375CPM           "2.5 - 3.75 cpm"
+    IDS_375_100CPM          "3.75 - 10.0 cpm"
+    IDS_100_150CPM          "10.0 - 15.0 cpm"
+    IDS_CONTROL             "control"
+    IDS_PATIENT             "patient"
+    IDS_BL                  "bL"
+    IDS_MIN_10              "min. 10"
+    IDS_MIN_20              "min. 20"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MIN_30              "min. 30"
+    IDS_SUMM_NORMAL_TITLE   "2.5 - 3.75 cpm (Normal)"
+    IDS_SUMM_TACHY_TITLE    "3.75 - 10.0 cpm (Tachygastria)"
+    IDS_SUMM_DUOD_TITLE     "10.0 - 15.0 cpm (Duodenal - Resp.)"
+    IDS_PERCENTAGE          "Percentage"
+    IDS_WANT_TO_SAVE_PATIENT 
+                            "you have made changes to this patient and didn't save them.  Do you want to save them?"
+    IDS_BRADY               "bradygastria"
+    IDS_NORMAL              "normal"
+    IDS_TACHY               "tachygastria"
+    IDS_DUOD                "duodenal"
+    IDS_PERIOD              "period"
+    IDS_ENTIRE_RANGE        "entire Range"
+    IDS_DS_DIST_AVG_PWR_15_50 
+                            "distribution of average power by frequency region (as % of power in the 0 to 15 cpm range)"
+    IDS_DS_DIST_AVG_PWR_15_50_1 "(as % of power in the 0 to 15 cpm range)"
+    IDS_DS_DIST_AVG_PWR_RNG "distribution of average power by frequency range"
+    IDS_ERR_INVALID_HDR     "invalid file header for file %s."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WATER_INGESTED      "water ingested"
+    IDS_SIGNAL_NOT_STABLE   "the signal is NOT stabilizing. Select one of the following:\n\nTo continue in manual mode, select OK.\nTo cancel the test, select Cancel."
+    IDS_EXPIRED             "your expiration date has expired.  You can no longer run this program unless you get a program key from 3CPM."
+    IDS_DS_RATIO_AVG_PWR    "ratios of average powers (POSTprandial / PREprandial) by frequency range"
+    IDS_1_15CPM             "1 - 15 cpm"
+    IDS_DS_AVG_DOM_FREQ     "average dominant frequency (+- Standard Deviation)"
+    IDS_DIAG_DUOD_HYPER     "duodenal pacesetter hyperactivity"
+    IDS_OPEN_SCREEN_NOTICE  "eGGSAS is a copyright of the 3CPM(R) Company.\nThe EGG device and software are the subject of certain US patents, both issued and pending."
+    IDS_WATER_INGESTION_PHASE "water ingestion phase"
+    IDS_1_MIN_BET_LINES     "Time (1 minute between lines)"
+    IDS_PATIENT_NAME        "patient name"
+    IDS_DATE_OF_STUDY       "date of study"
+    IDS_ATTENDING_PHYSICIAN "attending physician"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REFERING_PHYSICIAN  "refering physician"
+    IDS_TECHNICIAN          "technician"
+    IDS_INDICATIONS         "indications"
+    IDS_NAUSEA              "nausea"
+    IDS_VOMITING            "vomiting"
+    IDS_BLOATING            "bloating"
+    IDS_GERD                "gERD"
+    IDS_ERUCTUS             "eructus"
+    IDS_EARLY_SATEITY       "early Satiety"
+    IDS_PP_FULLNESS         "post-prandial fullness"
+    IDS_DIAGNOSIS           "diagnosis"
+    IDS_RECOMMENDATIONS     "recommendations"
+    IDS_SIGNATURE           "signature"
+    IDS_DATE                "date"
+    IDS_PAGE_NUMBER         "page %d of %d"
+    IDS_ERR_OPEN_FILE1      "the file, %s, can't be opened."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR1              "ERROR"
+    IDS_DS_PCT_DOM_FREQ     "percentage (%) time with dominant frequency in the various requency ranges"
+    IDS_PM                  "pM"
+    IDS_AM                  "aM"
+    IDS_VOLTS               "Volts"
+    ID_FILE_BACKUP          "Backup/Restore database and data files\nBackup or Restore"
+    IDS_BASELINE            "baseline"
+    IDS_FIRST_10_MIN_PD     "first 10 minute period"
+    IDS_SECOND_10_MIN_PD    "second 10 minute period"
+    IDS_THIRD_10_MIN_PD     "third 10 minute period"
+    IDS_DIAG_PP_PROB_BRADY  "post-prandial EGG is suggestive of probable Bradygastria."
+    IDS_BACKUP_ERROR        "bACKUP ERROR"
+    IDS_PUT_IN_DISK         "put a disk in the drive and press OK. Or press Cancel to cancel the backup."
+    IDS_PUT_IN_NEW_DISK     "put another disk in the drive and press OK. Or press Cancel to cancel the backup."
+    IDS_DISK_TRY_AGAIN      "if you want to try again press OK. Or press Cancel to cancel the backup."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_RESPIRATION     "Change respiration rate\nRespiration"
+    ID_VIEW_RESPIRATION     "View respiration rate\nRespiration"
+    ID_VIEW_RSA             "RSA\nRSA"
+    IDS_COPY_ERR_CONTINUE   "There was a copy error.  Do you want to continue?"
+    IDS_PROGRESS_BACKUP     "backup progress"
+    IDS_PROGRESS_RESTORE    "restore progress"
+    IDS_BACKUP_SUCCESS      "the backup completed successfully."
+    IDS_RESTORE_SUCCESS     "the restore completed successfully."
+    IDS_RESTORE_FAIL        "the restore failed to complete."
+    IDS_RESTORE_FROM        "restore from:"
+    IDS_RESTORE_RESTART     "The program is currently connected to the database.\nTo continue with the Restore, restart the program and perform the Restore before any other actions."
+    IDS_SQL_ERROR           "Change number of minutes per graph\nChange number of minutes per graph"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SQL_INVALID_HANDLE  "invalid SQL handle."
+    IDS_FMT_DATABASE_ERROR  "database error: %s"
+    IDS_FOURTH_10_MIN_PD    "fourth 10 minute period"
+    IDS_MEDICATION          "Medication"
+    IDS_ERR_PRINTER_INIT    "printer wouldn't initalize."
+    IDS_ERR_PRINTER_START_PAGE "could not start page."
+    IDS_ALL_RIGHTS_RESERVED "All rights reserved."
+    IDS_ERR_READ_BATTERY_TIMEOUT "Timeout while reading battery for voltage."
+    IDS_ERR_READ_NEG_IMP_TIMEOUT "timeout while reading negative impedance."
+    IDS_ERR_READ_POS_IMP_TIMEOUT "timeout while reading positive impedance."
+    IDS_NEED_RSCH_REF_NUM   "a research reference number is needed."
+    IDS_FREQ_CPM            "frequency (CPM)"
+    IDS_TIME                "time"
+    IDS_CORE_RPT_SELECTED   "no report items were selected, the core report will be selected."
+    IDS_REF_NUM             "reference Number"
+    IDS_DELAYED_GASTRIC_EMPTYING "delayed gastric emptying"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READING_ZERO_POINTS "not reading any data."
+    IDS_PERIOD_X            "Period"
+    IDS_POST_STIM_PERIOD    "post stimulation period"
+    IDS_ENTER_TYPE_MED_QTY  "enter type of stimulation medium and quantity."
+    IDS_TYPE_MED_QTY        "type of stimulation medium and quantity."
+    IDS_STOP_BASELINE       "stop Baseline"
+    IDS_STIMULATION_MEDIUM  "stimulation Medium"
+    IDS_STOP_CONTINUE_BASELINE 
+                            "are you sure you want to stop the baseline?  Press Yes to stop the baseline, No to continue the baseline."
+    IDS_PAUSE_CONTINUE_BASELINE 
+                            "are you sure you want to pause the study?\nPress Yes to pause the study, No to continue the baseline."
+    IDS_START_MIN_IN_PREV_PERIOD "the start minute is in the previous period."
+    IDS_END_MIN_IN_NEXT_PERIOD "the end minute is in the next period."
+    IDS_INV_STUDY_FOR_VERSION 
+                            "the research study cannot be viewed with the standard program."
+    IDS_ASK_DELETE_PERIOD   "Are you sure you want to delete this period?"
+    IDS_INSERT_PERIOD_NO_MINUTES 
+                            "There are not enough minutes to insert a period."
+    IDS_MAX_PERIODS_REACHED "You can't a period.  The maximum number of periods has been reached."
+    IDS_THIS_PERIOD_MUST_BE_ANALYZED 
+                            "This period must be analyzed before inserting a new period."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PREV_PERIOD_MUST_BE_ANALYZED 
+                            "The previous period must be analyzed before inserting a new period."
+    IDS_CHG_RESP_NOT_SET    "you have changed the respiration and not set it.  Do you want to set it?"
+    IDS_RESP_NOT_SAVED      "you have changed respiration rates and not saved them.  Do you want to save them?"
+    ID_FILE_RESUME_STUDY    "Resume a previous study\nResume Study"
+    ID_EDIT_STIMULATION_MEDIUM 
+                            "Stimulation medium and quantity\nStimulation medium and quantity"
+    ID_VIEW_STIMULATION_MEDIUM 
+                            "Stimulation medium and quantity\nStimulation medium and quantity"
+    IDS_STIMULATION_MEDIUM_PHASE "stimulation medium phase"
+    ID_REPORT_CREATESPREADSHEETOFDATASHEET 
+                            "Create a Spreadsheet of the Data Sheet\nCreate SpreadSheet of Data Sheet"
+    IDS_SQL_ERR_UNKNOWN     "unknown database error."
+    IDS_SS_LEFT_TITLE_1     "distribution of average power by frequency"
+    IDS_SS_LEFT_TITLE_2     "region (as % of power in the 0 to 15 cpm"
+    IDS_SS_LEFT_TITLE_3     "range)"
+    IDS_SS_LEFT_TITLE_4     "ratios of average powers (POSTprandial /"
+    IDS_SS_LEFT_TITLE_5     "pREprandial) by frequency range"
+    IDS_SS_LEFT_TITLE_6     "distribution of average power by frequency"
+    IDS_SS_LEFT_TITLE_7     "range"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SS_LEFT_TITLE_8     "average dominant frequency (+- Standard"
+    IDS_SS_LEFT_TITLE_9     "deviation)"
+    IDS_SS_LEFT_TITLE_10    "percentage (%) time with dominant frequency"
+    IDS_SS_LEFT_TITLE_11    "in the various requency ranges"
+    IDS_SS_FILE_CREATED     "spreadsheet file has been created."
+    IDS_ASK_DELETE_EVENT    "are you sure you want to delete this Event?"
+    ID_VIEW_EVENTS          "Events\nView Events"
+    IDS_RESUME_TO_CONTINUE  "select ""Resume"" from the File menu to resume the study."
+    IDS_INFORMATION         "information"
+    IDS_STANDARD            "standard"
+    IDS_RESEARCH            "research"
+    IDS_WANT_TO_SAVE_WHATIF "you made changes to the What If scenario.  Do you want to save them?"
+    IDS_FAILED_TO_SAVE_WHATIF "failed to save the What If data."
+    IDS_ENTER_DESCRIPTION   "please enter a description."
+    IDS_SURE_OVERWRITE_WHATIF 
+                            "are you sure you want to overwrite the existing What If scenario?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_TIME           "Date/Time"
+    IDS_DESCRIPTION         "Description"
+    IDS_SELECT_WHATIF       "please select a What If Scenario."
+    IDS_ASK_DELETE_WHATIF   "are you sure you want to delete this item?\n\n%s: %s"
+    IDS_CANT_DELETE_ORIG_STUDY "can't delete the original study."
+    IDS_SELECT_WHATIF_LIST  "please select a What If Scenario from the list."
+    IDS_WHATIF_ORIGINAL_STUDY "original study"
+    IDS_WHATIF_NEW          "nEW"
+    IDS_CANT_NAME_WHATIF    "you can't name a What If scenario %s."
+    IDS_GOOD_MINUTES_UNCHECKED 
+                            "the Good Minutes box was left unchecked.  You must return and check the box before moving on to another period."
+    IDS_PERIOD_LENGTH_UNCHECKED 
+                            "the Period Length box was left unchecked.  You must return and check the box before moving on to another period."
+    IDS_RESET_PERIODS_QUESTION 
+                            "all periods will be reset and you will be required to recreate time periods and minutes selected.\r\n Do you want to continue?"
+    IDS_NO_STIM_MEDIUM      "no test medium administered."
+    IDS_0_300               "0 - 3.00 cpm"
+    IDS_325_600             "3.25 - 6.00 cpm"
+    IDS_625_1500            "6.25 - 15.00 cpm"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_0_15                "0 - 15 cpm"
+    ID_FILE_EXPORT_STUDIES  "Export Studies\nExport Studies"
+    ID_FILE_IMPORTSTUDIES   "Import Studies\nImport Studies"
+    IDS_SEL_READER_DB       "select a Reader database or the Local database."
+    IDS_OVERWRITE_PATIENT   "the patient %s is already in the database, overwrite?\n Cancel to cancel the import."
+    IDS_FILE_COPY_ERR       "there was an error copying the file from %s to %s."
+    IDS_OVERWRITE_STUDY     "the study for\r\n    patient %s %s\r\n    study date %s\r\n\r\nalready exists, do you want to overwrite it?"
+    IDS_IMPORT_PROGRESS     "import progress"
+    IDS_IMPORT_COMPLETE     "import Complete"
+    IDS_SEL_REMOTE_DB_LOC   "please select a location for the database to be imported from."
+    IDS_IMPORT_CANCELLED    "import Cancelled"
+    IDS_IMPORT_FAILED       "import Failed"
+    IDS_ADD_EXT_STUDIES_SURE 
+                            "you are about to add external studies to your local database.\r\n\r\nAre you sure you want to do this?"
+    ID_HELP_ABOUT_READER    "About Reader\nAbout Reader"
+    IDS_DB_NOT_FOUND        "the database was not found: %s"
+    ID_HELP_ABOUT3CPMEGGSASCENTRALDATADEPOTREADER 
+                            "About Central Data Depot Reader\nAbout Central Data Depot Reader"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECT_STUDY_FROM_LIST "please select at least 1 study from the list."
+    IDS_DB_VERSION_WRONG    "the database version (%s) is not the version the program is expecting (%s)."
+    IDS_DB_ACCESS_ERR       "can't access the database to get the version number."
+    IDS_CONTACT_SUPPORT     "contact customer support for help."
+    IDS_INV_FILE_HDR        "%s:  -  invalid file header"
+    IDS_BCKUP_COMP_ERRS     "backup completed with errors."
+    IDS_REST_COMP_ERRS      "restore completed with errors."
+    IDS_BACKUP_ERRORS       "backup Errors"
+    IDS_BACKUP_ERRORS_NUM   "there were %d errors during backup."
+    IDS_RESTORE_ERRORS      "restore Errors"
+    IDS_RESTORE_ERRORS_NUM  "there were %d errors during restore."
+    IDS_DATA_FILE_MISSING   "%s  -  data file is missing."
+    IDS_BCKUP_DATA_FILE_MISSING "%s  -  backed up data file is missing."
+    IDS_EXPIRE_DATE         "this program will stop running on %s."
+    IDS_DEMO_OPEN_SCREEN_NOTICE 
+                            "this is the 3CPM EGG demonstration program.  It contains a number of research and standard water load sample studies.  It is for demonstration and practice purposes only.  This demonstration program is a fully functional analysis program with the same features and options present in the actual program, except it cannot be used to collect patient data."
+    ID_FILE_SAVERAWDATAINASCII 
+                            "Save the raw data in an Ascii file\nSave the raw data in an Ascii file"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_SAVERAWDATAINASCII33072 
+                            "Save the raw data in an Ascii file\nSave the raw data in an Ascii file"
+    IDS_ENTER_FILE_NAME     "please enter a file name."
+    ID_SETTINGS_FREQUENCYRANGE "Set frequency range\nSet frequency range"
+    ID_VIEW_FILTER_RSA      "Filter RSA\nFilter RSA"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\EGGSAS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

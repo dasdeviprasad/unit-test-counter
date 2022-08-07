@@ -1,0 +1,539 @@
+Identifier - Do Not Change	English
+	
+[LANGUAGE]	
+en-US	US English
+	
+[MENU]	
+File	&File
+Edit	&Edit
+View	&View
+GoTo	&GoTo
+Analyze	&Analyze
+Report	&Report
+Help	&Help
+NewStudy	&New study
+CtrlN	Ctrl+N
+NewPatient	New patient
+ExistingPatient	Existing Patient
+OpenPrior	&Open prior study...
+CtrlO	Ctrl+O
+SavePatient	Save patient
+CtrlS	Ctrl+S
+SaveRawData	Save raw data
+Backup	&Backup or Restore
+ExportStudies	Export Studies
+ImportStudies	Import Studies
+Print	Print
+CtrlP	Ctrl+P
+PrintPreview	Print Pre&view
+PrintSetup	P&rint Setup...
+RevertToOrginal	Revert to &orginal
+RecentFile	Recent File
+Exit	E&xit
+Demographics	&Patient demographics
+DiagHist	Patient diagnostic &History
+Medications	Patient &Medications
+PreStudyInfo	Pre-Study &Information
+Respiration	Respiration
+AmountWater	&Amount of water ingested
+SuggestedDiag	&Suggested diagnosis
+Recommendations	&Recommendations
+View	&View
+Baseline	&Baseline period
+FirstPeriod	&First post-water 10 minute period
+SecondPeriod	&Second post-water 10 minute period
+ThirdPeriod	&Third post-water 10 minute period
+RSA	RSA
+SummaryGraphs	Summary graphs
+DataSheet	Data Sheet
+Goto	&Goto
+StartOfStudy	&Start of study
+Prev10MinPd	&Previous 10 minute period
+CurrentPd	&Current period
+Next10MinPd	&Next 10 minute period
+EndOfStudy	&End of study
+Analyze	&Analyze
+AnalyzeDiagnosis	&Diagnosis
+Report	&Report
+ViewReport	&View report
+PrintReport	&Print Report
+ConfigReport	&Configure Report
+FacilityInfo	&Facility/practice information
+Help	&Help
+HelpTopics	&Help Topics
+AboutEGGSAS	&About 3CPM EGGSAS...
+AboutReader	About 3CPM EGGSAS Reader...
+AboutCentralDataDepot	About 3CPM EGGSAS Central Data Depot Reader
+Settings	&Settings
+ResumeStudy	Resume Study
+StimMediumQty	Stimulation medium and quantity
+WhatIf	What If ...
+Events	Events
+ChgMinPerGrph	Change number of minutes per graph
+PrevPeriod	Previous period
+NxtPeriod	Next period
+CreateSpreadSheetOfDataSheet	Create SpreadSheet of Data Sheet
+	
+[TOOLTIPS]	
+NewStudy	New study
+OpenPriorStudy	Open prior study
+SavePatient	Save patient
+PrintReport	Print report
+StartOfStudy	Start of study
+Prev10MinPd	Previous 10 minute period
+PrevPd	Previous period
+CurrentPd	Current period
+Next10MinPd	Next 10 minute period
+NextPd	Next period
+EndOfStudy	End of study
+RSA	RSA
+SummaryGraphs	Summary graphs
+DataSheet	Data Sheet
+Diagnosis	Diagnosis
+Recommendations	Recommendations
+WhatIfScenario	What If Scenario
+About	About
+HelpTopics	Help Topics
+	
+[SELECTPATIENT]	
+SelPatientTitle	Select Patient
+CurrentDB	Current database of patients
+SelLocalDB	Select Local database
+SelReaderDB	Select Reader database
+SelPatientDB	Select patient database
+ImpPatientFile	Import patient file
+	
+[DEMOGRAPHICS]	
+PatientDemographics	Patient Demographics
+MiddleInitial	Middle Initial
+LastName	Last Name
+DateOfBirth	Date of Birth
+DateFmt	(mm/dd/yyyy)
+SSN	Social Security Number
+Address	Address
+City	City
+State	State
+ZipCode	Zip Code
+PhoneNum	Phone number
+HospitalNum	Hospital number
+ResearchRefNum	Research reference number
+Human	Human
+Dog	Dog
+Continue	Continue
+	
+[PRESTUDY_INFO]	
+PreStudyInfo	Pre-study information
+MealTime	Time of pre-test meal
+IndicForProc	Indication for procedure
+Nausea	Nausea
+Vomiting	Vomiting
+Bloating	Bloating
+GERD	GERD
+Eructus	Eructus
+EarlySatiety	Early satiety
+PostPrandialFull	Post-prandial fullness
+DelayedGastricEmpty	Delayed gastric emptying
+AddIndications	Additional Indications
+AttendPhys	Attending physician
+ReferPhys	Referring physician
+Technician	Technician
+BeginStudy	Begin Study
+	
+[EQUIPMENT_TEST]	
+EquipTest	Equipment Test
+StartEquipTest	Start Equipment Test
+RespSensor	Respiratory sensor
+GastricElect	Gastric electrodes
+BeginBL	Begin baseline
+ChkPosImped	Checking positive impedance
+ChkNegImped	Checking negative impedance
+ChkBattVolt	Checking battery voltage
+	
+[BACKUP_RESTORE]	
+BackupRestoreData	Backup/Restore Data
+Backup	Backup
+Restore	Restore
+BackupToRestoreFrom	Backup to/Restore from
+Start	Start
+FileBeingCopied	File being copied
+	
+[IMPORT_REMOTE_DB]	
+ImportRemoteDB	Import remote database
+ImportDB	Import database from:
+SelectDB	Select Database to import
+SelAllStudies	Select All Studies
+Import	Import
+	
+[CHG_MIN_PER_GRAPH]	
+ChgMinPerGraph	Change minutes per graph
+Instructions	Change the number of minutes that are displayed on each graph.
+	
+[CUSTOM_REPORT]	
+ConfigReport	Configure report
+CoreReport	Core report only
+Instructions	"If the core report is de-selected, you can then select the items to be in the report."
+PatientInfo	Patient Information
+DiagRecomm	Diagnosis/Recommendations
+RSA	RSA
+DataSheet	Data sheet
+SummGraphs	Summary Graphs
+RawSignalSelMin	Raw Signal of Selected Minutes
+EntireRawSignal	Entire raw signal
+EventLog	Event log
+	
+[DIAGNOSIS]	
+Diagnosis	Diagnosis
+SuggDiag	Suggested diagnosis
+Accept	Accept
+Modify	Modify
+Reject	Reject
+	
+[DIAGNOSTIC_HISTORY]	
+DiagHist	Diagnostic History
+Date	Date
+Diagnosis	Diagnosis
+GoToStudy	Go to study
+	
+[RESPIRATION]	
+Respiration	Respiration
+ChangeResp	Change Respiration
+SetResp	Set Respiration
+RespRate	Respiration Rate
+Instructions	Please enter the respiration rate per minute
+	
+[EVENT_LIST]	
+Events	Events
+Description	Description
+	
+[EVENT_RECORDER]	
+RecordEvent	Record Event
+Time	Time
+Cough	Cough
+Ingestion	Ingestion
+Movement	Movement
+Nausea	Nausea
+Pain	Pain
+Talking	Talking
+Vomiting	Vomiting
+Other	Other
+Description	Description
+	
+[FACILITY_INFO]	
+FacilityInfo	Facility Information
+FacilityPractice	Facility/Practice name
+Address	Address
+City	City
+State	State
+ZipCode	Zip Code
+PhoneNumber	Phone number
+	
+[FINISH_STUDY]	
+FinishStudy	Finish the Study
+	
+[MEDICATIONS]	
+Medications	Medications
+Date	Date
+UpdMed	Update Medication
+GoToStudy	Go to study
+	
+[POST_WATER_TEST]	
+StudyPhase	Study phase
+BeginStudy	Begin Study
+ExtendTest	Extend test for 10 minutes
+Finished	Finished
+	
+[STUDY_TYPE]	
+StudyType	Study Type
+SelStudyType	Select Study Type
+StdStudy	Standard Study
+RschStudy	Research Study
+	
+[STIMULATION_MEDIUM]	
+StimMedium	Stimulation Medium
+IngestStimMedium	Ingest Stimulation Medium
+Description	Description
+Quantity	Quantity
+oz	oz
+ml	ml
+grams	grams
+StartStudy	Start study
+WaterLoad	Water Load
+AmtWater	Amount of water ingested
+IngestWater	Ingest Water
+	
+[WHAT_IF]	
+WhatIfScenario	What If Scenario
+DateTime	Date/Time
+Description	Description
+Save	Save
+Recall	Recall
+Delete	Delete
+	
+[BASELINE]	
+Baseline	Baseline
+StartBL	Start Baseline
+ExtendBL	Extend baseline for 10 minutes
+PauseStudy	Pause Study
+WaterLoad	Water Load
+SkipStimMedium	Skip Stimulation Medium
+	
+[SETTINGS]	
+Settings	Settings
+SelLang	Select Language
+SelLocForDataFiles	Select a location for data files
+Browse	Browse
+	
+[GENERAL]	
+Ok	Ok
+Cancel	Cancel
+Yes	Yes
+No	No
+Help	Help
+Information	Information
+ReqActivation	This is an enhancement that requires activation.
+PatientName	Patient name
+DateOfStudy	Date of study
+Error	ERROR
+PatientInDBCont	There is already a patient by this name.  Do you want to continue with the study?
+Warning	Warning
+EndStudySure	This will end the study.  Are you sure you want to end the study?
+NotReadingData	Not reading any data.
+ErrEggRead	Error reading EGG channel: %s
+ContinueQues	Do you want to continue?
+Minutes	Minutes
+EGG	EGG
+RawWavfrmYAxisLbl	Micro Volts
+Respiration	Respiration
+Close	Close
+CopyErrCont	There was a copy error.  Do you want to continue?
+LocalDB	Local database
+NeedRschRefNum	A research reference number is needed.
+NeedFirstName	There must be a first name.
+NeedLastName	There must be a last name.
+InvDate	The date of birth is not valid.
+SelRdrLocDB	Select a Reader database or the Local database.
+SignalNotStable1	The signal is NOT stabilizing. Select one of the following:
+SignalNotStable2	"To continue in manual mode, select OK."
+SignalNotStable3	"To cancel the test, select Cancel."
+BackupProgress	Backup progress
+RestoreProgress	Restore progress
+BackupTo	Backup to:
+RestoreFrom	Restore from:
+BackupSuccess	The backup completed successfully.
+RestoreSuccess	The restore completed successfully.
+BackupErrors	Backup completed with errors.
+RestoreErrors	Restore completed with errors.
+RestoreRailed	The restore failed to complete.
+BackupFailed	The backup failed to complete.
+ImportProg	Import Progress
+SelStudyFromList	Please select at least 1 study from the list.
+AddExtStudiesSure	You are about to add external studies to your local database.
+AddExtStudiesSure1	Are you sure you want to do this?
+ImportCancelled	Import Cancelled
+ImportFailed	Import Failed
+ImportComplete	Import Complete
+SelRemoteDBLoc	Please select a location for the database to be imported from.
+OverwritePatient	"The patient %s is already in the database, overwrite?"
+OverwritePatient1	Cancel to cancel the import.
+OverwriteFile	"The file, %s, already exists.  Do you want to overwrite it?"
+OverwriteStudy	The study for
+OverwriteStudy1	patient %s %s
+OverwriteStudy2	study date %s
+OverwriteStudy3	"already exists, do you want to overwrite it?"
+FileCopyErr	There was an error copying the file from %s to %s.
+InvFileHdr	%s:  -  Invalid file header
+DataFileMissing	%s  -  Data file is missing.
+BckupDataFileMissing	%s  -  Backed up data file is missing.
+BckupErrs	Backup Errors
+BckupErrsNum	There were %d errors during backup.
+RestoreErrs	Restore Errors
+RestoreErrsNum	There were %d errors during restore.
+CoreRptSelected	"No report items were selected, the core report will be selected."
+DiagPPNorm	Post-prandial EGG is suggestive of Normal gastric rhythm.
+DiagPPProbNorm	Post-prandial EGG is suggestive of Probable Normal gastric rhythm.
+DiagPPSubProb	Post-prandial EGG is suggestive of Sub-Normal gastric rhythm.
+DiagPPTachy	Post-prandial EGG is suggestive of Tachygastria.
+DiagPPProbTachy	Post-prandial EGG is suggestive of Probable Tachygastria.
+DiagPPPosTachyCC	"Post-prandial EGG is suggestive of Possible Tachygastria , clinical correlation is required"
+DiagPPBrady	Post-prandial EGG is suggestive of Bradygastria.
+DiagPPProbBrady	Post-prandial EGG is suggestive of probable Bradygastria.
+DiagPPPosBradyCC	"Post-prandial EGG is suggestive of Possible Bradygastria, clinical correlation is required."
+DiagPPGoo	Sustained 3 cpm activity in the post-prandial EGG is suggestive of Gastric Outlet Obstruction.
+DiagPPMxns	Post-prandial EGG is suggestive of Mixed Dysrhythmia - Nonspecific.
+DiagDuodHyper	Duodenal pacesetter hyperactivity
+Diagnosis	Diagnosis
+PostStimPd	Post stimulation period
+Baseline	Baseline
+SaveClose	Save and Close
+Medication	Medication
+First 10 minute period	First 10 minute period
+First10MinPD	First 10 minute period
+Second10MinPD	Second 10 minute period
+Third10MinPD	Third 10 minute period
+Fourth10MinPD	Fourth 10 minute period
+EnterTypeMedQty	Enter type of stimulation medium and quantity.
+TypeMedQty	Type of stimulation medium and quantity.
+EnterWaterAmt	Enter amount of water ingested
+WaterIngested	Water ingested
+WhatifNew	NEW
+CantNameWhatif	You can't name a What If scenario %s.
+SureOverwriteWhatif	Are you sure you want to overwrite the existing What If scenario?
+FailSaveWhatif	Failed to save the What If data.
+EnterDescrip	Please enter a description.
+SelWhatif	Please select a What If Scenario.
+CantDelOrigStudy	Can't delete the original study.
+WhatifOrigStudy	Original study
+SelWhatifList	Please select a What If Scenario from the list.
+AskDelWhatif	Are you sure you want to delete this item?
+StopBaseline	Stop Baseline
+StimMedium	Stimulation Medium
+PauseContBL	Are you sure you want to pause the study?
+PauseContBL1	"Press Yes to pause the study, No to continue the baseline."
+ResumeToCont	"Select ""Resume"" from the File menu to resume the study."
+StopContBL	"Are you sure you want to stop the baseline?  Press Yes to stop the baseline, No to continue the baseline."
+SQLError	SQL Error
+SQLInvHandle	Invalid SQL handle.
+SQLErrUnknown	Unknown database error.
+FmtDBErr	Database error: %s
+DBNotFound	The database was not found: %s
+ErrLoadDll	"Can't load DLL, %s"
+ErrDllFuncsNotFound	"Can't find functions for DLL, %s"
+ErrDll	%s: %s
+ErrDllChannels	Not all input channels are working.
+ErrReadBattTimeout	Timeout while reading battery for voltage.
+BadBatt	Battery is too low to use.
+LowBatt	Battery is low but useable.  It may or may not remain useable for the test.
+ErrReadPosImpTimeout	Timeout while reading positive impedance.
+BadPosImpedance	The positive impedance is bad.  Check connections.
+ErrReadNegImpTimeout	Timeout while reading negative impedance.
+BadNegImpedance	The negative impedance is bad.  Check connections.
+ExpireDate	This program will stop running on %s.
+Expired	Your expiration date has expired.  You can no longer run this program unless you get a program key from 3CPM.
+OpenScreenNotice	EGGSAS is a copyright of the 3CPM(R) Company.
+OpenScreenNotice1	"The EGG device and software are the subject of certain US patents, both issued and pending."
+DemoOpenScreenNotice	"This is the 3CPM EGG demonstration program.  It contains a number of research and standard water load sample studies.  It is for demonstration and practice purposes only.  This demonstration program is a fully functional analysis program with the same features and options present in the actual program, except it cannot be used to collect patient data."
+InvStudyForVers	The research study cannot be viewed with the standard program.
+ErrInvHdr	Invalid file header for file %s.
+ErrPosFile	"Error positioning the file to the requested period (%d), %s, %s."
+ErrReadFile	Error reading file %s. %s
+ErrunexpectEOF	"Unexpected end of file, %s."
+ErrOpenFile	"The file, %s, can't be opened."
+NoDataInFile	"The file, %s, contains no data."
+GoodMinUnchkd	The Good Minutes box was left unchecked.  You must return and check the box before moving on to another period.
+PeriodLenUnchkd	The Period Length box was left unchecked.  You must return and check the box before moving on to another period.
+ErrCreateFile	Error creating file %s.  %s.
+ErrWriteFile	"Error writing file, %s.  %s."
+WantToSaveWhatif	You made changes to the What If scenario.  Do you want to save them?
+WantToSavePatient	You have made changes to this patient and didn't save them.  Do you want to save them?
+DBverWrong	The database version (%s) is not the version the program is expecting (%s).
+DBAccessErr	Can't access the database to get the version number.
+ContactSupport	Contact customer support for help.
+FreqCPM	Frequency (CPM)
+StimMedPhs	Stimulation medium phase
+Time	Time
+WaterIngestionPhs	water ingestion phase
+EnterFileName	Please enter a file name.
+1_25CPM	1.0 - 2.5 cpm
+25_375CPM	2.5 - 3.75 cpm
+375_100CPM	3.75 - 10.0 cpm
+100_150CPM	10.0 - 15.0 cpm
+1_15CPM	1 - 15 cpm
+Brady	Bradygastria
+Normal	Normal
+Tachy	Tachygastria
+Duod	Duodenal
+EntireRange	Entire Range
+Period	Period
+0_300	0 - 3.00 cpm
+325_600	3.25 - 6.00 cpm
+625_1500	6.25 - 15.00 cpm
+0_15	0 - 15 cpm
+SummBradyTitle	1 - 2.5 cpm (Bradygastria)
+SummNormalTitle	2.5 - 3.75 cpm (Normal)
+SummTachyTitle	3.75 - 10.0 cpm (Tachygastria)
+SummDuodTitle	10.0 - 15.0 cpm (Duodenal - Resp.)
+Control	Control
+Patient	Patient
+BL	BL
+Min10	Min. 10
+Min20	Min. 20
+Min30	Min. 30
+DSDistAvgPwr15_50	Distribution of average power by frequency region (as % of power in the 0 to 15 cpm range)
+DSRatioAvgPwr	Ratios of average powers (POSTprandial / PREprandial) by frequency range
+DSDistAvgPwrRng	Distribution of average power by frequency range
+DAvgDomFreq	Average dominant frequency (+- Standard Deviation)
+DSPctDomFreq	Percentage (%) time with dominant frequency in the various requency ranges
+NoStimMedium	No test medium administered.
+RefNum	Reference Number
+AttendingPhysician	Attending physician
+ReferingPhysician	Refering physician
+Technician	Technician
+Indications	Indications
+Nausea	Nausea
+Vomiting	Vomiting
+Bloating	Bloating
+GERD	GERD
+Eructus	Eructus
+EarlySateity	Early Satiety
+PPFullness	Post-prandial fullness
+DelayedGastricEmptying	Delayed gastric emptying
+Diagnosis	Diagnosis
+Recommendations	Recommendations
+Signature	Signature
+Date	Date
+ErrPrntrInit	Printer wouldn't initalize.
+ErrPrntrStartPage	Could not start page.
+PageNum	Page %d of %d
+RespNotSaved	You have changed respiration rates and not saved them.  Do you want to save them?
+ChgRespNotSet	You have changed the respiration and not set it.  Do you want to set it?
+SSLeftTitle1	Distribution of average power by frequency
+SSLeftTitle2	region (as % of power in the 0 to 15 cpm
+SSLeftTitle3	range)
+SSLeftTitle4	Ratios of average powers (POSTprandial /
+SSLeftTitle5	PREprandial) by frequency range
+SSLeftTitle6	Distribution of average power by frequency
+SSLeftTitle7	range
+SSLeftTitle8	Average dominant frequency (+- Standard
+SSLeftTitle9	Deviation)
+SSLeftTitle10	Percentage (%) time with dominant frequency
+SSLeftTitle11	in the various requency ranges
+SSFileCreated	Spreadsheet file has been created.
+PM	PM
+AM	AM
+BackupErr	BACKUP ERROR
+PutInDisk	Put a disk in the drive and press OK. Or press Cancel to cancel the backup.
+PutInNewDisk	Put another disk in the drive and press OK. Or press Cancel to cancel the backup.
+DiskTryAgain	If you want to try again press OK. Or press Cancel to cancel the backup.
+ResetPdsQues	All periods will be reset and you will be required to recreate time periods and minutes selected.
+ResetPdsQues1	Do you want to continue?
+Need4Min	At least 4 minutes must be selected.
+MinInclArt	The Minutes you have chosen include an artifact.  This could affect the results of the study.
+MinInclArt1	Are you sure you want to accept the changes?
+StartMinFmtErr	The start minute must be on the minute or half minute.
+EndMinFmtErr	The end minute must be on the minute or half minute.
+StartMinInPrevPd	The start minute is in the previous period.
+EndMinInNxtPd	The end minute is in the next period.
+AskDelEvnt	Are you sure you want to delete this Event?
+StartMinOutOfRange	The starting minute is out of range.
+EndMinOutOfRange	The ending minute is out of range.
+Standard	Standard
+Research	Research
+EventLog	Event Log
+IndicationKey	Key:
+CoughKey	C: Cough
+IngestionKey	I: Ingestion
+MovementKey	M: Movement
+NauseaKey	N: Nausea
+PainKey	P: Pain
+TalkingKey	T: Talking
+VomitingKey	V: Vomiting
+OtherKey	O: Other
+IndicationCough	C
+IndicationIngestion	I
+IndicationMovement	M
+IndicationNausea	N
+IndicationPain	P
+IndicationTalking	T
+IndicationVomiting	V
+IndicationOther	O
+SelDataPath	Select a folder for data storage

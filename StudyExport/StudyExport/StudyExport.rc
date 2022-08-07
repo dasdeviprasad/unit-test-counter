@@ -1,0 +1,296 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\StudyExport.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\StudyExport.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 252, 143
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About StudyExport"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "StudyExport",IDC_STATIC_PROGRAM,98,52,55,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,101,121,50,16,WS_GROUP
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,69,8,113,35
+    CTEXT           "1.11",IDC_STATIC_VERSION,98,67,55,8,SS_NOPREFIX
+    CTEXT           "Copyright (C) 2020, 3CPM",IDC_STATIC_COPY_RIGHT,73,81,106,8,SS_NOPREFIX
+    CTEXT           "All rights reserved.",IDC_STATIC_COPY_RIGHT2,82,96,88,8,SS_NOPREFIX
+END
+
+IDD_STUDYEXPORT_DIALOG DIALOGEX 0, 0, 406, 352
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "3CPM EGGSAS Study Export"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_DESTINATION,15,22,293,16,ES_MULTILINE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Select Destination",IDC_BTN_SELECT_DEST,317,23,72,14
+    CONTROL         "",IDC_LIST_PATIENT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,69,393,168
+    CTEXT           "Static",IDC_STATIC_HELP,16,242,373,26,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Export",IDC_BTN_EXPORT,166,281,72,14
+    CONTROL         "",IDC_PROGRESS_EXPORT,"msctls_progress32",WS_BORDER,147,304,111,14
+    DEFPUSHBUTTON   "Close",IDOK,149,329,50,16
+    PUSHBUTTON      "Help",IDC_BTN_HELP,220,331,37,14
+    PUSHBUTTON      "Cancel",IDCANCEL,6,329,50,16,NOT WS_VISIBLE
+    LTEXT           "Export Progress",IDC_STATIC_PROGRESS,87,307,57,8
+    LTEXT           "Patients in list",IDC_STATIC,296,286,45,8,NOT WS_VISIBLE
+    LTEXT           "Studies in list",IDC_STATIC,296,303,42,8,NOT WS_VISIBLE
+    LTEXT           "Selected Patients",IDC_STATIC,300,317,56,8,NOT WS_VISIBLE
+    LTEXT           "Selected Studies",IDC_STATIC,302,333,54,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_PATIENTS_IN_LIST,343,284,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_STUDIES_IN_LIST2,343,299,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SELECTED_PATIENTS,359,314,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SELECTED_STUDIES,359,331,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Study Export Destination",IDC_STATIC,16,10,89,8
+    PUSHBUTTON      "Search Database",IDC_BTN_SEARCH_DB,15,47,72,14
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 434, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Search"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,160,137,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,222,137,50,14
+    GROUPBOX        "Last Name/Research Reference Number",IDC_STATIC_NAME_RRNUM,10,13,206,103
+    GROUPBOX        "",IDC_STATIC,17,22,192,27
+    CONTROL         "Last name",IDC_CHK_LAST_NAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,33,49,10
+    CONTROL         "Research reference number",IDC_CHK_RRNUM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,93,33,105,10
+    GROUPBOX        "",IDC_STATIC,17,51,192,27
+    CONTROL         "Ascending order",IDC_CHK_NAME_ASC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,61,68,10
+    CONTROL         "Descending order",IDC_CHK_NAME_DESC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,123,61,72,10
+    LTEXT           "Last Name",IDC_STATIC_LABEL_NAME,20,82,128,8
+    EDITTEXT        IDC_EDIT_NAME_RRNUM,26,96,80,14,ES_AUTOHSCROLL
+    LTEXT           "Use * as a wildcard",IDC_STATIC_NAME_HELP,113,98,62,8
+    GROUPBOX        "Study Date",IDC_STATIC_STUDY_DATE,223,16,197,112
+    CONTROL         "Dates older than the specified date (no wildcards)",IDC_CHK_DATE_OLDER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,241,28,175,10
+    EDITTEXT        IDC_EDIT_MONTH,289,91,19,14,ES_AUTOHSCROLL
+    CONTROL         "Dates equal to the specified date",IDC_CHK_DATE_EQUAL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,242,58,122,10
+    CONTROL         "Dates newer than the specified date (no wildcards)",IDC_CHK_DATE_NEWER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,241,43,179,10
+    LTEXT           "(Use * as a wildcard for month, day, and/or year)",IDC_STATIC_DATE_HELP,262,73,160,8
+    LTEXT           "Study Date",IDC_STATIC_LABEL_DATE,246,93,37,8
+    LTEXT           "/",IDC_STATIC,313,94,8,8
+    EDITTEXT        IDC_EDIT_DAY,325,91,19,14,ES_AUTOHSCROLL
+    LTEXT           "/",IDC_STATIC,348,93,8,8
+    EDITTEXT        IDC_EDIT_YEAR,361,91,31,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC_MONTH_HELP,293,108,12,8
+    LTEXT           "dd",IDC_STATIC_DAY_HELP,329,108,9,8
+    LTEXT           "yyyy",IDC_STATIC_YEAR_HELP,367,108,22,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "3CPM"
+            VALUE "FileDescription", "StudyExport.exe"
+            VALUE "FileVersion", "1.11"
+            VALUE "InternalName", "StudyExport.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2020, 3CPM"
+            VALUE "OriginalFilename", "StudyExport.exe"
+            VALUE "ProductName", "StudyExport.exe"
+            VALUE "ProductVersion", "1.11"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_STUDYEXPORT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 399
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 345
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 427
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_3CPM_LOGO           BITMAP                  "res\\3cpm logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About StudyExport..."
+    IDS_SQL_ERROR           "SQL Error"
+    IDS_SQL_INVALID_HANDLE  "Invalid SQL handle."
+    IDS_SQL_ERR_UNKNOWN     "Unknown database error."
+    IDS_FMT_DATABASE_ERROR  "Database error: %s"
+    IDS_ERROR               "ERROR"
+    IDS_LAST_NAME           "Last Name"
+    IDS_FIRST_NAME          "First Name"
+    IDS_REF_NUMBER          "Ref Number"
+    IDS_ADDRESS             "Address"
+    IDS_DATE_OF_STUDY       "Date of Study"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECT_STUDY        "Please select at least one study."
+    IDS_FAIL_COPY_FILE      "Failed copying ""%s"" to target directory, ""%s""."
+    IDS_EXPORT_PROGRESS     "Export Progress"
+    IDS_EXPORT_COMPLETE     "Export Complete"
+    IDS_EXPORT_ERRORS       "Export Errors"
+    IDS_EXPORT_CANCELLED    "Export Cancelled"
+    IDS_DIR_CREATE          "The directory, %s, doesn't exist.  Do you want to create it?"
+    IDS_CREATE_DIR_ERR      "Error creating directory: %s"
+    IDS_EXPORT_ERRS_CONTINUE 
+                            "There were errors in exporting this study.\r\nDo you want to continue with the export?"
+    IDS_ENTER_COMPLETE_DATE "Please enter a complete date."
+    IDS_ENTER_4_DIG_YEAR    "Please enter a 4 digit year."
+    IDS_LAST_NAME_RES_REF_NUM "Last Name/Research Reference Number"
+    IDS_RSRCH_REFNUM        "Research reference number"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\StudyExport.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,2615 @@
+07/07/2020  11:55:55  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  11:56:26  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  11:58:02  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  12:00:31  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  12:04:14  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  12:04:56  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  12:04:56  About: bGet_version_info() enter
+07/07/2020  12:04:56  About: bGet_version_info() enter
+07/07/2020  12:04:56  About: bGet_version_info() enter
+07/07/2020  12:06:11  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  12:06:11  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileDescription
+07/07/2020  12:06:11  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileVersion
+07/07/2020  12:06:11  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = LegalCopyright
+07/07/2020  12:07:31  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  12:07:31  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileDescription
+07/07/2020  12:07:31  About: GetFileVersionInfoSize() successful
+07/07/2020  12:07:31  About: HeapAlloc() successful
+07/07/2020  12:07:31  About: GetFileVersionInfo() successful
+07/07/2020  12:07:31  About: VerQueryValue() successful
+07/07/2020  12:07:31  About: query FileDescription
+07/07/2020  12:07:31  About: query result 3CPM EGGSAS
+07/07/2020  12:07:31  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileVersion
+07/07/2020  12:07:31  About: GetFileVersionInfoSize() successful
+07/07/2020  12:07:31  About: HeapAlloc() successful
+07/07/2020  12:07:31  About: GetFileVersionInfo() successful
+07/07/2020  12:07:31  About: VerQueryValue() successful
+07/07/2020  12:07:31  About: query FileVersion
+07/07/2020  12:07:31  About: query result R 2.09g
+07/07/2020  12:07:31  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = LegalCopyright
+07/07/2020  12:07:31  About: GetFileVersionInfoSize() successful
+07/07/2020  12:07:31  About: HeapAlloc() successful
+07/07/2020  12:07:31  About: GetFileVersionInfo() successful
+07/07/2020  12:07:31  About: VerQueryValue() successful
+07/07/2020  12:07:31  About: query LegalCopyright
+07/07/2020  12:07:31  About: query result Copyright (C) 2020, 3CPM Company, Inc.
+07/07/2020  12:45:37  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  12:45:37  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileDescription
+07/07/2020  12:45:37  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileVersion
+07/07/2020  12:45:37  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:02:46  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  13:02:49  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileDescription
+07/07/2020  13:02:49  About: GetFileVersionInfoSize() successful
+07/07/2020  13:02:49  About: HeapAlloc() successful
+07/07/2020  13:02:49  About: GetFileVersionInfo() successful
+07/07/2020  13:02:49  About: VerQueryValue() successful
+07/07/2020  13:02:49  About: query FileDescription
+07/07/2020  13:02:49  About: query result 3CPM EGGSAS
+07/07/2020  13:02:49  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileVersion
+07/07/2020  13:02:49  About: GetFileVersionInfoSize() successful
+07/07/2020  13:02:49  About: HeapAlloc() successful
+07/07/2020  13:02:49  About: GetFileVersionInfo() successful
+07/07/2020  13:02:49  About: VerQueryValue() successful
+07/07/2020  13:02:49  About: query FileVersion
+07/07/2020  13:02:49  About: query result R 2.09g
+07/07/2020  13:02:49  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:02:49  About: GetFileVersionInfoSize() successful
+07/07/2020  13:02:49  About: HeapAlloc() successful
+07/07/2020  13:02:49  About: GetFileVersionInfo() successful
+07/07/2020  13:02:49  About: VerQueryValue() successful
+07/07/2020  13:02:49  About: query LegalCopyright
+07/07/2020  13:02:49  About: query result Copyright (C) 2020, 3CPM Company, Inc.
+07/07/2020  13:06:01  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  13:06:01  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileDescription
+07/07/2020  13:06:01  About: GetFileVersionInfoSize() successful
+07/07/2020  13:06:01  About: HeapAlloc() successful
+07/07/2020  13:06:01  About: GetFileVersionInfo() successful
+07/07/2020  13:06:01  About: VerQueryValue() successful
+07/07/2020  13:06:01  About: query FileDescription
+07/07/2020  13:06:01  About: query result 3CPM EGGSAS
+07/07/2020  13:06:01  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileVersion
+07/07/2020  13:06:01  About: GetFileVersionInfoSize() successful
+07/07/2020  13:06:01  About: HeapAlloc() successful
+07/07/2020  13:06:01  About: GetFileVersionInfo() successful
+07/07/2020  13:06:01  About: VerQueryValue() successful
+07/07/2020  13:06:01  About: query FileVersion
+07/07/2020  13:06:01  About: query result R 2.09g
+07/07/2020  13:06:01  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:06:01  About: GetFileVersionInfoSize() successful
+07/07/2020  13:06:01  About: HeapAlloc() successful
+07/07/2020  13:06:01  About: GetFileVersionInfo() successful
+07/07/2020  13:06:01  About: VerQueryValue() successful
+07/07/2020  13:06:01  About: query LegalCopyright
+07/07/2020  13:06:01  About: query result Copyright (C) 2020, 3CPM Company, Inc.
+07/07/2020  13:18:04  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  13:18:04  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileDescription
+07/07/2020  13:18:04  About: GetFileVersionInfoSize() successful
+07/07/2020  13:18:04  About: HeapAlloc() successful
+07/07/2020  13:18:04  About: GetFileVersionInfo() successful
+07/07/2020  13:18:04  About: VerQueryValue() successful
+07/07/2020  13:18:04  About: query FileDescription
+07/07/2020  13:18:04  About: query result 3CPM EGGSAS
+07/07/2020  13:18:04  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileVersion
+07/07/2020  13:18:04  About: GetFileVersionInfoSize() successful
+07/07/2020  13:18:04  About: HeapAlloc() successful
+07/07/2020  13:18:04  About: GetFileVersionInfo() successful
+07/07/2020  13:18:04  About: VerQueryValue() successful
+07/07/2020  13:18:04  About: query FileVersion
+07/07/2020  13:18:04  About: query result R 2.09g
+07/07/2020  13:18:04  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:18:04  About: GetFileVersionInfoSize() successful
+07/07/2020  13:18:04  About: HeapAlloc() successful
+07/07/2020  13:18:04  About: GetFileVersionInfo() successful
+07/07/2020  13:18:04  About: VerQueryValue() successful
+07/07/2020  13:18:04  About: query LegalCopyright
+07/07/2020  13:18:04  About: query result Copyright (C) 2020, 3CPM Company, Inc.
+07/07/2020  13:18:35  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  13:18:35  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileDescription
+07/07/2020  13:18:35  About: GetFileVersionInfoSize() successful
+07/07/2020  13:18:35  About: HeapAlloc() successful
+07/07/2020  13:18:35  About: GetFileVersionInfo() successful
+07/07/2020  13:18:35  About: VerQueryValue() successful
+07/07/2020  13:18:35  About: query FileDescription
+07/07/2020  13:18:35  About: query result 3CPM EGGSAS
+07/07/2020  13:18:35  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileVersion
+07/07/2020  13:18:35  About: GetFileVersionInfoSize() successful
+07/07/2020  13:18:35  About: HeapAlloc() successful
+07/07/2020  13:18:35  About: GetFileVersionInfo() successful
+07/07/2020  13:18:35  About: VerQueryValue() successful
+07/07/2020  13:18:35  About: query FileVersion
+07/07/2020  13:18:35  About: query result R 2.09g
+07/07/2020  13:18:35  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:18:35  About: GetFileVersionInfoSize() successful
+07/07/2020  13:18:35  About: HeapAlloc() successful
+07/07/2020  13:18:35  About: GetFileVersionInfo() successful
+07/07/2020  13:18:35  About: VerQueryValue() successful
+07/07/2020  13:18:35  About: query LegalCopyright
+07/07/2020  13:18:35  About: query result Copyright (C) 2020, 3CPM Company, Inc.
+07/07/2020  13:19:01  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  13:19:01  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileDescription
+07/07/2020  13:19:01  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileVersion
+07/07/2020  13:19:01  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:24:05  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  13:24:05  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileDescription
+07/07/2020  13:24:05  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+07/07/2020  13:24:05  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileVersion
+07/07/2020  13:24:05  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+07/07/2020  13:24:05  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:24:05  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+07/07/2020  13:50:19  About: cstrName = 3CPM EGGSAS Central Data Depot Reader.EXE
+07/07/2020  13:50:19  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileDescription
+07/07/2020  13:50:19  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+07/07/2020  13:50:19  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = FileVersion
+07/07/2020  13:50:19  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+07/07/2020  13:50:19  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS Central Data Depot Reader.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:50:19  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+07/07/2020  13:52:59  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  13:52:59  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileDescription
+07/07/2020  13:52:59  About: GetFileVersionInfoSize() successful
+07/07/2020  13:52:59  About: HeapAlloc() successful
+07/07/2020  13:52:59  About: GetFileVersionInfo() successful
+07/07/2020  13:52:59  About: VerQueryValue() successful
+07/07/2020  13:52:59  About: query FileDescription
+07/07/2020  13:52:59  About: query result 3CPM EGGSAS
+07/07/2020  13:52:59  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileVersion
+07/07/2020  13:52:59  About: GetFileVersionInfoSize() successful
+07/07/2020  13:52:59  About: HeapAlloc() successful
+07/07/2020  13:52:59  About: GetFileVersionInfo() successful
+07/07/2020  13:52:59  About: VerQueryValue() successful
+07/07/2020  13:52:59  About: query FileVersion
+07/07/2020  13:52:59  About: query result CDDR 2.09g
+07/07/2020  13:52:59  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = LegalCopyright
+07/07/2020  13:52:59  About: GetFileVersionInfoSize() successful
+07/07/2020  13:52:59  About: HeapAlloc() successful
+07/07/2020  13:52:59  About: GetFileVersionInfo() successful
+07/07/2020  13:52:59  About: VerQueryValue() successful
+07/07/2020  13:52:59  About: query LegalCopyright
+07/07/2020  13:52:59  About: query result Copyright (C) 2020, 3CPM Company, Inc.
+07/07/2020  14:15:02  About: cstrName = 3CPM EGGSAS.EXE
+07/07/2020  14:15:02  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileDescription
+07/07/2020  14:15:02  About: GetFileVersionInfoSize() successful
+07/07/2020  14:15:02  About: HeapAlloc() successful
+07/07/2020  14:15:02  About: GetFileVersionInfo() successful
+07/07/2020  14:15:02  About: VerQueryValue() successful
+07/07/2020  14:15:02  About: query FileDescription
+07/07/2020  14:15:02  About: query result 3CPM EGGSAS
+07/07/2020  14:15:02  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = FileVersion
+07/07/2020  14:15:02  About: GetFileVersionInfoSize() successful
+07/07/2020  14:15:02  About: HeapAlloc() successful
+07/07/2020  14:15:02  About: GetFileVersionInfo() successful
+07/07/2020  14:15:02  About: VerQueryValue() successful
+07/07/2020  14:15:02  About: query FileVersion
+07/07/2020  14:15:02  About: query result CDDR 2.09g
+07/07/2020  14:15:02  About: bGet_version_info() enter, cstrProgName = 3CPM EGGSAS.EXE, pszInfoType = LegalCopyright
+07/07/2020  14:15:02  About: GetFileVersionInfoSize() successful
+07/07/2020  14:15:02  About: HeapAlloc() successful
+07/07/2020  14:15:02  About: GetFileVersionInfo() successful
+07/07/2020  14:15:02  About: VerQueryValue() successful
+07/07/2020  14:15:02  About: query LegalCopyright
+07/07/2020  14:15:02  About: query result Copyright (C) 2020, 3CPM Company, Inc.
+16/10/2020  11:50:47  The file, C:\3CPM\BESST WFU 5246 DJD F4 11-07-2019.egg, can't be opened.
+16/10/2020  11:50:52  
+16/10/2020  11:51:46  The file, C:\3CPM\BESST WFU 5246 DJD F4 11-07-2019.egg, can't be opened.
+16/10/2020  11:53:40  
+16/10/2020  11:54:16  The file, C:\3CPM\BESST WFU 5246 DJD F4 11-07-2019.egg, can't be opened.
+16/10/2020  11:57:03  The file, C:\3CPM\BESST WFU 5246 DJD F4 11-07-2019.egg, can't be opened.
+16/10/2020  11:57:29  
+16/10/2020  12:18:13  The file, C:\3CPM\WFU BESST\Bob  T 10-16-2020.egg, can't be opened.
+16/10/2020  12:23:39  
+16/10/2020  12:23:55  The file, C:\3CPM\WFU BESST\Bob  T 10-16-2020.egg, can't be opened.
+15/11/2020  11:13:16  There was an error copying the file from C:\3CPM\WFU BESST\Bob  T 10-16-2020.egg to c:\3cpm\Bob  T 10-16-2020.egg.
+The system cannot find the file specified.
+
+15/11/2020  11:43:44  There was an error copying the file from C:\3CPM\WFU BESST\Bob  T 10-16-2020.egg to c:\3cpm\Bob  T 10-16-2020.egg.
+The system cannot find the file specified.
+
+15/11/2020  12:11:09  The file, C:\3CPM\WFU BESST\Bob  T 10-16-2020.egg, can't be opened.
+15/11/2020  12:11:10  
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 0.000000
+15/11/2020  12:21:40  lDataOffset = 0
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 1.000000
+15/11/2020  12:21:40  lDataOffset = 512
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 2.000000
+15/11/2020  12:21:40  lDataOffset = 1024
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 6.000000
+15/11/2020  12:21:40  lDataOffset = 3072
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 7.000000
+15/11/2020  12:21:40  lDataOffset = 3584
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 0, epoch 8.000000
+15/11/2020  12:21:40  lDataOffset = 4096
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 1, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 1, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 1, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 1, epoch 6.000000
+15/11/2020  12:21:40  lDataOffset = 3072
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 2, epoch 1.000000
+15/11/2020  12:21:40  lDataOffset = 512
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 2, epoch 2.000000
+15/11/2020  12:21:40  lDataOffset = 1024
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 2, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 2, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 2, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 2, epoch 6.000000
+15/11/2020  12:21:40  lDataOffset = 3072
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 3, epoch 0.000000
+15/11/2020  12:21:40  lDataOffset = 0
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 3, epoch 1.000000
+15/11/2020  12:21:40  lDataOffset = 512
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 3, epoch 2.000000
+15/11/2020  12:21:40  lDataOffset = 1024
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 3, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 3, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband 3, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:40  power summary, average power
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 0.000000
+15/11/2020  12:21:40  lDataOffset = 0
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 1.000000
+15/11/2020  12:21:40  lDataOffset = 512
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 2.000000
+15/11/2020  12:21:40  lDataOffset = 1024
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 6.000000
+15/11/2020  12:21:40  lDataOffset = 3072
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 7.000000
+15/11/2020  12:21:40  lDataOffset = 3584
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 8.000000
+15/11/2020  12:21:40  lDataOffset = 4096
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 6.000000
+15/11/2020  12:21:40  lDataOffset = 3072
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 1.000000
+15/11/2020  12:21:40  lDataOffset = 512
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 2.000000
+15/11/2020  12:21:40  lDataOffset = 1024
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 6.000000
+15/11/2020  12:21:40  lDataOffset = 3072
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 0.000000
+15/11/2020  12:21:40  lDataOffset = 0
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 1.000000
+15/11/2020  12:21:40  lDataOffset = 512
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 2.000000
+15/11/2020  12:21:40  lDataOffset = 1024
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:40  lDataOffset = 1536
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:40  lDataOffset = 2048
+15/11/2020  12:21:40  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:40  lDataOffset = 2560
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 0.000000
+15/11/2020  12:21:48  lDataOffset = 0
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 1.000000
+15/11/2020  12:21:48  lDataOffset = 512
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 2.000000
+15/11/2020  12:21:48  lDataOffset = 1024
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 3.000000
+15/11/2020  12:21:48  lDataOffset = 1536
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 4.000000
+15/11/2020  12:21:48  lDataOffset = 2048
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 5.000000
+15/11/2020  12:21:48  lDataOffset = 2560
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 6.000000
+15/11/2020  12:21:48  lDataOffset = 3072
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 7.000000
+15/11/2020  12:21:48  lDataOffset = 3584
+15/11/2020  12:21:48  bAnalyze_data(): timeband 0, epoch 8.000000
+15/11/2020  12:21:48  lDataOffset = 4096
+15/11/2020  12:21:48  bAnalyze_data(): timeband 1, epoch 3.000000
+15/11/2020  12:21:48  lDataOffset = 1536
+15/11/2020  12:21:48  bAnalyze_data(): timeband 1, epoch 4.000000
+15/11/2020  12:21:48  lDataOffset = 2048
+15/11/2020  12:21:48  bAnalyze_data(): timeband 1, epoch 5.000000
+15/11/2020  12:21:48  lDataOffset = 2560
+15/11/2020  12:21:48  bAnalyze_data(): timeband 1, epoch 6.000000
+15/11/2020  12:21:48  lDataOffset = 3072
+15/11/2020  12:21:48  bAnalyze_data(): timeband 2, epoch 1.000000
+15/11/2020  12:21:48  lDataOffset = 512
+15/11/2020  12:21:48  bAnalyze_data(): timeband 2, epoch 2.000000
+15/11/2020  12:21:48  lDataOffset = 1024
+15/11/2020  12:21:48  bAnalyze_data(): timeband 2, epoch 3.000000
+15/11/2020  12:21:48  lDataOffset = 1536
+15/11/2020  12:21:48  bAnalyze_data(): timeband 2, epoch 4.000000
+15/11/2020  12:21:48  lDataOffset = 2048
+15/11/2020  12:21:48  bAnalyze_data(): timeband 2, epoch 5.000000
+15/11/2020  12:21:48  lDataOffset = 2560
+15/11/2020  12:21:48  bAnalyze_data(): timeband 2, epoch 6.000000
+15/11/2020  12:21:48  lDataOffset = 3072
+15/11/2020  12:21:48  bAnalyze_data(): timeband 3, epoch 0.000000
+15/11/2020  12:21:48  lDataOffset = 0
+15/11/2020  12:21:48  bAnalyze_data(): timeband 3, epoch 1.000000
+15/11/2020  12:21:48  lDataOffset = 512
+15/11/2020  12:21:48  bAnalyze_data(): timeband 3, epoch 2.000000
+15/11/2020  12:21:48  lDataOffset = 1024
+15/11/2020  12:21:48  bAnalyze_data(): timeband 3, epoch 3.000000
+15/11/2020  12:21:48  lDataOffset = 1536
+15/11/2020  12:21:48  bAnalyze_data(): timeband 3, epoch 4.000000
+15/11/2020  12:21:48  lDataOffset = 2048
+15/11/2020  12:21:48  bAnalyze_data(): timeband 3, epoch 5.000000
+15/11/2020  12:21:48  lDataOffset = 2560
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 0.000000
+15/11/2020  12:21:59  lDataOffset = 0
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 1.000000
+15/11/2020  12:21:59  lDataOffset = 512
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 2.000000
+15/11/2020  12:21:59  lDataOffset = 1024
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 6.000000
+15/11/2020  12:21:59  lDataOffset = 3072
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 7.000000
+15/11/2020  12:21:59  lDataOffset = 3584
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 0, epoch 8.000000
+15/11/2020  12:21:59  lDataOffset = 4096
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 1, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 1, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 1, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 1, epoch 6.000000
+15/11/2020  12:21:59  lDataOffset = 3072
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 2, epoch 1.000000
+15/11/2020  12:21:59  lDataOffset = 512
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 2, epoch 2.000000
+15/11/2020  12:21:59  lDataOffset = 1024
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 2, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 2, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 2, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 2, epoch 6.000000
+15/11/2020  12:21:59  lDataOffset = 3072
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 3, epoch 0.000000
+15/11/2020  12:21:59  lDataOffset = 0
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 3, epoch 1.000000
+15/11/2020  12:21:59  lDataOffset = 512
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 3, epoch 2.000000
+15/11/2020  12:21:59  lDataOffset = 1024
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 3, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 3, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband 3, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  12:21:59  power summary, average power
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 0.000000
+15/11/2020  12:21:59  lDataOffset = 0
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 1.000000
+15/11/2020  12:21:59  lDataOffset = 512
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 2.000000
+15/11/2020  12:21:59  lDataOffset = 1024
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 6.000000
+15/11/2020  12:21:59  lDataOffset = 3072
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 7.000000
+15/11/2020  12:21:59  lDataOffset = 3584
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 8.000000
+15/11/2020  12:21:59  lDataOffset = 4096
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 6.000000
+15/11/2020  12:21:59  lDataOffset = 3072
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 1.000000
+15/11/2020  12:21:59  lDataOffset = 512
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 2.000000
+15/11/2020  12:21:59  lDataOffset = 1024
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 6.000000
+15/11/2020  12:21:59  lDataOffset = 3072
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 0.000000
+15/11/2020  12:21:59  lDataOffset = 0
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 1.000000
+15/11/2020  12:21:59  lDataOffset = 512
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 2.000000
+15/11/2020  12:21:59  lDataOffset = 1024
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 3.000000
+15/11/2020  12:21:59  lDataOffset = 1536
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 4.000000
+15/11/2020  12:21:59  lDataOffset = 2048
+15/11/2020  12:21:59  bAnalyze_data(): timeband -858993460, epoch 5.000000
+15/11/2020  12:21:59  lDataOffset = 2560
+15/11/2020  13:09:36  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+15/11/2020  13:09:36  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+15/11/2020  13:09:36  About: GetFileVersionInfoSize() failed: GetLastError = 1812
+
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:15:38  lDataOffset = 1536
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:15:38  lDataOffset = 2048
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:15:38  lDataOffset = 2560
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 6.000000
+16/11/2020  11:15:38  lDataOffset = 3072
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 7.000000
+16/11/2020  11:15:38  lDataOffset = 3584
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 8.000000
+16/11/2020  11:15:38  lDataOffset = 4096
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 9.000000
+16/11/2020  11:15:38  lDataOffset = 4608
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 10.000000
+16/11/2020  11:15:38  lDataOffset = 5120
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 11.000000
+16/11/2020  11:15:38  lDataOffset = 5632
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 12.000000
+16/11/2020  11:15:38  lDataOffset = 6144
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 13.000000
+16/11/2020  11:15:38  lDataOffset = 6656
+16/11/2020  11:15:38  bAnalyze_data(): timeband 0, epoch 14.000000
+16/11/2020  11:15:38  lDataOffset = 7168
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 0.000000
+16/11/2020  11:15:38  lDataOffset = 0
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 1.000000
+16/11/2020  11:15:38  lDataOffset = 512
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 2.000000
+16/11/2020  11:15:38  lDataOffset = 1024
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 3.000000
+16/11/2020  11:15:38  lDataOffset = 1536
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 4.000000
+16/11/2020  11:15:38  lDataOffset = 2048
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 5.000000
+16/11/2020  11:15:38  lDataOffset = 2560
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 6.000000
+16/11/2020  11:15:38  lDataOffset = 3072
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 7.000000
+16/11/2020  11:15:38  lDataOffset = 3584
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 8.000000
+16/11/2020  11:15:38  lDataOffset = 4096
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 9.000000
+16/11/2020  11:15:38  lDataOffset = 4608
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 10.000000
+16/11/2020  11:15:38  lDataOffset = 5120
+16/11/2020  11:15:38  bAnalyze_data(): timeband 1, epoch 11.000000
+16/11/2020  11:15:38  lDataOffset = 5632
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:15:38  lDataOffset = 0
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:15:38  lDataOffset = 512
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:15:38  lDataOffset = 1024
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:15:38  lDataOffset = 1536
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:15:38  lDataOffset = 2048
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:15:38  lDataOffset = 2560
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:15:38  lDataOffset = 3072
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 7.000000
+16/11/2020  11:15:38  lDataOffset = 3584
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 8.000000
+16/11/2020  11:15:38  lDataOffset = 4096
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 9.000000
+16/11/2020  11:15:38  lDataOffset = 4608
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 10.000000
+16/11/2020  11:15:38  lDataOffset = 5120
+16/11/2020  11:15:38  bAnalyze_data(): timeband 2, epoch 11.000000
+16/11/2020  11:15:38  lDataOffset = 5632
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:15:38  lDataOffset = 0
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:15:38  lDataOffset = 512
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:15:38  lDataOffset = 1024
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:15:38  lDataOffset = 1536
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:15:38  lDataOffset = 2048
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:15:38  lDataOffset = 2560
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:15:38  lDataOffset = 3072
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 7.000000
+16/11/2020  11:15:38  lDataOffset = 3584
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 8.000000
+16/11/2020  11:15:38  lDataOffset = 4096
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 9.000000
+16/11/2020  11:15:38  lDataOffset = 4608
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 10.000000
+16/11/2020  11:15:38  lDataOffset = 5120
+16/11/2020  11:15:38  bAnalyze_data(): timeband 3, epoch 11.000000
+16/11/2020  11:15:38  lDataOffset = 5632
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 0.000000
+16/11/2020  11:15:38  lDataOffset = 0
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 1.000000
+16/11/2020  11:15:38  lDataOffset = 512
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 2.000000
+16/11/2020  11:15:38  lDataOffset = 1024
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 3.000000
+16/11/2020  11:15:38  lDataOffset = 1536
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 4.000000
+16/11/2020  11:15:38  lDataOffset = 2048
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 5.000000
+16/11/2020  11:15:38  lDataOffset = 2560
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 6.000000
+16/11/2020  11:15:38  lDataOffset = 3072
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 7.000000
+16/11/2020  11:15:38  lDataOffset = 3584
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 8.000000
+16/11/2020  11:15:38  lDataOffset = 4096
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 9.000000
+16/11/2020  11:15:38  lDataOffset = 4608
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 10.000000
+16/11/2020  11:15:38  lDataOffset = 5120
+16/11/2020  11:15:38  bAnalyze_data(): timeband 4, epoch 11.000000
+16/11/2020  11:15:38  lDataOffset = 5632
+16/11/2020  11:15:38  bAnalyze_data(): timeband 5, epoch 0.000000
+16/11/2020  11:15:38  lDataOffset = 0
+16/11/2020  11:15:38  bAnalyze_data(): timeband 5, epoch 1.000000
+16/11/2020  11:15:38  lDataOffset = 512
+16/11/2020  11:15:38  bAnalyze_data(): timeband 5, epoch 2.000000
+16/11/2020  11:15:38  lDataOffset = 1024
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 12.000000
+16/11/2020  11:16:10  lDataOffset = 6144
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 13.000000
+16/11/2020  11:16:10  lDataOffset = 6656
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 0, epoch 14.000000
+16/11/2020  11:16:10  lDataOffset = 7168
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 1, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 2, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 3, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 4, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 5, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 5, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband 5, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  power summary, average power
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 12.000000
+16/11/2020  11:16:10  lDataOffset = 6144
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 13.000000
+16/11/2020  11:16:10  lDataOffset = 6656
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 14.000000
+16/11/2020  11:16:10  lDataOffset = 7168
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:16:10  lDataOffset = 1536
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:16:10  lDataOffset = 2048
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:16:10  lDataOffset = 2560
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:16:10  lDataOffset = 3072
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:16:10  lDataOffset = 3584
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:16:10  lDataOffset = 4096
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:16:10  lDataOffset = 4608
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:16:10  lDataOffset = 5120
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:16:10  lDataOffset = 5632
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:16:10  lDataOffset = 0
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:16:10  lDataOffset = 512
+16/11/2020  11:16:10  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:16:10  lDataOffset = 1024
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:17:14  lDataOffset = 1536
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:17:14  lDataOffset = 2048
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:17:14  lDataOffset = 2560
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 6.000000
+16/11/2020  11:17:14  lDataOffset = 3072
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 7.000000
+16/11/2020  11:17:14  lDataOffset = 3584
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 8.000000
+16/11/2020  11:17:14  lDataOffset = 4096
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 9.000000
+16/11/2020  11:17:14  lDataOffset = 4608
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 10.000000
+16/11/2020  11:17:14  lDataOffset = 5120
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 11.000000
+16/11/2020  11:17:14  lDataOffset = 5632
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 12.000000
+16/11/2020  11:17:14  lDataOffset = 6144
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 13.000000
+16/11/2020  11:17:14  lDataOffset = 6656
+16/11/2020  11:17:14  bAnalyze_data(): timeband 0, epoch 14.000000
+16/11/2020  11:17:14  lDataOffset = 7168
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 0.000000
+16/11/2020  11:17:14  lDataOffset = 0
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 1.000000
+16/11/2020  11:17:14  lDataOffset = 512
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 2.000000
+16/11/2020  11:17:14  lDataOffset = 1024
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 3.000000
+16/11/2020  11:17:14  lDataOffset = 1536
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 4.000000
+16/11/2020  11:17:14  lDataOffset = 2048
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 5.000000
+16/11/2020  11:17:14  lDataOffset = 2560
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 6.000000
+16/11/2020  11:17:14  lDataOffset = 3072
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 7.000000
+16/11/2020  11:17:14  lDataOffset = 3584
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 8.000000
+16/11/2020  11:17:14  lDataOffset = 4096
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 9.000000
+16/11/2020  11:17:14  lDataOffset = 4608
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 10.000000
+16/11/2020  11:17:14  lDataOffset = 5120
+16/11/2020  11:17:14  bAnalyze_data(): timeband 1, epoch 11.000000
+16/11/2020  11:17:14  lDataOffset = 5632
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:17:14  lDataOffset = 0
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:17:14  lDataOffset = 512
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:17:14  lDataOffset = 1024
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:17:14  lDataOffset = 1536
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:17:14  lDataOffset = 2048
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:17:14  lDataOffset = 2560
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:17:14  lDataOffset = 3072
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 7.000000
+16/11/2020  11:17:14  lDataOffset = 3584
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 8.000000
+16/11/2020  11:17:14  lDataOffset = 4096
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 9.000000
+16/11/2020  11:17:14  lDataOffset = 4608
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 10.000000
+16/11/2020  11:17:14  lDataOffset = 5120
+16/11/2020  11:17:14  bAnalyze_data(): timeband 2, epoch 11.000000
+16/11/2020  11:17:14  lDataOffset = 5632
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:17:14  lDataOffset = 0
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:17:14  lDataOffset = 512
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:17:14  lDataOffset = 1024
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:17:14  lDataOffset = 1536
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:17:14  lDataOffset = 2048
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:17:14  lDataOffset = 2560
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:17:14  lDataOffset = 3072
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 7.000000
+16/11/2020  11:17:14  lDataOffset = 3584
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 8.000000
+16/11/2020  11:17:14  lDataOffset = 4096
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 9.000000
+16/11/2020  11:17:14  lDataOffset = 4608
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 10.000000
+16/11/2020  11:17:14  lDataOffset = 5120
+16/11/2020  11:17:14  bAnalyze_data(): timeband 3, epoch 11.000000
+16/11/2020  11:17:14  lDataOffset = 5632
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 0.000000
+16/11/2020  11:17:14  lDataOffset = 0
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 1.000000
+16/11/2020  11:17:14  lDataOffset = 512
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 2.000000
+16/11/2020  11:17:14  lDataOffset = 1024
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 3.000000
+16/11/2020  11:17:14  lDataOffset = 1536
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 4.000000
+16/11/2020  11:17:14  lDataOffset = 2048
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 5.000000
+16/11/2020  11:17:14  lDataOffset = 2560
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 6.000000
+16/11/2020  11:17:14  lDataOffset = 3072
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 7.000000
+16/11/2020  11:17:14  lDataOffset = 3584
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 8.000000
+16/11/2020  11:17:14  lDataOffset = 4096
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 9.000000
+16/11/2020  11:17:14  lDataOffset = 4608
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 10.000000
+16/11/2020  11:17:14  lDataOffset = 5120
+16/11/2020  11:17:14  bAnalyze_data(): timeband 4, epoch 11.000000
+16/11/2020  11:17:14  lDataOffset = 5632
+16/11/2020  11:17:14  bAnalyze_data(): timeband 5, epoch 0.000000
+16/11/2020  11:17:14  lDataOffset = 0
+16/11/2020  11:17:14  bAnalyze_data(): timeband 5, epoch 1.000000
+16/11/2020  11:17:14  lDataOffset = 512
+16/11/2020  11:17:14  bAnalyze_data(): timeband 5, epoch 2.000000
+16/11/2020  11:17:14  lDataOffset = 1024
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:18:34  lDataOffset = 1536
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:18:34  lDataOffset = 2048
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:18:34  lDataOffset = 2560
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 6.000000
+16/11/2020  11:18:34  lDataOffset = 3072
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 7.000000
+16/11/2020  11:18:34  lDataOffset = 3584
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 8.000000
+16/11/2020  11:18:34  lDataOffset = 4096
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 9.000000
+16/11/2020  11:18:34  lDataOffset = 4608
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 10.000000
+16/11/2020  11:18:34  lDataOffset = 5120
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 11.000000
+16/11/2020  11:18:34  lDataOffset = 5632
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 12.000000
+16/11/2020  11:18:34  lDataOffset = 6144
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 13.000000
+16/11/2020  11:18:34  lDataOffset = 6656
+16/11/2020  11:18:34  bAnalyze_data(): timeband 0, epoch 14.000000
+16/11/2020  11:18:34  lDataOffset = 7168
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 0.000000
+16/11/2020  11:18:34  lDataOffset = 0
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 1.000000
+16/11/2020  11:18:34  lDataOffset = 512
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 2.000000
+16/11/2020  11:18:34  lDataOffset = 1024
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 3.000000
+16/11/2020  11:18:34  lDataOffset = 1536
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 4.000000
+16/11/2020  11:18:34  lDataOffset = 2048
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 5.000000
+16/11/2020  11:18:34  lDataOffset = 2560
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 6.000000
+16/11/2020  11:18:34  lDataOffset = 3072
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 7.000000
+16/11/2020  11:18:34  lDataOffset = 3584
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 8.000000
+16/11/2020  11:18:34  lDataOffset = 4096
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 9.000000
+16/11/2020  11:18:34  lDataOffset = 4608
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 10.000000
+16/11/2020  11:18:34  lDataOffset = 5120
+16/11/2020  11:18:34  bAnalyze_data(): timeband 1, epoch 11.000000
+16/11/2020  11:18:34  lDataOffset = 5632
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:18:34  lDataOffset = 0
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:18:34  lDataOffset = 512
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:18:34  lDataOffset = 1024
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:18:34  lDataOffset = 1536
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:18:34  lDataOffset = 2048
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:18:34  lDataOffset = 2560
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:18:34  lDataOffset = 3072
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 7.000000
+16/11/2020  11:18:34  lDataOffset = 3584
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 8.000000
+16/11/2020  11:18:34  lDataOffset = 4096
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 9.000000
+16/11/2020  11:18:34  lDataOffset = 4608
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 10.000000
+16/11/2020  11:18:34  lDataOffset = 5120
+16/11/2020  11:18:34  bAnalyze_data(): timeband 2, epoch 11.000000
+16/11/2020  11:18:34  lDataOffset = 5632
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:18:34  lDataOffset = 0
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:18:34  lDataOffset = 512
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:18:34  lDataOffset = 1024
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:18:34  lDataOffset = 1536
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:18:34  lDataOffset = 2048
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:18:34  lDataOffset = 2560
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:18:34  lDataOffset = 3072
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 7.000000
+16/11/2020  11:18:34  lDataOffset = 3584
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 8.000000
+16/11/2020  11:18:34  lDataOffset = 4096
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 9.000000
+16/11/2020  11:18:34  lDataOffset = 4608
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 10.000000
+16/11/2020  11:18:34  lDataOffset = 5120
+16/11/2020  11:18:34  bAnalyze_data(): timeband 3, epoch 11.000000
+16/11/2020  11:18:34  lDataOffset = 5632
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 0.000000
+16/11/2020  11:18:34  lDataOffset = 0
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 1.000000
+16/11/2020  11:18:34  lDataOffset = 512
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 2.000000
+16/11/2020  11:18:34  lDataOffset = 1024
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 3.000000
+16/11/2020  11:18:34  lDataOffset = 1536
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 4.000000
+16/11/2020  11:18:34  lDataOffset = 2048
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 5.000000
+16/11/2020  11:18:34  lDataOffset = 2560
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 6.000000
+16/11/2020  11:18:34  lDataOffset = 3072
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 7.000000
+16/11/2020  11:18:34  lDataOffset = 3584
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 8.000000
+16/11/2020  11:18:34  lDataOffset = 4096
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 9.000000
+16/11/2020  11:18:34  lDataOffset = 4608
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 10.000000
+16/11/2020  11:18:34  lDataOffset = 5120
+16/11/2020  11:18:34  bAnalyze_data(): timeband 4, epoch 11.000000
+16/11/2020  11:18:34  lDataOffset = 5632
+16/11/2020  11:18:34  bAnalyze_data(): timeband 5, epoch 0.000000
+16/11/2020  11:18:34  lDataOffset = 0
+16/11/2020  11:18:34  bAnalyze_data(): timeband 5, epoch 1.000000
+16/11/2020  11:18:34  lDataOffset = 512
+16/11/2020  11:18:34  bAnalyze_data(): timeband 5, epoch 2.000000
+16/11/2020  11:18:34  lDataOffset = 1024
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 12.000000
+16/11/2020  11:18:42  lDataOffset = 6144
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 13.000000
+16/11/2020  11:18:42  lDataOffset = 6656
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 0, epoch 14.000000
+16/11/2020  11:18:42  lDataOffset = 7168
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 1, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 2, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 3, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 4, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 5, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 5, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband 5, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  power summary, average power
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 12.000000
+16/11/2020  11:18:42  lDataOffset = 6144
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 13.000000
+16/11/2020  11:18:42  lDataOffset = 6656
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 14.000000
+16/11/2020  11:18:42  lDataOffset = 7168
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:18:42  lDataOffset = 1536
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:18:42  lDataOffset = 2048
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:18:42  lDataOffset = 2560
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:18:42  lDataOffset = 3072
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 7.000000
+16/11/2020  11:18:42  lDataOffset = 3584
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 8.000000
+16/11/2020  11:18:42  lDataOffset = 4096
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 9.000000
+16/11/2020  11:18:42  lDataOffset = 4608
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 10.000000
+16/11/2020  11:18:42  lDataOffset = 5120
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 11.000000
+16/11/2020  11:18:42  lDataOffset = 5632
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:18:42  lDataOffset = 0
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:18:42  lDataOffset = 512
+16/11/2020  11:18:42  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:18:42  lDataOffset = 1024
+16/11/2020  11:21:15  bAnalyze_data(): timeband 0, epoch 0.000000
+16/11/2020  11:21:15  lDataOffset = 0
+16/11/2020  11:21:15  bAnalyze_data(): timeband 0, epoch 1.000000
+16/11/2020  11:21:15  lDataOffset = 512
+16/11/2020  11:21:15  bAnalyze_data(): timeband 0, epoch 2.000000
+16/11/2020  11:21:15  lDataOffset = 1024
+16/11/2020  11:21:15  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:21:15  lDataOffset = 1536
+16/11/2020  11:21:15  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:21:15  lDataOffset = 2048
+16/11/2020  11:21:15  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:21:15  lDataOffset = 2560
+16/11/2020  11:21:15  bAnalyze_data(): timeband 1, epoch 5.500000
+16/11/2020  11:21:15  lDataOffset = 2816
+16/11/2020  11:21:15  bAnalyze_data(): timeband 1, epoch 6.000000
+16/11/2020  11:21:15  lDataOffset = 3072
+16/11/2020  11:21:15  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:21:15  lDataOffset = 0
+16/11/2020  11:21:15  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:21:15  lDataOffset = 512
+16/11/2020  11:21:15  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:21:15  lDataOffset = 1024
+16/11/2020  11:21:15  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:21:15  lDataOffset = 1536
+16/11/2020  11:21:15  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:21:15  lDataOffset = 2048
+16/11/2020  11:21:15  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:21:15  lDataOffset = 2560
+16/11/2020  11:21:15  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:21:15  lDataOffset = 3072
+16/11/2020  11:21:15  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:21:15  lDataOffset = 0
+16/11/2020  11:21:15  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:21:15  lDataOffset = 512
+16/11/2020  11:21:15  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:21:15  lDataOffset = 1024
+16/11/2020  11:21:15  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:21:15  lDataOffset = 1536
+16/11/2020  11:21:15  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:21:15  lDataOffset = 2048
+16/11/2020  11:21:15  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:21:15  lDataOffset = 2560
+16/11/2020  11:21:15  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:21:15  lDataOffset = 3072
+16/11/2020  11:21:16  bAnalyze_data(): timeband 0, epoch 0.000000
+16/11/2020  11:21:16  lDataOffset = 0
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 0, epoch 1.000000
+16/11/2020  11:21:16  lDataOffset = 512
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 0, epoch 2.000000
+16/11/2020  11:21:16  lDataOffset = 1024
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:21:16  lDataOffset = 1536
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:21:16  lDataOffset = 2048
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:21:16  lDataOffset = 2560
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 1, epoch 5.500000
+16/11/2020  11:21:16  lDataOffset = 2816
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:21:16  lDataOffset = 0
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:21:16  lDataOffset = 512
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:21:16  lDataOffset = 1024
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:21:16  lDataOffset = 1536
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:21:16  lDataOffset = 2048
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:21:16  lDataOffset = 2560
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:21:16  lDataOffset = 3072
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:21:16  lDataOffset = 0
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:21:16  lDataOffset = 512
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:21:16  lDataOffset = 1024
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:21:16  lDataOffset = 1536
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:21:16  lDataOffset = 2048
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:21:16  lDataOffset = 2560
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:21:16  lDataOffset = 3072
+16/11/2020  11:21:16  power summary, average power
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:21:16  lDataOffset = 0
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:21:16  lDataOffset = 512
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:21:16  lDataOffset = 1024
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:21:16  lDataOffset = 1536
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:21:16  lDataOffset = 2048
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:21:16  lDataOffset = 2560
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 5.500000
+16/11/2020  11:21:16  lDataOffset = 2816
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:21:16  lDataOffset = 0
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:21:16  lDataOffset = 512
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:21:16  lDataOffset = 1024
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:21:16  lDataOffset = 1536
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:21:16  lDataOffset = 2048
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:21:16  lDataOffset = 2560
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:21:16  lDataOffset = 3072
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 0.000000
+16/11/2020  11:21:16  lDataOffset = 0
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 1.000000
+16/11/2020  11:21:16  lDataOffset = 512
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 2.000000
+16/11/2020  11:21:16  lDataOffset = 1024
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 3.000000
+16/11/2020  11:21:16  lDataOffset = 1536
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 4.000000
+16/11/2020  11:21:16  lDataOffset = 2048
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 5.000000
+16/11/2020  11:21:16  lDataOffset = 2560
+16/11/2020  11:21:16  bAnalyze_data(): timeband -858993460, epoch 6.000000
+16/11/2020  11:21:16  lDataOffset = 3072
+16/11/2020  11:21:36  bAnalyze_data(): timeband 0, epoch 0.000000
+16/11/2020  11:21:36  lDataOffset = 0
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 0, epoch 1.000000
+16/11/2020  11:21:36  lDataOffset = 512
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 0, epoch 2.000000
+16/11/2020  11:21:36  lDataOffset = 1024
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 0, epoch 3.000000
+16/11/2020  11:21:36  lDataOffset = 1536
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 0, epoch 4.000000
+16/11/2020  11:21:36  lDataOffset = 2048
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 0, epoch 5.000000
+16/11/2020  11:21:36  lDataOffset = 2560
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 1, epoch 5.500000
+16/11/2020  11:21:36  lDataOffset = 2816
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 2, epoch 0.000000
+16/11/2020  11:21:36  lDataOffset = 0
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 2, epoch 1.000000
+16/11/2020  11:21:36  lDataOffset = 512
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 2, epoch 2.000000
+16/11/2020  11:21:36  lDataOffset = 1024
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 2, epoch 3.000000
+16/11/2020  11:21:36  lDataOffset = 1536
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 2, epoch 4.000000
+16/11/2020  11:21:36  lDataOffset = 2048
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 2, epoch 5.000000
+16/11/2020  11:21:36  lDataOffset = 2560
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 2, epoch 6.000000
+16/11/2020  11:21:36  lDataOffset = 3072
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 3, epoch 0.000000
+16/11/2020  11:21:36  lDataOffset = 0
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 3, epoch 1.000000
+16/11/2020  11:21:36  lDataOffset = 512
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 3, epoch 2.000000
+16/11/2020  11:21:36  lDataOffset = 1024
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 3, epoch 3.000000
+16/11/2020  11:21:36  lDataOffset = 1536
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 3, epoch 4.000000
+16/11/2020  11:21:36  lDataOffset = 2048
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 3, epoch 5.000000
+16/11/2020  11:21:36  lDataOffset = 2560
+16/11/2020  11:21:36  power summary, average power
+16/11/2020  11:21:36  bAnalyze_data(): timeband 3, epoch 6.000000
+16/11/2020  11:21:36  lDataOffset = 3072
+16/11/2020  11:21:36  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 0.000000
+18/01/2021  14:57:24  lDataOffset = 0
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 1.000000
+18/01/2021  14:57:24  lDataOffset = 512
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 2.000000
+18/01/2021  14:57:24  lDataOffset = 1024
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 3.000000
+18/01/2021  14:57:24  lDataOffset = 1536
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 4.000000
+18/01/2021  14:57:24  lDataOffset = 2048
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 5.000000
+18/01/2021  14:57:24  lDataOffset = 2560
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 6.000000
+18/01/2021  14:57:24  lDataOffset = 3072
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 0, epoch 7.000000
+18/01/2021  14:57:24  lDataOffset = 3584
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 1, epoch 0.000000
+18/01/2021  14:57:24  lDataOffset = 0
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 1, epoch 1.000000
+18/01/2021  14:57:24  lDataOffset = 512
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 1, epoch 2.000000
+18/01/2021  14:57:24  lDataOffset = 1024
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 1, epoch 3.000000
+18/01/2021  14:57:24  lDataOffset = 1536
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 1, epoch 4.000000
+18/01/2021  14:57:24  lDataOffset = 2048
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 1, epoch 5.000000
+18/01/2021  14:57:24  lDataOffset = 2560
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 1, epoch 6.000000
+18/01/2021  14:57:24  lDataOffset = 3072
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 2, epoch 0.000000
+18/01/2021  14:57:24  lDataOffset = 0
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 2, epoch 1.000000
+18/01/2021  14:57:24  lDataOffset = 512
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 2, epoch 2.000000
+18/01/2021  14:57:24  lDataOffset = 1024
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 2, epoch 3.000000
+18/01/2021  14:57:24  lDataOffset = 1536
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 2, epoch 4.000000
+18/01/2021  14:57:24  lDataOffset = 2048
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 2, epoch 5.000000
+18/01/2021  14:57:24  lDataOffset = 2560
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 2, epoch 6.000000
+18/01/2021  14:57:24  lDataOffset = 3072
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 0.000000
+18/01/2021  14:57:24  lDataOffset = 0
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 1.000000
+18/01/2021  14:57:24  lDataOffset = 512
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 2.000000
+18/01/2021  14:57:24  lDataOffset = 1024
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 3.000000
+18/01/2021  14:57:24  lDataOffset = 1536
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 4.000000
+18/01/2021  14:57:24  lDataOffset = 2048
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 5.000000
+18/01/2021  14:57:24  lDataOffset = 2560
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 6.000000
+18/01/2021  14:57:24  lDataOffset = 3072
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband 3, epoch 7.000000
+18/01/2021  14:57:24  lDataOffset = 3584
+18/01/2021  14:57:24  power summary, average power
+18/01/2021  14:57:24  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:24  lDataOffset = 0
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:25  lDataOffset = 512
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:25  lDataOffset = 1024
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:25  lDataOffset = 1536
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:25  lDataOffset = 2048
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:25  lDataOffset = 2560
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:25  lDataOffset = 3072
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  14:57:25  lDataOffset = 3584
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:25  lDataOffset = 0
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:25  lDataOffset = 512
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:25  lDataOffset = 1024
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:25  lDataOffset = 1536
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:25  lDataOffset = 2048
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:25  lDataOffset = 2560
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:25  lDataOffset = 3072
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:25  lDataOffset = 0
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:25  lDataOffset = 512
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:25  lDataOffset = 1024
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:25  lDataOffset = 1536
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:25  lDataOffset = 2048
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:25  lDataOffset = 2560
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:25  lDataOffset = 3072
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:25  lDataOffset = 0
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:25  lDataOffset = 512
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:25  lDataOffset = 1024
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:25  lDataOffset = 1536
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:25  lDataOffset = 2048
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:25  lDataOffset = 2560
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:25  lDataOffset = 3072
+18/01/2021  14:57:25  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  14:57:25  lDataOffset = 3584
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 0.000000
+18/01/2021  14:57:30  lDataOffset = 0
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 1.000000
+18/01/2021  14:57:30  lDataOffset = 512
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 2.000000
+18/01/2021  14:57:30  lDataOffset = 1024
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 3.000000
+18/01/2021  14:57:30  lDataOffset = 1536
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 4.000000
+18/01/2021  14:57:30  lDataOffset = 2048
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 5.000000
+18/01/2021  14:57:30  lDataOffset = 2560
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 6.000000
+18/01/2021  14:57:30  lDataOffset = 3072
+18/01/2021  14:57:30  bAnalyze_data(): timeband 0, epoch 7.000000
+18/01/2021  14:57:30  lDataOffset = 3584
+18/01/2021  14:57:30  bAnalyze_data(): timeband 1, epoch 0.000000
+18/01/2021  14:57:30  lDataOffset = 0
+18/01/2021  14:57:30  bAnalyze_data(): timeband 1, epoch 1.000000
+18/01/2021  14:57:30  lDataOffset = 512
+18/01/2021  14:57:30  bAnalyze_data(): timeband 1, epoch 2.000000
+18/01/2021  14:57:30  lDataOffset = 1024
+18/01/2021  14:57:30  bAnalyze_data(): timeband 1, epoch 3.000000
+18/01/2021  14:57:30  lDataOffset = 1536
+18/01/2021  14:57:30  bAnalyze_data(): timeband 1, epoch 4.000000
+18/01/2021  14:57:30  lDataOffset = 2048
+18/01/2021  14:57:30  bAnalyze_data(): timeband 1, epoch 5.000000
+18/01/2021  14:57:30  lDataOffset = 2560
+18/01/2021  14:57:30  bAnalyze_data(): timeband 1, epoch 6.000000
+18/01/2021  14:57:30  lDataOffset = 3072
+18/01/2021  14:57:30  bAnalyze_data(): timeband 2, epoch 0.000000
+18/01/2021  14:57:30  lDataOffset = 0
+18/01/2021  14:57:30  bAnalyze_data(): timeband 2, epoch 1.000000
+18/01/2021  14:57:30  lDataOffset = 512
+18/01/2021  14:57:30  bAnalyze_data(): timeband 2, epoch 2.000000
+18/01/2021  14:57:30  lDataOffset = 1024
+18/01/2021  14:57:30  bAnalyze_data(): timeband 2, epoch 3.000000
+18/01/2021  14:57:30  lDataOffset = 1536
+18/01/2021  14:57:30  bAnalyze_data(): timeband 2, epoch 4.000000
+18/01/2021  14:57:30  lDataOffset = 2048
+18/01/2021  14:57:30  bAnalyze_data(): timeband 2, epoch 5.000000
+18/01/2021  14:57:30  lDataOffset = 2560
+18/01/2021  14:57:30  bAnalyze_data(): timeband 2, epoch 6.000000
+18/01/2021  14:57:30  lDataOffset = 3072
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 0.000000
+18/01/2021  14:57:30  lDataOffset = 0
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 1.000000
+18/01/2021  14:57:30  lDataOffset = 512
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 2.000000
+18/01/2021  14:57:30  lDataOffset = 1024
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 3.000000
+18/01/2021  14:57:30  lDataOffset = 1536
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 4.000000
+18/01/2021  14:57:30  lDataOffset = 2048
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 5.000000
+18/01/2021  14:57:30  lDataOffset = 2560
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 6.000000
+18/01/2021  14:57:30  lDataOffset = 3072
+18/01/2021  14:57:30  bAnalyze_data(): timeband 3, epoch 7.000000
+18/01/2021  14:57:30  lDataOffset = 3584
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 0, epoch 7.000000
+18/01/2021  14:57:44  lDataOffset = 3584
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 1, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 1, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 1, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 1, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 1, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 1, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 1, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 2, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 2, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 2, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 2, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 2, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 2, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 2, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband 3, epoch 7.000000
+18/01/2021  14:57:44  lDataOffset = 3584
+18/01/2021  14:57:44  power summary, average power
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  14:57:44  lDataOffset = 3584
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  14:57:44  lDataOffset = 0
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  14:57:44  lDataOffset = 512
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  14:57:44  lDataOffset = 1024
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  14:57:44  lDataOffset = 1536
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  14:57:44  lDataOffset = 2048
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  14:57:44  lDataOffset = 2560
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  14:57:44  lDataOffset = 3072
+18/01/2021  14:57:44  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  14:57:44  lDataOffset = 3584
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 0.000000
+18/01/2021  16:42:16  lDataOffset = 0
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 1.000000
+18/01/2021  16:42:16  lDataOffset = 512
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 2.000000
+18/01/2021  16:42:16  lDataOffset = 1024
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 3.000000
+18/01/2021  16:42:16  lDataOffset = 1536
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 4.000000
+18/01/2021  16:42:16  lDataOffset = 2048
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 5.000000
+18/01/2021  16:42:16  lDataOffset = 2560
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 6.000000
+18/01/2021  16:42:16  lDataOffset = 3072
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 7.000000
+18/01/2021  16:42:16  lDataOffset = 3584
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 8.000000
+18/01/2021  16:42:16  lDataOffset = 4096
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 9.000000
+18/01/2021  16:42:16  lDataOffset = 4608
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 10.000000
+18/01/2021  16:42:16  lDataOffset = 5120
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 11.000000
+18/01/2021  16:42:16  lDataOffset = 5632
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 12.000000
+18/01/2021  16:42:16  lDataOffset = 6144
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 13.000000
+18/01/2021  16:42:16  lDataOffset = 6656
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 14.000000
+18/01/2021  16:42:16  lDataOffset = 7168
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 15.000000
+18/01/2021  16:42:16  lDataOffset = 7680
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 16.000000
+18/01/2021  16:42:16  lDataOffset = 8192
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 17.000000
+18/01/2021  16:42:16  lDataOffset = 8704
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 18.000000
+18/01/2021  16:42:16  lDataOffset = 9216
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 19.000000
+18/01/2021  16:42:16  lDataOffset = 9728
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 20.000000
+18/01/2021  16:42:16  lDataOffset = 10240
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 21.000000
+18/01/2021  16:42:16  lDataOffset = 10752
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 22.000000
+18/01/2021  16:42:16  lDataOffset = 11264
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 23.000000
+18/01/2021  16:42:16  lDataOffset = 11776
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 24.000000
+18/01/2021  16:42:16  lDataOffset = 12288
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 25.000000
+18/01/2021  16:42:16  lDataOffset = 12800
+18/01/2021  16:42:16  bAnalyze_data(): timeband 0, epoch 26.000000
+18/01/2021  16:42:16  lDataOffset = 13312
+18/01/2021  16:42:16  bAnalyze_data(): timeband 1, epoch 2.000000
+18/01/2021  16:42:16  lDataOffset = 1024
+18/01/2021  16:42:16  bAnalyze_data(): timeband 1, epoch 3.000000
+18/01/2021  16:42:16  lDataOffset = 1536
+18/01/2021  16:42:16  bAnalyze_data(): timeband 1, epoch 4.000000
+18/01/2021  16:42:16  lDataOffset = 2048
+18/01/2021  16:42:16  bAnalyze_data(): timeband 1, epoch 5.000000
+18/01/2021  16:42:16  lDataOffset = 2560
+18/01/2021  16:42:16  bAnalyze_data(): timeband 1, epoch 6.000000
+18/01/2021  16:42:16  lDataOffset = 3072
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 0.000000
+18/01/2021  16:42:16  lDataOffset = 0
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 1.000000
+18/01/2021  16:42:16  lDataOffset = 512
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 2.000000
+18/01/2021  16:42:16  lDataOffset = 1024
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 3.000000
+18/01/2021  16:42:16  lDataOffset = 1536
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 4.000000
+18/01/2021  16:42:16  lDataOffset = 2048
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 5.000000
+18/01/2021  16:42:16  lDataOffset = 2560
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 6.000000
+18/01/2021  16:42:16  lDataOffset = 3072
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 7.000000
+18/01/2021  16:42:16  lDataOffset = 3584
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 8.000000
+18/01/2021  16:42:16  lDataOffset = 4096
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 9.000000
+18/01/2021  16:42:16  lDataOffset = 4608
+18/01/2021  16:42:16  bAnalyze_data(): timeband 2, epoch 10.000000
+18/01/2021  16:42:16  lDataOffset = 5120
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 0.000000
+18/01/2021  16:42:23  lDataOffset = 0
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 1.000000
+18/01/2021  16:42:23  lDataOffset = 512
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 2.000000
+18/01/2021  16:42:23  lDataOffset = 1024
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 3.000000
+18/01/2021  16:42:23  lDataOffset = 1536
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 4.000000
+18/01/2021  16:42:23  lDataOffset = 2048
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 5.000000
+18/01/2021  16:42:23  lDataOffset = 2560
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 6.000000
+18/01/2021  16:42:23  lDataOffset = 3072
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 7.000000
+18/01/2021  16:42:23  lDataOffset = 3584
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 8.000000
+18/01/2021  16:42:23  lDataOffset = 4096
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 9.000000
+18/01/2021  16:42:23  lDataOffset = 4608
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 10.000000
+18/01/2021  16:42:23  lDataOffset = 5120
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 11.000000
+18/01/2021  16:42:23  lDataOffset = 5632
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 12.000000
+18/01/2021  16:42:23  lDataOffset = 6144
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 13.000000
+18/01/2021  16:42:23  lDataOffset = 6656
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 14.000000
+18/01/2021  16:42:23  lDataOffset = 7168
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 15.000000
+18/01/2021  16:42:23  lDataOffset = 7680
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 16.000000
+18/01/2021  16:42:23  lDataOffset = 8192
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 17.000000
+18/01/2021  16:42:23  lDataOffset = 8704
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 18.000000
+18/01/2021  16:42:23  lDataOffset = 9216
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 19.000000
+18/01/2021  16:42:23  lDataOffset = 9728
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 20.000000
+18/01/2021  16:42:23  lDataOffset = 10240
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 21.000000
+18/01/2021  16:42:23  lDataOffset = 10752
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 22.000000
+18/01/2021  16:42:23  lDataOffset = 11264
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 23.000000
+18/01/2021  16:42:23  lDataOffset = 11776
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 24.000000
+18/01/2021  16:42:23  lDataOffset = 12288
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 25.000000
+18/01/2021  16:42:23  lDataOffset = 12800
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 0, epoch 26.000000
+18/01/2021  16:42:23  lDataOffset = 13312
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 1, epoch 2.000000
+18/01/2021  16:42:23  lDataOffset = 1024
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 1, epoch 3.000000
+18/01/2021  16:42:23  lDataOffset = 1536
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 1, epoch 4.000000
+18/01/2021  16:42:23  lDataOffset = 2048
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 1, epoch 5.000000
+18/01/2021  16:42:23  lDataOffset = 2560
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 1, epoch 6.000000
+18/01/2021  16:42:23  lDataOffset = 3072
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 0.000000
+18/01/2021  16:42:23  lDataOffset = 0
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 1.000000
+18/01/2021  16:42:23  lDataOffset = 512
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 2.000000
+18/01/2021  16:42:23  lDataOffset = 1024
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 3.000000
+18/01/2021  16:42:23  lDataOffset = 1536
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 4.000000
+18/01/2021  16:42:23  lDataOffset = 2048
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 5.000000
+18/01/2021  16:42:23  lDataOffset = 2560
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 6.000000
+18/01/2021  16:42:23  lDataOffset = 3072
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 7.000000
+18/01/2021  16:42:23  lDataOffset = 3584
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 8.000000
+18/01/2021  16:42:23  lDataOffset = 4096
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 9.000000
+18/01/2021  16:42:23  lDataOffset = 4608
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband 2, epoch 10.000000
+18/01/2021  16:42:23  lDataOffset = 5120
+18/01/2021  16:42:23  power summary, average power
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  16:42:23  lDataOffset = 0
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  16:42:23  lDataOffset = 512
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  16:42:23  lDataOffset = 1024
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  16:42:23  lDataOffset = 1536
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  16:42:23  lDataOffset = 2048
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  16:42:23  lDataOffset = 2560
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  16:42:23  lDataOffset = 3072
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  16:42:23  lDataOffset = 3584
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 8.000000
+18/01/2021  16:42:23  lDataOffset = 4096
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 9.000000
+18/01/2021  16:42:23  lDataOffset = 4608
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 10.000000
+18/01/2021  16:42:23  lDataOffset = 5120
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 11.000000
+18/01/2021  16:42:23  lDataOffset = 5632
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 12.000000
+18/01/2021  16:42:23  lDataOffset = 6144
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 13.000000
+18/01/2021  16:42:23  lDataOffset = 6656
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 14.000000
+18/01/2021  16:42:23  lDataOffset = 7168
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 15.000000
+18/01/2021  16:42:23  lDataOffset = 7680
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 16.000000
+18/01/2021  16:42:23  lDataOffset = 8192
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 17.000000
+18/01/2021  16:42:23  lDataOffset = 8704
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 18.000000
+18/01/2021  16:42:23  lDataOffset = 9216
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 19.000000
+18/01/2021  16:42:23  lDataOffset = 9728
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 20.000000
+18/01/2021  16:42:23  lDataOffset = 10240
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 21.000000
+18/01/2021  16:42:23  lDataOffset = 10752
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 22.000000
+18/01/2021  16:42:23  lDataOffset = 11264
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 23.000000
+18/01/2021  16:42:23  lDataOffset = 11776
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 24.000000
+18/01/2021  16:42:23  lDataOffset = 12288
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 25.000000
+18/01/2021  16:42:23  lDataOffset = 12800
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 26.000000
+18/01/2021  16:42:23  lDataOffset = 13312
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  16:42:23  lDataOffset = 1024
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  16:42:23  lDataOffset = 1536
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  16:42:23  lDataOffset = 2048
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  16:42:23  lDataOffset = 2560
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  16:42:23  lDataOffset = 3072
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  16:42:23  lDataOffset = 0
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  16:42:23  lDataOffset = 512
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  16:42:23  lDataOffset = 1024
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  16:42:23  lDataOffset = 1536
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  16:42:23  lDataOffset = 2048
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  16:42:23  lDataOffset = 2560
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  16:42:23  lDataOffset = 3072
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  16:42:23  lDataOffset = 3584
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 8.000000
+18/01/2021  16:42:23  lDataOffset = 4096
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 9.000000
+18/01/2021  16:42:23  lDataOffset = 4608
+18/01/2021  16:42:23  bAnalyze_data(): timeband -858993460, epoch 10.000000
+18/01/2021  16:42:23  lDataOffset = 5120
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 0.000000
+18/01/2021  16:58:22  lDataOffset = 0
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 1.000000
+18/01/2021  16:58:22  lDataOffset = 512
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 2.000000
+18/01/2021  16:58:22  lDataOffset = 1024
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 3.000000
+18/01/2021  16:58:22  lDataOffset = 1536
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 4.000000
+18/01/2021  16:58:22  lDataOffset = 2048
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 5.000000
+18/01/2021  16:58:22  lDataOffset = 2560
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 6.000000
+18/01/2021  16:58:22  lDataOffset = 3072
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 7.000000
+18/01/2021  16:58:22  lDataOffset = 3584
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 8.000000
+18/01/2021  16:58:22  lDataOffset = 4096
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 9.000000
+18/01/2021  16:58:22  lDataOffset = 4608
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 10.000000
+18/01/2021  16:58:22  lDataOffset = 5120
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 11.000000
+18/01/2021  16:58:22  lDataOffset = 5632
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 12.000000
+18/01/2021  16:58:22  lDataOffset = 6144
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 13.000000
+18/01/2021  16:58:22  lDataOffset = 6656
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 14.000000
+18/01/2021  16:58:22  lDataOffset = 7168
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 15.000000
+18/01/2021  16:58:22  lDataOffset = 7680
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 16.000000
+18/01/2021  16:58:22  lDataOffset = 8192
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 17.000000
+18/01/2021  16:58:22  lDataOffset = 8704
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 18.000000
+18/01/2021  16:58:22  lDataOffset = 9216
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 19.000000
+18/01/2021  16:58:22  lDataOffset = 9728
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 20.000000
+18/01/2021  16:58:22  lDataOffset = 10240
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 21.000000
+18/01/2021  16:58:22  lDataOffset = 10752
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 22.000000
+18/01/2021  16:58:22  lDataOffset = 11264
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 23.000000
+18/01/2021  16:58:22  lDataOffset = 11776
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 24.000000
+18/01/2021  16:58:22  lDataOffset = 12288
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 25.000000
+18/01/2021  16:58:22  lDataOffset = 12800
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 0, epoch 26.000000
+18/01/2021  16:58:22  lDataOffset = 13312
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 1, epoch 2.000000
+18/01/2021  16:58:22  lDataOffset = 1024
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 1, epoch 3.000000
+18/01/2021  16:58:22  lDataOffset = 1536
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 1, epoch 4.000000
+18/01/2021  16:58:22  lDataOffset = 2048
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 1, epoch 5.000000
+18/01/2021  16:58:22  lDataOffset = 2560
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 1, epoch 6.000000
+18/01/2021  16:58:22  lDataOffset = 3072
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 0.000000
+18/01/2021  16:58:22  lDataOffset = 0
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 1.000000
+18/01/2021  16:58:22  lDataOffset = 512
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 2.000000
+18/01/2021  16:58:22  lDataOffset = 1024
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 3.000000
+18/01/2021  16:58:22  lDataOffset = 1536
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 4.000000
+18/01/2021  16:58:22  lDataOffset = 2048
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 5.000000
+18/01/2021  16:58:22  lDataOffset = 2560
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 6.000000
+18/01/2021  16:58:22  lDataOffset = 3072
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 7.000000
+18/01/2021  16:58:22  lDataOffset = 3584
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 8.000000
+18/01/2021  16:58:22  lDataOffset = 4096
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 9.000000
+18/01/2021  16:58:22  lDataOffset = 4608
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband 2, epoch 10.000000
+18/01/2021  16:58:22  lDataOffset = 5120
+18/01/2021  16:58:22  power summary, average power
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  16:58:22  lDataOffset = 0
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  16:58:22  lDataOffset = 512
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  16:58:22  lDataOffset = 1024
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  16:58:22  lDataOffset = 1536
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  16:58:22  lDataOffset = 2048
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  16:58:22  lDataOffset = 2560
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  16:58:22  lDataOffset = 3072
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  16:58:22  lDataOffset = 3584
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 8.000000
+18/01/2021  16:58:22  lDataOffset = 4096
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 9.000000
+18/01/2021  16:58:22  lDataOffset = 4608
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 10.000000
+18/01/2021  16:58:22  lDataOffset = 5120
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 11.000000
+18/01/2021  16:58:22  lDataOffset = 5632
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 12.000000
+18/01/2021  16:58:22  lDataOffset = 6144
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 13.000000
+18/01/2021  16:58:22  lDataOffset = 6656
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 14.000000
+18/01/2021  16:58:22  lDataOffset = 7168
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 15.000000
+18/01/2021  16:58:22  lDataOffset = 7680
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 16.000000
+18/01/2021  16:58:22  lDataOffset = 8192
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 17.000000
+18/01/2021  16:58:22  lDataOffset = 8704
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 18.000000
+18/01/2021  16:58:22  lDataOffset = 9216
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 19.000000
+18/01/2021  16:58:22  lDataOffset = 9728
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 20.000000
+18/01/2021  16:58:22  lDataOffset = 10240
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 21.000000
+18/01/2021  16:58:22  lDataOffset = 10752
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 22.000000
+18/01/2021  16:58:22  lDataOffset = 11264
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 23.000000
+18/01/2021  16:58:22  lDataOffset = 11776
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 24.000000
+18/01/2021  16:58:22  lDataOffset = 12288
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 25.000000
+18/01/2021  16:58:22  lDataOffset = 12800
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 26.000000
+18/01/2021  16:58:22  lDataOffset = 13312
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  16:58:22  lDataOffset = 1024
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  16:58:22  lDataOffset = 1536
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  16:58:22  lDataOffset = 2048
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  16:58:22  lDataOffset = 2560
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  16:58:22  lDataOffset = 3072
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 0.000000
+18/01/2021  16:58:22  lDataOffset = 0
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 1.000000
+18/01/2021  16:58:22  lDataOffset = 512
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 2.000000
+18/01/2021  16:58:22  lDataOffset = 1024
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 3.000000
+18/01/2021  16:58:22  lDataOffset = 1536
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 4.000000
+18/01/2021  16:58:22  lDataOffset = 2048
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 5.000000
+18/01/2021  16:58:22  lDataOffset = 2560
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 6.000000
+18/01/2021  16:58:22  lDataOffset = 3072
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 7.000000
+18/01/2021  16:58:22  lDataOffset = 3584
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 8.000000
+18/01/2021  16:58:22  lDataOffset = 4096
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 9.000000
+18/01/2021  16:58:22  lDataOffset = 4608
+18/01/2021  16:58:22  bAnalyze_data(): timeband -858993460, epoch 10.000000
+18/01/2021  16:58:22  lDataOffset = 5120

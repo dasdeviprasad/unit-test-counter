@@ -1,0 +1,32 @@
+The following programs are built with Visual Studio 2003
+	EGGSAS
+	ConvertDataFile
+	DataFileViewer
+	EquipmentTest
+	OrphanFileRecovery
+	dbupdate
+
+The following programs are built with Visual Studio 2008
+	HwInit
+	HwInitExpDateGen
+
+Visual Studio 2003 and 2008 will not install on Windows 10 and may not install on Windows 7.
+There are 2 virtual machines set up as follows:
+	XP_sp3 3CPM - 2.09i
+		This has:
+		Visual Studio 2003
+		Help & Manual Version 3.4
+		Setup Factory 6.0
+		Microsoft Access 2002
+			This virtual machine has all the software needed to build EGGSAS, build the help system, build the install program, and modify the database.
+		ProEssentials v5 Pro (used for the graphs)
+	XP_sp3 VS2008
+		This has Visual Studio 2008
+	These run with VirtualBox for Oracle.
+	
+The Help system is built with Help & Manual Version 3.4.  This is on the XP_sp3 3CPM - 2.09i virtual machine.
+
+The database is built with Microsoft Access 2002.
+
+The install program is built with Setup Factory 6.0.  This is on the XP_sp3 3CPM - 2.09i virtual machine.
+	
